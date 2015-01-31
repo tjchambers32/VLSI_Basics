@@ -1,0 +1,783 @@
+\o Program:		@(#)$CDS: virtuoso version 6.1.3 09/08/2008 02:56 (cic612lnx) $
+\o Hierarchy:		/auto/ee2/Cadence/IC610/tools.lnx86/dfII/
+\o Sub version:		sub-version IC6.1.3.1 (32-bit addresses)
+\o Host name (type):	sesame.ee.byu.edu (x86_64)
+\o Operating system:	Linux 2.6.32-358.11.1.el6.x86_64 #1 SMP Wed May 15 10:48:38 EDT 2013
+\o X display name (WxH):	:0.0 (1920x1200)
+\o Available geometry:			TL(0:25) BR(1919:1174)
+\o X server:		Red Hat, Inc.
+\o Depth of Visual (Root):	24 (24)
+\o Number of Planes Used:	24
+\o X version:		11.0 (vendor release 11300000)
+\o Qt version:		4.2.3
+\o Window Manager:	gnome (metacity)
+\o User Name:		lhsiao
+\o Working Directory:	sesame.ee.byu.edu:/auto/fsg/lhsiao/cadence
+\o Process Id:		32201
+\o 
+\o COPYRIGHT © 1992-2008  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2008  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading NCSU CDK 1.5.1 customizations...
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool asimenv
+\o Loading awv.cxt 
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ddserv
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool layout
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool schematic
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ui
+\o Loading NCSU SKILL routines...
+\o Done loading NCSU_CDK customizations.
+\p > 
+\a hiResizeWindow(window(1) list(598:25 1323:220))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:243))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:347))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:552))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:788))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:964))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:1058))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:1145))
+\r t
+\i ddsServOpen("MYLIB" "minority" "schematic" "edit" nil)
+\o *WARNING* (icLic-3) Could not get license Virtuoso_Schematic_Editor_L
+\p > 
+\a hiDBoxUser(_deLicenseQuestionDBox nil 1)
+\r t
+\o (deLicense-6) Checked out the license for Schematics XL to run Schematics L
+\o Getting schematic propert bagLoading schematic.cxt 
+\o Loading lo.cxt 
+\o Loading le.cxt 
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\o Loading lx.cxt 
+\o Loading lce.cxt 
+\a hiResizeWindow(swindow(1) list(130:150 1040:869))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1089:920))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1175:983))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1276:1054))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1345:1084))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1401:1097))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1448:1109))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1483:1118))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1494:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1496:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1499:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1501:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(130:150 1503:1121))
+\r t
+\a showClickInfo()
+\i 0.8125:-0.875
+\o 
+\o text label: "Luke Hsiao
+\o Minority Gate
+\o (AB+BC+AC)'
+\o = A'(B'+C')+(B'C')"
+\r window:2
+\a showClickInfo()
+\i 0.8125:-0.875
+\o 
+\o text label: "Luke Hsiao
+\o Minority Gate
+\o (AB+BC+AC)'
+\o = A'(B'+C')+(B'C')"
+\r window:2
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schNamePopUp)
+\r t
+\a schHiObjectProperty()
+\o Loading layers.cxt 
+\o Loading cdf.cxt 
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->labelText->value="Luke Hsiao\nMinority Gate\n(AB+BC+AC)'\n= NOT(A(B+C)+(BC))"
+\r "Luke Hsiao\nMinority Gate\n(AB+BC+AC)'\n= NOT(A(B+C)+(BC))"
+\a hiFormDone(schObjPropForm)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -2.125:1.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.6875:-0.125
+\r t
+\r t
+\a mouseAddPt()
+\i 0.1875:1.125
+\r t
+\a mouseAddPt()
+\i 4.375:-0.5
+\r t
+\a schHiMove()
+\r t
+\a hiZoomRelativeScale(getCurrentWindow() 1.25)
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a showClickInfo()
+\i 0.1875:0.9375
+\o 
+\o pmos (instance "M8", library "NCSU_Analog_Parts")
+\r window:2
+\a schAddSelectPt()
+\i -1.25:1
+\r t
+\a schAddSelectPt()
+\i -0.8125:0.25
+\r t
+\a schAddSelectPt()
+\i -1.625:0.25
+\r t
+\a schAddSelectPt()
+\i 0.3125:0.25
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->objScope->value="all selected"
+\r "all selected"
+\a dmbSyncWithForm(schObjPropForm 'browse 'libraryName 'cellName 'viewName)
+\r t
+\i ddsServSelect("NCSU_Analog_Parts" "pmos" "symbol")
+\i ddsServSelect("NCSU_Analog_Parts" "nmos" "symbol")
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 1.875:0.6875
+\r window:2
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -2:1.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.6875:-0.1875
+\r t
+\r t
+\a mouseAddPt()
+\i 0.25:0.875
+\r t
+\a mouseAddPt()
+\i 4.1875:-0.875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -1.25:-0.75
+\o 
+\o nmos (instance "M0", library "NCSU_Analog_Parts")
+\r window:2
+\a mouseSubSelectPt()
+\i -0.1875:-0.5
+\r nil
+\a mouseSubSelectPt()
+\i -0.125:-0.5
+\r nil
+\a schAddSelectPt()
+\i -0.125:-0.5
+\r t
+\a schAddSelectPt()
+\i -0.125:-1
+\r t
+\a schAddSelectPt()
+\i -0.125:-1.8125
+\r t
+\a schAddSelectPt()
+\i -1.25:-1.8125
+\r t
+\a schHiObjectProperty()
+\r t
+\a dmbSyncWithForm(schObjPropForm 'browse 'libraryName 'cellName 'viewName)
+\r t
+\i ddsServSelect("NCSU_Analog_Parts" "pmos" "symbol")
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 0.1875:-1.1875
+\r window:2
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -1.8125:-0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.25:-2.0625
+\r t
+\r t
+\a mouseAddPt()
+\i -0.1875:-0.5
+\r t
+\a mouseAddPt()
+\i -0.125:1.0625
+\r t
+\a schHiMove()
+\r t
+\a geSingleSelectBox()
+\i 1.6875:0
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.875:-2.1875
+\r t
+\r t
+\a mouseAddPt()
+\i 4.0625:-0.8125
+\r t
+\a mouseAddPt()
+\i 0:-1.0625
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a mouseAddPt()
+\i -0.625:-2.3125
+\r t
+\a mouseAddPt()
+\i -0.6875:-2.75
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schHiObjectProperty()
+\r t
+\a mouseAddPt()
+\i -1.3125:-1
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a mouseAddSelectPt()
+\i 0.0625:-1
+\r t
+\a mouseAddSelectPt()
+\i 0.125:-1.8125
+\r t
+\a mouseAddSelectPt()
+\i -0.875:-1.75
+\r t
+\a mouseAddSelectPt()
+\i -1.6875:-1.75
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="1.8u M"
+\r "1.8u M"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schHiObjectProperty()
+\r t
+\a _hiFormApplyCB(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a mouseAddPt()
+\i -1.125:0.75
+\r t
+\a hiZoomRelativeScale(getCurrentWindow() 1.25)
+\r t
+\a hiiSetCurrentForm('schMoveForm)
+\r t
+\a hiFormCancel(schMoveForm) 
+\r t
+\a hiUndo()
+\r t
+\a mouseAddPt()
+\i -0.0625:0.9375
+\r t
+\a mouseAddPt()
+\i -0.0625:0.9375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -0.0625:1
+\o 
+\o pmos (instance "M1", library "NCSU_Analog_Parts")
+\r window:2
+\a schAddSelectPt()
+\i -1.1875:0.8125
+\r t
+\a schAddSelectPt()
+\i -0.125:0.5
+\r t
+\a schAddSelectPt()
+\i -0.125:-0.3125
+\r t
+\a schAddSelectPt()
+\i -1.125:-0.3125
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->w->value="5.4u M"
+\r "5.4u M"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a hiZoomOutAtMouse()
+\i 0.9375:-0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i 0.875:-0.0625
+\r t
+\a hiZoomInAtMouse()
+\i 1.25:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i 0:-0.75
+\r t
+\a showClickInfo()
+\i -0.5:1.625
+\o 
+\o vdd (instance "I1", library "NCSU_Analog_Parts")
+\r window:2
+\a hiZoomOutAtMouse()
+\i -0.5:1.625
+\r t
+\a hiZoomInAtMouse()
+\i -0.5:1.625
+\r t
+\a showClickInfo()
+\i -0.375:1.4375
+\r window:2
+\a schHiCreateWire(0.0)
+\p > 
+\a hiiSetCurrentForm('schCreateWireForm)
+\r t
+\a mouseAddPt()
+\i -1.0625:1.375
+\r t
+\a mouseAddPt()
+\i -0.5625:1.375
+\r t
+\a mouseAddPt()
+\i -0.1875:1.375
+\r t
+\a mouseAddPt()
+\i -0.5625:1.375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a geScroll(nil "s" nil)
+\r t
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i 1.25:-0.375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.125:0
+\r t
+\r t
+\a mouseAddPt()
+\i 1.125:-0.1875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i 0.6875:-0.1875
+\o 
+\o wire drawing -> net: "OUT" bounding box: (0.12,-0.19) (0.88,-0.19)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 0.9375:-0.1875
+\o 
+\o opin (instance "PIN3", library "basic")
+\r window:2
+\a schDirectEdit(1)
+\i 0.75:0
+\i 0.75:0
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.375:-0.375
+\r t
+\r nil
+\a showClickInfo()
+\i 1.1875:-0.25
+\r window:2
+\a showClickInfo()
+\i 1.1875:-0.1875
+\r window:2
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i 1.375:-0.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.6875:-0.0625
+\r t
+\r t
+\a mouseAddPt()
+\i 0.9375:-0.1875
+\r t
+\a mouseAddPt()
+\i 1.3125:-0.4375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -0.625:-0.5
+\o 
+\o wire drawing -> net: "gnd!" bounding box: (-0.62,-0.50) (-0.62,-0.44)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 0.5625:-0.5625
+\o 
+\o text label: "Luke Hsiao
+\o Minority Gate
+\o (AB+BC+AC)'
+\o = NOT(A(B+C)+(BC))"
+\r window:2
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 0.75:-0.5625
+\r t
+\a mouseAddPt()
+\i 1.6875:-1.5
+\r t
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -0.1875:-0.4375
+\r t
+\a mouseAddPt()
+\i 1.3125:-0.4375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -0.75:-0.625
+\o 
+\o wire drawing -> net: "vdd!" bounding box: (-1.25,-0.62) (0.00,-0.62)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -2.125:-0.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.5:-2.375
+\r t
+\r t
+\a mouseAddPt()
+\i 0.125:-0.875
+\r t
+\a mouseAddPt()
+\i 0.3125:-0.6875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -0.75:-2.5625
+\o 
+\o gnd (instance "I0", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i -0.75:-2.6875
+\r t
+\a mouseAddPt()
+\i -0.5:-2.1875
+\r t
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a showClickInfo()
+\i 1.6875:-1.625
+\o 
+\o text label: "Luke Hsiao
+\o Minority Gate
+\o (AB+BC+AC)'
+\o = NOT(A(B+C)+(BC))"
+\r window:2
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 1.6875:-1.625
+\r t
+\a mouseAddPt()
+\i 0.875:0.1875
+\r t
+\r t
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -1.9375:0.625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.5:-0.375
+\r t
+\r t
+\a mouseAddPt()
+\i -2.25:0.1875
+\r t
+\a mouseAddPt()
+\i -1.9375:-0.125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.375:-0.5
+\r t
+\a hiZoomInAtMouse()
+\i -1.0625:-0.8125
+\r t
+\a hiResizeWindow(swindow(1) list(129:151 1502:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(125:151 1498:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(119:151 1492:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(112:151 1485:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(104:151 1477:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(96:151 1469:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(88:151 1461:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(78:151 1451:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(68:151 1441:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(58:151 1431:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(48:151 1421:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(37:151 1410:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(29:151 1402:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(23:151 1396:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(16:151 1389:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(12:151 1385:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(8:151 1381:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(4:151 1377:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(0:151 1373:1122))
+\r t
+\a hiResizeWindow(swindow(1) list(0:152 1373:1123))
+\r t
+\a schHiCheckAndSave()
+\o Extracting "minority schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB minority schematic" saved.
+\r t
+\a showClickInfo()
+\i -1.9375:-1.0625
+\r window:2
+\a showClickInfo()
+\i -1.1875:-1
+\r window:2
+\a showClickInfo()
+\i -2.625:-0.75
+\r window:2
+\a showClickInfo()
+\i -0.0625:0.875
+\r window:2
+\a schHiCheckAndSave()
+\o Extracting "minority schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB minority schematic" saved.
+\r t
+\a showClickInfo()
+\i -1.4375:-2.25
+\r window:2
+\a schHiCheck("run")
+\o Extracting "minority schematic"
+\o Schematic check completed with no errors.
+\r t
+\a _deUpdateWindowMenu('schWindowMenu2 2)
+\r t
+\a _deUpdateWindowMenu('schWindowMenu2 2)
+\r t
+\a _deUpdateWindowMenu('schWindowMenu2 2)
+\r t
+\a showClickInfo()
+\i -0.0625:-0.3125
+\o 
+\o pmos (instance "M3", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 0.75:-0.8125
+\r window:2
+\a hiCloseWindow(swindow(1))
+\p > 
+\a hiDBoxOK(geDBox)
+\r Getting schematic propert bagt
+\o Loading cph.cxt 
+\r t
+\i ddsServOpen("MYLIB" "minority" "schematic" "edit" nil)
+\o *WARNING* (icLic-3) Could not get license Virtuoso_Schematic_Editor_L
+\o (deLicense-3) Could not get a license for Schematics L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for Schematics XL to run Schematics L
+\a hiResizeWindow(swindow(2) list(131:25 1031:1145))
+\r t
+\a hiZoomInAtMouse()
+\i -0.0625:-0.4375
+\r Getting schematic propert bagt
+\a showClickInfo()
+\i -0.625:-2.5
+\r window:3
+\a hiResizeWindow(swindow(2) list(131:25 1032:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1046:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1103:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1163:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1242:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1307:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1375:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1449:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1494:1145))
+\r t
+\a hiResizeWindow(swindow(2) list(131:25 1494:1145))
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a hiZoomOutAtMouse()
+\i -0.125:-1.1875
+\r t
+\a hiZoomInAtMouse()
+\i -0.6875:-0.4375
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a hiZoomOutAtMouse()
+\i -1.1875:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 1.1875:-1.75
+\r t
+\a hiZoomOutAtMouse()
+\i -0.5625:-0.75
+\r t
+\a hiZoomInAtMouse()
+\i -0.3125:-0.375
+\r t
+\a hiCloseWindow(swindow(2))
+\r Getting schematic propert bagt
+\a hiQuit()
+\p > 
+\a hiDBoxOK(hiQuitDBox)
+\r t
+\o 
