@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      lhsiao
+HostName                       cardamom.ee.byu.edu
+ProcessIdentifier              18539
+ProcessCreationTime_UTC        1422729122
+ProcessCreationTime_Readable   Sat Jan 31 11:32:02 2015 MST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /auto/fsg/lhsiao/cadence/MYLIB/minority/layout/layout.oa.cdslck
+TimeEditLocked                 Sat Jan 31 11:37:12 2015 MST
