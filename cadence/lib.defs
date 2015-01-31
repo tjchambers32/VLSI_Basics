@@ -1,0 +1,2 @@
+DEFINE MYLIB /auto/fsh/tchambs/Winter2015/ECEN451/cadence/MYLIB
+ASSIGN MYLIB libMode shared
