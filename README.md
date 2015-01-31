@@ -3,5 +3,5 @@ Exploration in VLSI
 
 ### Who do I talk to?
 
-	* [Travis Chambers](https://github.com/tjchambers32)
-	* [Luke Hsiao](https://github.com/lukehsiao)
+	* [Travis Chambers]:(https://github.com/tjchambers32)
+	* [Luke Hsiao]:(https://github.com/lukehsiao)
