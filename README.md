@@ -1,7 +1,11 @@
-# VLSI_Basics
+# VLSI_Basics #
 Exploration in VLSI
 
-### Who do I talk to?
+## What is this branch for? ##
+Because the early projects we did separately, this branch is for storing Luke's work.
 
-	* [Travis Chambers](https://github.com/tjchambers32)
-	* [Luke Hsiao](https://github.com/lukehsiao)
+## Who do I talk to? ##
+
+* [Luke Hsiao](https://github.com/lukehsiao)
+
+
