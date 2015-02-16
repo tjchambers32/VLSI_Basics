@@ -1,0 +1,50 @@
+\o Program:		@(#)$CDS: libManager.exe version 6.1.2 09/12/2008 15:53 (cat61lnx) $
+\o Sub version:		sub-version 07.02-s027
+\o Arguments:		-mpssession virtuoso30231 -mpshost mustard.ee.byu.edu 
+\o Working Directory:	mustard.ee.byu.edu:/auto/fsh/tchambs/Winter2015/ECEN451/cadence
+\o changeWorkingDir("/auto/fsh/tchambs/Winter2015/ECEN451/cadence") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\o Qt version: 		4.2.3
+\o Log file is "/auto/fsh/tchambs/Winter2015/ECEN451/cadence/./libManager.log".
+\o Opening libManager window.
+\a nrResizeWindow(cdsLibManager list(929 309 775 530))
+\a cdsLibManager->libListBox->value = "NCSU_Digital_Parts"
+\a cdsLibManager->libListBox->value = "NCSU_Digital_Parts"
+\a cdsLibManager->libListBox->value = "MYLIB"
+\a cdsLibManager->libListBox->value = "MYLIB"
+\a cdsLibManager->libLineEdit->value = "MYLIB"
+\a cdsLibManager->cellListBox->value = "2to1Mux"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "2to1Mux"
+\a cdsLibManager->viewListBox->value = nil
+\a nrListItemAction(cdsLibManager->viewListBox 0 0)
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "MYLIB"
+\a cdsLibManager->libLineEdit->value = "MYLIB"
+\a cdsLibManager->libListBox->value = "MYLIB"
+\a cdsLibManager->libListBox->value = "MYLIB"
+\a cdsLibManager->cellListBox->value = "2to1Mux"
+\a cdsLibManager->cellLineEdit->value = "2to1Mux"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)

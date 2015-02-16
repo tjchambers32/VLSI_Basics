@@ -1,0 +1,3 @@
+INCLUDE /ee2/Cadence/local/designkits/ee451/cdssetup/cds.lib
+
+DEFINE MYLIB /auto/fsh/tchambs/Winter2015/ECEN451/cadence/MYLIB

@@ -1,0 +1,1 @@
+("2to1Mux:/\t2to1Mux MYLIB schematic" (("open" (nil hierarchy "/{MYLIB 2to1Mux schematic }:a"))) (((-4.83125 -3.1125) (6.35625 2.68125)) "a" "Schematics" 1))("mycell:/\tmycell MYLIB schematic" (("open" (nil hierarchy "/{MYLIB mycell schematic }:a"))) (((-1.03125 -0.9875) (3.88125 2.8875)) "a" "Schematics" 1))
