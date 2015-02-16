@@ -1,0 +1,90 @@
+@(#)$CDS: LVS version 6.1.3 09/08/2008 02:31 (cic612lnx) $
+
+Command line: /auto/ee2/Cadence/IC610/tools.lnx86/dfII/bin/32bit/LVS -dir /auto/fsg/lhsiao/cadence/LVS -l -s -t /auto/fsg/lhsiao/cadence/LVS/layout /auto/fsg/lhsiao/cadence/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+
+    Net-list summary for /auto/fsg/lhsiao/cadence/LVS/layout/netlist
+       count
+	10		nets
+	6		terminals
+	5		pmos
+	5		nmos
+
+    Net-list summary for /auto/fsg/lhsiao/cadence/LVS/schematic/netlist
+       count
+	10		nets
+	6		terminals
+	5		pmos
+	5		nmos
+
+
+    Terminal correspondence points
+    N8        N8        A
+    N7        N11       B
+    N6        N6        C
+    N5        N3        OUT
+    N4        N0        gnd!
+    N9        N1        vdd!
+
+Devices in the rules but not in the netlist:
+        res cap
+
+The net-lists match.
+
+			     layout  schematic
+				instances
+	un-matched		0	0
+	rewired			0	0
+	size errors		0	0
+	pruned			0	0
+	active			10	10
+	total			10	10
+
+				  nets
+	un-matched		0	0
+	merged			0	0
+	pruned			0	0
+	active			10	10
+	total			10	10
+
+				terminals
+	un-matched		0	0
+	matched but
+	different type		0	0
+	total			6	6
+
+
+Probe files from /auto/fsg/lhsiao/cadence/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /auto/fsg/lhsiao/cadence/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

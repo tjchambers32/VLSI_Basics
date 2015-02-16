@@ -1,0 +1,5 @@
+CADENCE IHNL01073
+
+MYLIB inv_1x analog_extracted nil spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl MYLIB tutorial3 config 0 cds0
+MYLIB aoi21_1x analog_extracted nil spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl MYLIB tutorial3 config 0 cds1
+MYLIB tutorial3 schematic nil spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl MYLIB tutorial3 config 1 cds2

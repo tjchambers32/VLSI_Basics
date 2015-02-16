@@ -1,0 +1,21 @@
+
+// Library name: MYLIB
+// Cell name: tutorial3
+// View name: schematic
+// Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+I20 (0 net4) inv_1x
+I19 (net4 net33) inv_1x
+I14 (net7 net36) inv_1x
+I13 (0 net7) inv_1x
+I12 (0 net12) inv_1x
+I11 (net12 net35) inv_1x
+I6 (net14 net13) inv_1x
+I5 (OUTPUT net14) inv_1x
+I4 (vdd! net20) inv_1x
+I3 (net20 \5V) inv_1x
+I2 (net23 INPUT) inv_1x
+I0 (net29 net23) inv_1x
+I1 (\5V 0 INPUT OUTPUT) aoi21_1x
+V0 (net29 0) vsource type=pulse val0=0 val1=5 period=50n delay=0 rise=100p \
+        fall=100p width=25n
+V1 (vdd! 0) vsource type=dc dc=5

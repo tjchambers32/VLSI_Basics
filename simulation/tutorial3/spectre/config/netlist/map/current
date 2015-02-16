@@ -1,0 +1,30 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "tutorial3"
+  repList "spectre cmos_sch cmos.sch schematic veriloga ahdl"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "MYLIB/tutorial3/schematic" "tutorial3" )
+( "gnd!" "0" )
+( "MYLIB/aoi21_1x/analog_extracted" "aoi21_1x" )
+( "MYLIB/inv_1x/analog_extracted" "inv_1x" )
+ )
+( term
+ )
+( param
+ )
+( "inv_1x" "ihnl/cds0/map" )
+( "tutorial3" "ihnl/cds2/map" )
+( "aoi21_1x" "ihnl/cds1/map" )
+ )
