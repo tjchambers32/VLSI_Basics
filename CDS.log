@@ -1,0 +1,4513 @@
+\o Program:		@(#)$CDS: virtuoso version 6.1.3 09/08/2008 02:56 (cic612lnx) $
+\o Hierarchy:		/auto/ee2/Cadence/IC610/tools.lnx86/dfII/
+\o Sub version:		sub-version IC6.1.3.1 (32-bit addresses)
+\o Host name (type):	garlic.ee.byu.edu (x86_64)
+\o Operating system:	Linux 2.6.32-358.11.1.el6.x86_64 #1 SMP Wed May 15 10:48:38 EDT 2013
+\o X display name (WxH):	:0.0 (1920x1200)
+\o Available geometry:			TL(0:25) BR(1919:1174)
+\o X server:		Red Hat, Inc.
+\o Depth of Visual (Root):	24 (24)
+\o Number of Planes Used:	24
+\o X version:		11.0 (vendor release 11300000)
+\o Qt version:		4.2.3
+\o Window Manager:	gnome (metacity)
+\o User Name:		lhsiao
+\o Working Directory:	garlic.ee.byu.edu:/auto/fsg/lhsiao/cadence
+\o Process Id:		29055
+\o 
+\o COPYRIGHT © 1992-2008  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2008  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading NCSU CDK 1.5.1 customizations...
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool asimenv
+\o Loading awv.cxt 
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ddserv
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool layout
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool schematic
+\o loading vars from /ee2/Cadence/NCSU/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ui
+\o Loading NCSU SKILL routines...
+\o Done loading NCSU_CDK customizations.
+\p > 
+\o  
+\o Library Manager new cellview request for cell "MYLIB aoi21_1x".
+\i deNew('(nil libName "MYLIB" cellName "aoi21_1x"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a deNewForm->deCellName->value="tutorial3"
+\r "tutorial3"
+\a hiFormDone(deNewForm)
+\r t
+\o *WARNING* (icLic-3) Could not get license Virtuoso_Schematic_Editor_L
+\p > 
+\a hiDBoxUser(_deLicenseQuestionDBox nil 1)
+\r t
+\o (deLicense-6) Checked out the license for Schematics XL to run Schematics L
+\o Getting schematic propert bagLoading schematic.cxt 
+\o Loading lo.cxt 
+\o Loading le.cxt 
+\o Loading lx.cxt 
+\o Loading lce.cxt 
+\a hiResizeWindow(swindow(1) list(132:150 1032:850))
+\r t
+\a hiResizeWindow(swindow(1) list(131:150 1031:850))
+\r t
+\a hiResizeWindow(swindow(1) list(129:150 1029:850))
+\r t
+\a hiResizeWindow(swindow(1) list(127:150 1027:850))
+\r t
+\a hiResizeWindow(swindow(1) list(125:150 1025:850))
+\r t
+\a hiResizeWindow(swindow(1) list(123:150 1023:850))
+\r t
+\a hiResizeWindow(swindow(1) list(121:150 1021:850))
+\r t
+\a hiResizeWindow(swindow(1) list(119:150 1019:850))
+\r t
+\a hiResizeWindow(swindow(1) list(116:150 1016:850))
+\r t
+\a hiResizeWindow(swindow(1) list(115:150 1015:850))
+\r t
+\a hiResizeWindow(swindow(1) list(114:150 1014:850))
+\r t
+\a hiResizeWindow(swindow(1) list(112:150 1012:850))
+\r t
+\a hiResizeWindow(swindow(1) list(110:149 1010:849))
+\r t
+\a hiResizeWindow(swindow(1) list(108:148 1008:848))
+\r t
+\a hiResizeWindow(swindow(1) list(106:147 1006:847))
+\r t
+\a hiResizeWindow(swindow(1) list(104:147 1004:847))
+\r t
+\a hiResizeWindow(swindow(1) list(102:145 1002:845))
+\r t
+\a hiResizeWindow(swindow(1) list(100:144 1000:844))
+\r t
+\a hiResizeWindow(swindow(1) list(97:142 997:842))
+\r t
+\a hiResizeWindow(swindow(1) list(95:141 995:841))
+\r t
+\a hiResizeWindow(swindow(1) list(94:140 994:840))
+\r t
+\a hiResizeWindow(swindow(1) list(93:140 993:840))
+\r t
+\a hiResizeWindow(swindow(1) list(92:140 992:840))
+\r t
+\a hiResizeWindow(swindow(1) list(91:140 991:840))
+\r t
+\a hiResizeWindow(swindow(1) list(89:140 989:840))
+\r t
+\a hiResizeWindow(swindow(1) list(86:140 986:840))
+\r t
+\a hiResizeWindow(swindow(1) list(83:140 983:840))
+\r t
+\a hiResizeWindow(swindow(1) list(79:140 979:840))
+\r t
+\a hiResizeWindow(swindow(1) list(74:140 974:840))
+\r t
+\a hiResizeWindow(swindow(1) list(69:140 969:840))
+\r t
+\a hiResizeWindow(swindow(1) list(63:140 963:840))
+\r t
+\a hiResizeWindow(swindow(1) list(56:140 956:840))
+\r t
+\a hiResizeWindow(swindow(1) list(49:140 949:840))
+\r t
+\a hiResizeWindow(swindow(1) list(42:140 942:840))
+\r t
+\a hiResizeWindow(swindow(1) list(34:140 934:840))
+\r t
+\a hiResizeWindow(swindow(1) list(27:140 927:840))
+\r t
+\a hiResizeWindow(swindow(1) list(20:140 920:840))
+\r t
+\a hiResizeWindow(swindow(1) list(12:140 912:840))
+\r t
+\a hiResizeWindow(swindow(1) list(8:140 908:840))
+\r t
+\a hiResizeWindow(swindow(1) list(3:142 903:842))
+\r t
+\a hiResizeWindow(swindow(1) list(0:142 900:842))
+\r t
+\a hiResizeWindow(swindow(1) list(0:143 900:843))
+\r t
+\a hiResizeWindow(swindow(1) list(0:145 900:845))
+\r t
+\a hiResizeWindow(swindow(1) list(0:146 900:846))
+\r t
+\a hiResizeWindow(swindow(1) list(0:147 900:847))
+\r t
+\a hiResizeWindow(swindow(1) list(0:148 900:848))
+\r t
+\a hiResizeWindow(swindow(1) list(0:149 900:849))
+\r t
+\a hiResizeWindow(swindow(1) list(0:151 900:851))
+\r t
+\a hiResizeWindow(swindow(1) list(0:152 900:852))
+\r t
+\a hiResizeWindow(swindow(1) list(0:154 900:854))
+\r t
+\a hiResizeWindow(swindow(1) list(0:155 900:855))
+\r t
+\a hiResizeWindow(swindow(1) list(0:158 900:858))
+\r t
+\a hiResizeWindow(swindow(1) list(0:159 900:859))
+\r t
+\a hiResizeWindow(swindow(1) list(0:161 900:861))
+\r t
+\a hiResizeWindow(swindow(1) list(0:164 900:864))
+\r t
+\a hiResizeWindow(swindow(1) list(0:165 900:865))
+\r t
+\a hiResizeWindow(swindow(1) list(0:166 900:866))
+\r t
+\a hiResizeWindow(swindow(1) list(0:169 900:869))
+\r t
+\a hiResizeWindow(swindow(1) list(0:172 900:872))
+\r t
+\a hiResizeWindow(swindow(1) list(0:173 900:873))
+\r t
+\a hiResizeWindow(swindow(1) list(0:176 900:876))
+\r t
+\a hiResizeWindow(swindow(1) list(0:179 900:879))
+\r t
+\a hiResizeWindow(swindow(1) list(0:183 900:883))
+\r t
+\a hiResizeWindow(swindow(1) list(0:186 900:886))
+\r t
+\a hiResizeWindow(swindow(1) list(0:190 900:890))
+\r t
+\a hiResizeWindow(swindow(1) list(0:193 900:893))
+\r t
+\a hiResizeWindow(swindow(1) list(16:196 916:896))
+\r t
+\a hiResizeWindow(swindow(1) list(16:199 916:899))
+\r t
+\a hiResizeWindow(swindow(1) list(18:202 918:902))
+\r t
+\a hiResizeWindow(swindow(1) list(18:205 918:905))
+\r t
+\a hiResizeWindow(swindow(1) list(19:208 919:908))
+\r t
+\a hiResizeWindow(swindow(1) list(20:212 920:912))
+\r t
+\a hiResizeWindow(swindow(1) list(21:215 921:915))
+\r t
+\a hiResizeWindow(swindow(1) list(21:218 921:918))
+\r t
+\a hiResizeWindow(swindow(1) list(23:223 923:923))
+\r t
+\a hiResizeWindow(swindow(1) list(25:230 925:930))
+\r t
+\a hiResizeWindow(swindow(1) list(26:235 926:935))
+\r t
+\a hiResizeWindow(swindow(1) list(28:244 928:944))
+\r t
+\a hiResizeWindow(swindow(1) list(31:253 931:953))
+\r t
+\a hiResizeWindow(swindow(1) list(33:258 933:958))
+\r t
+\a hiResizeWindow(swindow(1) list(34:266 934:966))
+\r t
+\a hiResizeWindow(swindow(1) list(36:273 936:973))
+\r t
+\a hiResizeWindow(swindow(1) list(37:280 937:980))
+\r t
+\a hiResizeWindow(swindow(1) list(39:288 939:988))
+\r t
+\a hiResizeWindow(swindow(1) list(41:295 941:995))
+\r t
+\a hiResizeWindow(swindow(1) list(43:303 943:1003))
+\r t
+\a hiResizeWindow(swindow(1) list(43:311 943:1011))
+\r t
+\a hiResizeWindow(swindow(1) list(44:319 944:1019))
+\r t
+\a hiResizeWindow(swindow(1) list(46:328 946:1028))
+\r t
+\a hiResizeWindow(swindow(1) list(46:338 946:1038))
+\r t
+\a hiResizeWindow(swindow(1) list(48:348 948:1048))
+\r t
+\a hiResizeWindow(swindow(1) list(48:358 948:1058))
+\r t
+\a hiResizeWindow(swindow(1) list(48:368 948:1068))
+\r t
+\a hiResizeWindow(swindow(1) list(48:377 948:1077))
+\r t
+\a hiResizeWindow(swindow(1) list(48:387 948:1087))
+\r t
+\a hiResizeWindow(swindow(1) list(48:395 948:1095))
+\r t
+\a hiResizeWindow(swindow(1) list(48:404 948:1104))
+\r t
+\a hiResizeWindow(swindow(1) list(48:412 948:1112))
+\r t
+\a hiResizeWindow(swindow(1) list(45:420 945:1120))
+\r t
+\a hiResizeWindow(swindow(1) list(45:424 945:1124))
+\r t
+\a hiResizeWindow(swindow(1) list(43:429 943:1129))
+\r t
+\a hiResizeWindow(swindow(1) list(42:433 942:1133))
+\r t
+\a hiResizeWindow(swindow(1) list(40:437 940:1137))
+\r t
+\a hiResizeWindow(swindow(1) list(39:440 939:1140))
+\r t
+\a hiResizeWindow(swindow(1) list(37:444 937:1144))
+\r t
+\a hiResizeWindow(swindow(1) list(37:445 937:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(36:445 936:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(35:445 935:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(34:445 934:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(33:445 933:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(32:445 932:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(30:445 930:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(29:445 929:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(28:445 928:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(27:445 927:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(26:445 926:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(25:445 925:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(24:445 924:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(23:445 923:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(22:445 922:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(21:445 921:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(20:445 920:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(19:445 919:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(18:445 918:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(17:445 917:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(16:445 916:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(15:445 915:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(13:445 913:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(11:445 911:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(10:445 910:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(8:445 908:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(6:445 906:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(5:445 905:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(4:445 904:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:445 903:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:443 903:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:405 894:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:343 885:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:271 878:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:181 874:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:112 876:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:67 887:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:46 894:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:43 897:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:40 898:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:39 899:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:38 900:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:34 902:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:31 903:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 909:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 913:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 917:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 921:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 927:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 928:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 929:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 930:1145))
+\r t
+\a showClickInfo()
+\i -0.875:-0.125
+\r window:2
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:439))
+\r t
+\p > 
+\a schComponentBrowserForm->schBrowserLib1->value="MYLIB"
+\r "MYLIB"
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "inv_1x" )
+\o Loading cdf.cxt 
+\r ("inv_1x")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a mouseAddPt()
+\i -2.125:-0.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:455))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:471))
+\r t
+\p > 
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "aoi21_1x" )
+\r ("aoi21_1x")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a mouseAddPt()
+\i 0.375:-0.375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i -2.25:-0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1:-0.8125
+\r t
+\r t
+\a mouseAddPt()
+\i -1.625:-0.5
+\r t
+\a mouseAddPt()
+\i -0.875:-0.5
+\r t
+\a geSingleSelectBox()
+\i -2.5:-0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.25:-0.875
+\r t
+\r t
+\a mouseAddPt()
+\i -1.5625:-0.4375
+\r t
+\a mouseAddPt()
+\i -1.5625:-1.375
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 932:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 935:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 988:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1069:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1127:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1154:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1192:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1228:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1258:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1301:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1335:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1364:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1403:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1431:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1448:1145))
+\r t
+\a schHiCopy()
+\r t
+\a geSingleSelectBox()
+\i -2.125:-1.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.125:-1.75
+\r t
+\r t
+\a mouseAddPt()
+\i -0.875:-1.4375
+\r t
+\a mouseAddPt()
+\i 4.3125:-0.5625
+\r t
+\a geSingleSelectBox()
+\i 2.875:-0.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 5.0625:-0.8125
+\r t
+\r t
+\a mouseAddPt()
+\i 4.4375:-0.5625
+\r t
+\a mouseAddPt()
+\i 6:-0.5625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i 3:0
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.9375:-0.9375
+\r t
+\r t
+\a mouseAddPt()
+\i 4.25:-0.5
+\r t
+\a mouseAddPt()
+\i 5.75:-0.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i 3:-0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.5:-1.0625
+\r t
+\r t
+\a mouseAddPt()
+\i 5.25:-0.5625
+\r t
+\a mouseAddPt()
+\i 5.25:-1.3125
+\r t
+\a schHiCopy()
+\r t
+\a geSingleSelectBox()
+\i 3.125:-1
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.6875:-1.25
+\r t
+\r nil
+\a geSingleSelectBox()
+\i 3:-0.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.4375:-1.75
+\r t
+\r t
+\a mouseAddPt()
+\i 5:-1.125
+\r t
+\a mouseAddPt()
+\i 5.0625:-1.875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i 3:-1.75
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.4375:-2.5
+\r t
+\r t
+\a mouseAddPt()
+\i 5.25:-2
+\r t
+\a mouseAddPt()
+\i 5.1875:-2.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i 3.0625:-1.75
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.4375:-2.4375
+\r t
+\r t
+\a mouseAddPt()
+\i 5.9375:-2.0625
+\r t
+\a mouseAddPt()
+\i 5.875:-2.0625
+\r t
+\a mouseAddPt()
+\i 2.6875:-1.3125
+\r t
+\a geSingleSelectBox()
+\i 4.75:0.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.4375:-4.0625
+\r t
+\r t
+\a geSubSelectPoint()
+\p > 
+\a deletePoint()
+\r t
+\a mouseAddPt()
+\i 6.125:-3.9375
+\r t
+\r nil
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 6.5625:-3.875
+\i 6.5625:-3.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.6875:0.125
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i -0.25:-2.4375
+\r window:2
+\a hiResizeWindow(swindow(1) list(3:25 1446:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1332:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1167:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 1069:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 927:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 901:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 900:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 901:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 924:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 968:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 977:1145))
+\r t
+\a showClickInfo()
+\i 1.5625:-2.625
+\r window:2
+\a showClickInfo()
+\i 2.125:-1.875
+\r window:2
+\a hiResizeWindow(swindow(1) list(3:25 975:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 949:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 933:1145))
+\r t
+\a hiResizeWindow(swindow(1) list(3:25 931:1145))
+\r t
+\a showClickInfo()
+\i 0.9375:-2.5625
+\r window:2
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:487))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:503))
+\r t
+\p > 
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserLib1->value="NCSU_Analog_Parts"
+\r "NCSU_Analog_Parts"
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "Voltage_Sources" )
+\r ("Voltage_Sources")
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "vpulse" )
+\o Loading simui.cxt 
+\r ("vpulse")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a mouseAddPt()
+\i -2.5:-0.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiObjectProperty()
+\o Loading layers.cxt 
+\r t
+\a showClickInfo()
+\i -2.5:-0.6875
+\o 
+\o vpulse (instance "V0", library "NCSU_Analog_Parts")
+\r window:2
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->v2->value="5 V"
+\r "5 V"
+\a schObjPropForm->td->value="0ns"
+\r "0ns"
+\a schObjPropForm->td->value="0"
+\r "0"
+\a schObjPropForm->tr->value="100 ps"
+\r "100 ps"
+\a schObjPropForm->tr->value="100p"
+\r "100p"
+\a schObjPropForm->td->value="0n s"
+\r "0n s"
+\a schObjPropForm->tf->value="100p"
+\r "100p"
+\a schObjPropForm->pw->value="25n"
+\r "25n"
+\a schObjPropForm->per->value="50n"
+\r "50n"
+\a schObjPropForm->tf->value="100ps"
+\r "100ps"
+\a schObjPropForm->tf->value="100p s"
+\r "100p s"
+\a schObjPropForm->tr->value="100ps"
+\r "100ps"
+\a schObjPropForm->tr->value="100p s"
+\r "100p s"
+\a schObjPropForm->v1_dsp->value="value"
+\r "value"
+\a schObjPropForm->v2_dsp->value="value"
+\r "value"
+\a schObjPropForm->td_dsp->value="value"
+\r "value"
+\a schObjPropForm->tr_dsp->value="value"
+\r "value"
+\a schObjPropForm->tf_dsp->value="value"
+\r "value"
+\a schObjPropForm->pw_dsp->value="value"
+\r "value"
+\a schObjPropForm->per_dsp->value="value"
+\r "value"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a schObjPropForm->v1_dsp->value="both"
+\r "both"
+\a schObjPropForm->v2_dsp->value="both"
+\r "both"
+\a schObjPropForm->td_dsp->value="both"
+\r "both"
+\a schObjPropForm->tr_dsp->value="both"
+\r "both"
+\a schObjPropForm->tf_dsp->value="both"
+\r "both"
+\a schObjPropForm->pw_dsp->value="both"
+\r "both"
+\a schObjPropForm->per_dsp->value="both"
+\r "both"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i -2.8125:0.5
+\r window:2
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -2.8125:0.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.0625:-0.5
+\r t
+\r nil
+\a mouseAddPt()
+\i -2.5:-0.1875
+\r t
+\a geSingleSelectBox()
+\i -2.5:-0.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.6875:-0.3125
+\r t
+\r nil
+\a mouseAddPt()
+\i -2.5625:-0.0625
+\r t
+\a geSingleSelectBox()
+\i -2.4375:-0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.6875:-0.375
+\r t
+\r nil
+\a mouseAddPt()
+\i -2.5:-0.75
+\r t
+\a mouseAddPt()
+\i -2.5625:-0.5
+\r t
+\a geSingleSelectBox()
+\i -2.5625:-0.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.5625:-0.625
+\r t
+\r nil
+\a mouseAddPt()
+\i -2.5625:-0.5
+\r t
+\a mouseAddPt()
+\i -2.375:-0.75
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -2.5:-0.6875
+\o 
+\o vpulse (instance "V0", library "NCSU_Analog_Parts")
+\r window:2
+\a showClickInfo()
+\i -2.5:-0.75
+\o 
+\o vpulse (instance "V0", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i -2.375:-0.6875
+\r t
+\a mouseAddPt()
+\i -2.625:-0.6875
+\r t
+\r t
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:519))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:535))
+\r t
+\p > 
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "Supply_Nets" )
+\r ("Supply_Nets")
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "gnd" )
+\r ("gnd")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a mouseAddPt()
+\i 0.0625:-3.1875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:551))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:567))
+\r t
+\p > 
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "vdd" )
+\r ("vdd")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a mouseAddPt()
+\i -0.875:-3.375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateNoteShape()
+\p > 
+\a hiiSetCurrentForm('schCreateNoteShapeForm)
+\r t
+\a cancelEnterFun(schCreateNoteShapeForm)
+\r t
+\r nil
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:583))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:599))
+\r t
+\p > 
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserListBox1->value= '( ".. (Go up 1 level)" )
+\r (".. (Go up 1 level)")
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "Voltage_Sources" )
+\r ("Voltage_Sources")
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "vdc" )
+\r ("vdc")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a mouseAddPt()
+\i 0.6875:-2.9375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -0.875:-3.1875
+\o 
+\o vdd (instance "I22", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i -0.875:-3.1875
+\r t
+\a mouseAddPt()
+\i -2.5:-1.4375
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i -1.25:-3.25
+\r t
+\a hiZoomInAtMouse()
+\i -1.25:-3.25
+\r t
+\a geScroll(nil "w" nil)
+\r t
+\a showClickInfo()
+\i -2.5:-1.4375
+\o 
+\o vdd (instance "I22", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i -2.5625:-1.5
+\r t
+\a mouseAddPt()
+\i -3.625:-1.625
+\r t
+\r t
+\a showClickInfo()
+\i 0.6875:-3.125
+\o 
+\o vdc (instance "V1", library "NCSU_Analog_Parts")
+\r window:2
+\a showClickInfo()
+\i 0.6875:-3.125
+\o 
+\o vdc (instance "V1", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 0.75:-3.125
+\r t
+\a mouseAddPt()
+\i -3.5:-2.125
+\r t
+\r t
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -0.25:-2.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.5625:-3.875
+\r t
+\r t
+\a mouseAddPt()
+\i 0.125:-3.25
+\r t
+\a mouseAddPt()
+\i -3.5:-2.625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -3.5625:-1.75
+\r t
+\a mouseAddPt()
+\i -3.5625:-1.9375
+\r t
+\a mouseAddPt()
+\i -3.5625:-2.3125
+\r t
+\a mouseAddPt()
+\i -3.5625:-2.5625
+\r t
+\a mouseAddPt()
+\i -3.5625:-2.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -3.5625:-2.1875
+\o 
+\o vdc (instance "V1", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->vdc->value="5"
+\r "5"
+\a schObjPropForm->vdc_dsp->value="both"
+\r "both"
+\a hiFormDone(schObjPropForm)
+\r t
+\a showClickInfo()
+\i -3:-2.1875
+\r window:2
+\a showClickInfo()
+\i -3.5:-2.125
+\o 
+\o vdc (instance "V1", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiObjectProperty()
+\r t
+\a _hiFormApplyCB(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i -2.5:-2.3125
+\r window:2
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i -3.5625:-2.6875
+\r t
+\a mouseAddPt()
+\i -2.625:-1
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -3:-0.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.125:-1.25
+\r t
+\r t
+\a mouseAddPt()
+\i -2.5625:-0.75
+\r t
+\a mouseAddPt()
+\i -2.625:-0.6875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i 0.3125:-2.3125
+\r window:2
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:615))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:631))
+\r t
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserLib1->value="BYU_basic"
+\r "BYU_basic"
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "noConn" )
+\r ("noConn")
+\a hiSetCurrentWindow(window(2))
+\r t
+\a mouseAddPt()
+\i 1:-2.0625
+\r t
+\a mouseAddPt()
+\i 4.6875:-2
+\r t
+\a mouseAddPt()
+\i 4.6875:-1.3125
+\r t
+\a mouseAddPt()
+\i 4.6875:-0.5
+\r t
+\a mouseAddPt()
+\i 4.6875:-2.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 4.625:-1.5625
+\r t
+\a mouseAddPt()
+\i 4.625:-1.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 0.625:-1.8125
+\i 0.625:-1.8125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.25:-2.625
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a hiResizeWindow(swindow(1) list(-2:21 1918:1145))
+\r t
+\a hiiSetCurrentForm('schCreateWireForm)
+\r t
+\a mouseAddPt()
+\i 5.6875:0.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i 2.6875:-0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 5.25:-3.625
+\r t
+\r t
+\a mouseAddPt()
+\i 4.4375:-1.375
+\r t
+\a mouseAddPt()
+\i 3.9375:-1.375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 1.8125:-0.5
+\r t
+\a mouseAddPt()
+\i 2.6875:-0.5
+\r t
+\a mouseAddPt()
+\i 2.375:-0.5
+\r t
+\a mouseAddPt()
+\i 2.6875:-1.25
+\r t
+\a mouseAddPt()
+\i 2.375:-1.25
+\r t
+\a mouseAddPt()
+\i 2.6875:-2
+\r t
+\a mouseAddPt()
+\i 2.375:-2
+\r t
+\a mouseAddPt()
+\i 2.6875:-2.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWireLabel()
+\p > 
+\a hiiSetCurrentForm('schCreateWireLabelForm)
+\r t
+\a schCreateWireLabelForm->tabField->page1->label->value="OUTPUT"
+\r "OUTPUT"
+\a mouseAddPt()
+\i 2.25:-0.5
+\r t
+\a hiFormCancel(schCreateWireLabelForm) 
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -3.3125:0.5625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.1875:-1.4375
+\r t
+\r t
+\a mouseAddPt()
+\i -2.625:-0.5
+\r t
+\a mouseAddPt()
+\i -5.25:-0.0625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -2.5625:-0.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.4375:-0.875
+\r t
+\r t
+\a mouseAddPt()
+\i -0.75:-0.5
+\r t
+\a mouseAddPt()
+\i -1.25:-0.3125
+\r t
+\a schHiMove()
+\r t
+\a geSingleSelectBox()
+\i -2.1875:-1
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.375:-1.75
+\r t
+\r t
+\a mouseAddPt()
+\i -0.9375:-1.4375
+\r t
+\a mouseAddPt()
+\i -1.4375:-1.0625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -4.3125:-0.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -6.1875:1.125
+\r t
+\r t
+\a mouseAddPt()
+\i -5.25:-0.25
+\r t
+\a mouseAddPt()
+\i -3.125:-0.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -3.1875:-0.25
+\r t
+\a mouseAddPt()
+\i -2.5:-0.25
+\r t
+\a mouseAddPt()
+\i -1:-0.25
+\r t
+\a mouseAddPt()
+\i 0:-0.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -2.625:-0.8125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.75:-1.375
+\r t
+\r t
+\a mouseAddPt()
+\i -1.5625:-1.0625
+\r t
+\a mouseAddPt()
+\i -1.5625:-1.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWireLabel()
+\p > 
+\a schCreateWireLabelForm->tabField->page1->label->value="INPUT"
+\r "INPUT"
+\a mouseAddPt()
+\i -0.5625:-0.25
+\r t
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a schHiMove()
+\r t
+\a geSingleSelectBox()
+\i -2.75:-1.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.6875:-1.875
+\r t
+\r t
+\a mouseAddPt()
+\i -1.3125:-1.5
+\r t
+\a mouseAddPt()
+\i -1.3125:-1.75
+\r t
+\a schHiMove()
+\r t
+\a geSingleSelectBox()
+\i -4.0625:-1.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -3.1875:-3.3125
+\r t
+\r t
+\a mouseAddPt()
+\i -3.5625:-2.125
+\r t
+\a mouseAddPt()
+\i -2.875:-1.875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -2.875:-1.6875
+\r t
+\a mouseAddPt()
+\i -2.5:-1.6875
+\r t
+\a mouseAddPt()
+\i -1:-1.6875
+\r t
+\a mouseAddPt()
+\i 0:-0.5
+\r t
+\a mouseAddPt()
+\i -0.6875:-0.6875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -0.6875:-0.625
+\r t
+\a mouseAddPt()
+\i 0:-0.625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWireLabel()
+\p > 
+\a mouseAddPt()
+\i -0.6875:-0.9375
+\r t
+\a schCreateWireLabelForm->tabField->page1->label->value="5V"
+\r "5V"
+\a mouseAddPt()
+\i -0.6875:-0.9375
+\r t
+\a hiFormCancel(schCreateWireLabelForm) 
+\r t
+\a hiZoomOutAtMouse()
+\i 0.9375:-3.625
+\r t
+\a hiZoomInAtMouse()
+\i 1:-3.625
+\r t
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a mouseAddPt()
+\i -1.125:-3.125
+\r t
+\o  
+\o Library Manager new cellview request for cell "MYLIB tutorial3".
+\i deNew('(nil libName "MYLIB" cellName "tutorial3"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a deNewForm->deViewName->value="config"
+\r "config"
+\a hiFormDone(deNewForm)
+\r t
+\o Loading hed.cxt 
+\a nrSetWindowVisibility(hedNewConfigDialog_w5 "show")
+\r t
+\a nrSetCurrentWindow(hedNewConfigDialog_w5)
+\r t
+\a nrResizeWindow(hedNewConfigDialog_w5 list(300 262 500 600))
+\r t
+\a hedNewConfigDialog_w5->useTemplate->value = t
+\r t
+\a nrSetWindowVisibility(hedNewConfigDialog_w5_useTemplateDialog "show")
+\r t
+\a nrSetCurrentWindow(hedNewConfigDialog_w5_useTemplateDialog)
+\r t
+\a nrResizeWindow(hedNewConfigDialog_w5_useTemplateDialog list(350 428 400 179))
+\r t
+\a hedNewConfigDialog_w5_useTemplateDialog->name->value = "spectre"
+\r "spectre"
+\a hedNewConfigDialog_w5_useTemplateDialog->file->value = "/ee2/Cadence/ic/share/cdssetup/hierEditor/templates/spectre"
+\r "/ee2/Cadence/ic/share/cdssetup/hierEditor/templates/spectre"
+\a hedNewConfigDialog_w5_useTemplateDialog->ok->value = t
+\r t
+\a hedNewConfigDialog_w5->libList->value = "myLib"
+\r "myLib"
+\a hedNewConfigDialog_w5->viewList->value = "spectre cmos_sch cmos.sch schematic veriloga ahdl"
+\r "spectre cmos_sch cmos.sch schematic veriloga ahdl"
+\a hedNewConfigDialog_w5->stopList->value = "spectre"
+\r "spectre"
+\a hedNewConfigDialog_w5->description->value = ""
+\r ""
+\a hedNewConfigDialog_w5->description->value = " Default template for spectre\n Note:\n      Please remember to replace Top Cell Library, Cell, and View\n      fields with the actual names used by your design.\n"
+\r " Default template for spectre\n Note:\n      Please remember to replace Top Cell Library, Cell, and View\n      fields with the actual names used by your design.\n"
+\a nrSetCurrentWindow(hedNewConfigDialog_w5)
+\r t
+\a _hedSelectLCV(hedNewConfigDialog_w5->hedLCVSelection "MYLIB" "tutorial3" "schematic")
+\r t
+\a _hedSelectLCV(hedNewConfigDialog_w5->hedLCVSelection "MYLIB" "tutorial3" "schematic")
+\r t
+\a hedNewConfigDialog_w5->ok->value = t
+\r t
+\a hiResizeWindow(swindow(2) list(204:199 904:999))
+\r t
+\a hiResizeWindow(swindow(2) list(212:196 912:996))
+\r t
+\a hiResizeWindow(swindow(2) list(221:194 921:994))
+\r t
+\a hiResizeWindow(swindow(2) list(231:193 931:993))
+\r t
+\a hiResizeWindow(swindow(2) list(242:193 942:993))
+\r t
+\a hiResizeWindow(swindow(2) list(253:190 953:990))
+\r t
+\a hiResizeWindow(swindow(2) list(267:187 967:987))
+\r t
+\a hiResizeWindow(swindow(2) list(282:185 982:985))
+\r t
+\a hiResizeWindow(swindow(2) list(299:182 999:982))
+\r t
+\a hiResizeWindow(swindow(2) list(316:177 1016:977))
+\r t
+\a hiResizeWindow(swindow(2) list(333:175 1033:975))
+\r t
+\a hiResizeWindow(swindow(2) list(350:173 1050:973))
+\r t
+\a hiResizeWindow(swindow(2) list(367:170 1067:970))
+\r t
+\a hiResizeWindow(swindow(2) list(388:170 1088:970))
+\r t
+\a hiResizeWindow(swindow(2) list(409:168 1109:968))
+\r t
+\a hiResizeWindow(swindow(2) list(430:165 1130:965))
+\r t
+\a hiResizeWindow(swindow(2) list(451:165 1151:965))
+\r t
+\a hiResizeWindow(swindow(2) list(474:165 1174:965))
+\r t
+\a hiResizeWindow(swindow(2) list(489:165 1189:965))
+\r t
+\a hiResizeWindow(swindow(2) list(508:165 1208:965))
+\r t
+\a hiResizeWindow(swindow(2) list(527:165 1227:965))
+\r t
+\a hiResizeWindow(swindow(2) list(548:165 1248:965))
+\r t
+\a hiResizeWindow(swindow(2) list(569:165 1269:965))
+\r t
+\a hiResizeWindow(swindow(2) list(576:165 1276:965))
+\r t
+\a hiResizeWindow(swindow(2) list(585:165 1285:965))
+\r t
+\a hiResizeWindow(swindow(2) list(605:165 1305:965))
+\r t
+\a hiResizeWindow(swindow(2) list(616:165 1316:965))
+\r t
+\a hiResizeWindow(swindow(2) list(633:165 1333:965))
+\r t
+\a hiResizeWindow(swindow(2) list(654:165 1354:965))
+\r t
+\a hiResizeWindow(swindow(2) list(675:165 1375:965))
+\r t
+\a hiResizeWindow(swindow(2) list(694:165 1394:965))
+\r t
+\a hiResizeWindow(swindow(2) list(705:165 1405:965))
+\r t
+\a hiResizeWindow(swindow(2) list(718:165 1418:965))
+\r t
+\a hiResizeWindow(swindow(2) list(727:165 1427:965))
+\r t
+\a hiResizeWindow(swindow(2) list(734:165 1434:965))
+\r t
+\a hiResizeWindow(swindow(2) list(736:165 1436:965))
+\r t
+\a hiResizeWindow(swindow(2) list(737:165 1437:965))
+\r t
+\a hiResizeWindow(swindow(2) list(738:165 1438:965))
+\r t
+\a hiResizeWindow(swindow(2) list(739:166 1439:966))
+\r t
+\a hiResizeWindow(swindow(2) list(740:166 1440:966))
+\r t
+\a hiResizeWindow(swindow(2) list(741:167 1441:967))
+\r t
+\a hiResizeWindow(swindow(2) list(741:168 1441:968))
+\r t
+\a hiResizeWindow(swindow(2) list(741:170 1441:970))
+\r t
+\a hiResizeWindow(swindow(2) list(741:172 1441:972))
+\r t
+\a hiResizeWindow(swindow(2) list(740:173 1440:973))
+\r t
+\a hiResizeWindow(swindow(2) list(740:174 1440:974))
+\r t
+\a hiResizeWindow(swindow(2) list(739:176 1439:976))
+\r t
+\a hiResizeWindow(swindow(2) list(738:177 1438:977))
+\r t
+\a hiResizeWindow(swindow(2) list(738:178 1438:978))
+\r t
+\a hiResizeWindow(swindow(2) list(736:181 1436:981))
+\r t
+\a hiResizeWindow(swindow(2) list(736:182 1436:982))
+\r t
+\a hiResizeWindow(swindow(2) list(734:185 1434:985))
+\r t
+\a hiResizeWindow(swindow(2) list(733:187 1433:987))
+\r t
+\a hiResizeWindow(swindow(2) list(732:189 1432:989))
+\r t
+\a hiResizeWindow(swindow(2) list(731:191 1431:991))
+\r t
+\a hiResizeWindow(swindow(2) list(731:192 1431:992))
+\r t
+\a hiResizeWindow(swindow(2) list(730:194 1430:994))
+\r t
+\a hiResizeWindow(swindow(2) list(729:196 1429:996))
+\r t
+\a hiResizeWindow(swindow(2) list(728:198 1428:998))
+\r t
+\a hiResizeWindow(swindow(2) list(728:199 1428:999))
+\r t
+\a hiResizeWindow(swindow(2) list(726:201 1426:1001))
+\r t
+\a hiResizeWindow(swindow(2) list(726:202 1426:1002))
+\r t
+\a hiResizeWindow(swindow(2) list(725:203 1425:1003))
+\r t
+\a hiResizeWindow(swindow(2) list(725:204 1425:1004))
+\r t
+\a hiResizeWindow(swindow(2) list(724:205 1424:1005))
+\r t
+\a hiResizeWindow(swindow(2) list(724:206 1424:1006))
+\r t
+\a hiResizeWindow(swindow(2) list(723:207 1423:1007))
+\r t
+\a hiResizeWindow(swindow(2) list(723:208 1423:1008))
+\r t
+\a hiResizeWindow(swindow(2) list(722:209 1422:1009))
+\r t
+\a hiResizeWindow(swindow(2) list(721:210 1421:1010))
+\r t
+\a hiResizeWindow(swindow(2) list(721:211 1421:1011))
+\r t
+\a hiResizeWindow(swindow(2) list(720:213 1420:1013))
+\r t
+\a hiResizeWindow(swindow(2) list(719:214 1419:1014))
+\r t
+\a hiResizeWindow(swindow(2) list(718:216 1418:1016))
+\r t
+\a hiResizeWindow(swindow(2) list(717:217 1417:1017))
+\r t
+\a _hedSelectRow(window(5)->hedPartsTable 0 "(MYLIB aoi21_1x schematic)")
+\r t
+\a _hedSelectRow(window(5)->hedPartsTable 1 "(MYLIB inv_1x schematic)")
+\r t
+\o Bound cell (MYLIB inv_1x) to view 'analog_extracted'.
+\a _hedSetViewBinding(window(5)->hedPartsTable "analog_extracted")
+\r t
+\a hiPopupDown(_hedPartsTableMenu)
+\r t
+\a _hedSelectRow(window(5)->hedPartsTable 0 "(MYLIB aoi21_1x schematic)")
+\r t
+\o Bound cell (MYLIB aoi21_1x) to view 'analog_extracted'.
+\a _hedSetViewBinding(window(5)->hedPartsTable "analog_extracted")
+\r t
+\a hiPopupDown(_hedPartsTableMenu)
+\r t
+\a _hedTriggerActionCB("save")
+\r t
+\a hiCloseWindow(swindow(2))
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\o Loading oasis.cxt 
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\p > 
+\a hiDBoxUser(_deLicenseQuestionDBox nil 1)
+\r t
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading spectrei.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMS.cxt 
+\i sevWhatsNew()
+\o Loading par.cxt 
+\o Loading socket.cxt 
+\o Loading alvs.cxt 
+\r t
+\a hiCloseWindow(window(7))
+\r t
+\a hiResizeWindow(window(6) list(102:273 794:689))
+\r t
+\a hiResizeWindow(window(6) list(112:274 804:690))
+\r t
+\a hiResizeWindow(window(6) list(127:277 819:693))
+\r t
+\a hiResizeWindow(window(6) list(150:279 842:695))
+\r t
+\a hiResizeWindow(window(6) list(173:284 865:700))
+\r t
+\a hiResizeWindow(window(6) list(178:286 870:702))
+\r t
+\a hiResizeWindow(window(6) list(186:288 878:704))
+\r t
+\a hiResizeWindow(window(6) list(209:295 901:711))
+\r t
+\a hiResizeWindow(window(6) list(238:302 930:718))
+\r t
+\a hiResizeWindow(window(6) list(255:309 947:725))
+\r t
+\a hiResizeWindow(window(6) list(270:316 962:732))
+\r t
+\a hiResizeWindow(window(6) list(277:321 969:737))
+\r t
+\a hiResizeWindow(window(6) list(296:330 988:746))
+\r t
+\a hiResizeWindow(window(6) list(315:341 1007:757))
+\r t
+\a hiResizeWindow(window(6) list(334:352 1026:768))
+\r t
+\a hiResizeWindow(window(6) list(353:365 1045:781))
+\r t
+\a hiResizeWindow(window(6) list(368:378 1060:794))
+\r t
+\a hiResizeWindow(window(6) list(381:389 1073:805))
+\r t
+\a hiResizeWindow(window(6) list(390:398 1082:814))
+\r t
+\a hiResizeWindow(window(6) list(399:407 1091:823))
+\r t
+\a hiResizeWindow(window(6) list(406:416 1098:832))
+\r t
+\a hiResizeWindow(window(6) list(411:420 1103:836))
+\r t
+\a hiResizeWindow(window(6) list(416:425 1108:841))
+\r t
+\a hiResizeWindow(window(6) list(420:430 1112:846))
+\r t
+\a hiResizeWindow(window(6) list(422:434 1114:850))
+\r t
+\a hiResizeWindow(window(6) list(424:438 1116:854))
+\r t
+\a hiResizeWindow(window(6) list(426:439 1118:855))
+\r t
+\a hiResizeWindow(window(6) list(428:441 1120:857))
+\r t
+\a hiResizeWindow(window(6) list(430:444 1122:860))
+\r t
+\a hiResizeWindow(window(6) list(433:446 1125:862))
+\r t
+\a sevChooseDesign('sevSession1)
+\p > 
+\a hiiSetCurrentForm('sevDesignForm1)
+\r t
+\a sevDesignForm1->view->value="config"
+\r "config"
+\a hiFormDone(sevDesignForm1)
+\o Loading viva.cxt 
+\o Picked up _JAVA_OPTIONS: -Xusealtsigs
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(6) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(6) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(6) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* GetPropBag: Bad Library ID.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(6) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(6) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(6) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* GetPropBag: Bad Library ID.
+\o Getting schematic propert bagGetting schematic propert bagWARNING (ADE-1009): There is another session running with the same design and project
+\o         directory. To avoid overwriting of results, either quit one of the sessions or
+\o         change the project directory in one of the sessions. You can quit the session
+\o         by closing the corresponding ADE window.
+\r t
+\r t
+\r nil
+\a hiCloseWindow(window(8))
+\r t
+\a sevChooseSimulator('sevSession1)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm1)
+\r t
+\a sevSimulatorForm1->simulator->value="spectre"
+\r "spectre"
+\a hiFormDone(sevSimulatorForm1)
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\r t
+\r t
+\a hiResizeWindow(window(9) list(433:203 1125:619))
+\r t
+\a hiResizeWindow(window(9) list(433:203 1125:619))
+\r t
+\a hiResizeWindow(window(9) list(433:203 1125:619))
+\r t
+\a hiResizeWindow(window(9) list(433:203 1125:619))
+\r t
+\a hiResizeWindow(window(9) list(433:203 1125:619))
+\r t
+\a hiResizeWindow(window(9) list(433:203 1125:619))
+\r t
+\a hiResizeWindow(window(9) list(433:203 1125:619))
+\r t
+\a hiResizeWindow(window(9) list(433:203 1125:619))
+\r t
+\a hiResizeWindow(window(9) list(456:203 1148:619))
+\r t
+\a hiResizeWindow(window(9) list(456:203 1148:619))
+\r t
+\a hiResizeWindow(window(9) list(456:203 1148:619))
+\r t
+\a hiResizeWindow(window(9) list(469:203 1161:619))
+\r t
+\a hiResizeWindow(window(9) list(482:203 1174:619))
+\r t
+\a hiResizeWindow(window(9) list(495:203 1187:619))
+\r t
+\a hiResizeWindow(window(9) list(508:203 1200:619))
+\r t
+\a hiResizeWindow(window(9) list(521:203 1213:619))
+\r t
+\a hiResizeWindow(window(9) list(536:205 1228:621))
+\r t
+\a hiResizeWindow(window(9) list(551:205 1243:621))
+\r t
+\a hiResizeWindow(window(9) list(568:208 1260:624))
+\r t
+\a hiResizeWindow(window(9) list(585:213 1277:629))
+\r t
+\a hiResizeWindow(window(9) list(606:218 1298:634))
+\r t
+\a hiResizeWindow(window(9) list(627:223 1319:639))
+\r t
+\a hiResizeWindow(window(9) list(648:228 1340:644))
+\r t
+\a hiResizeWindow(window(9) list(667:233 1359:649))
+\r t
+\a hiResizeWindow(window(9) list(688:238 1380:654))
+\r t
+\a hiResizeWindow(window(9) list(709:243 1401:659))
+\r t
+\a hiResizeWindow(window(9) list(730:248 1422:664))
+\r t
+\a hiResizeWindow(window(9) list(749:253 1441:669))
+\r t
+\a hiResizeWindow(window(9) list(768:258 1460:674))
+\r t
+\a hiResizeWindow(window(9) list(781:263 1473:679))
+\r t
+\a hiResizeWindow(window(9) list(802:268 1494:684))
+\r t
+\a hiResizeWindow(window(9) list(823:270 1515:686))
+\r t
+\a hiResizeWindow(window(9) list(844:273 1536:689))
+\r t
+\a hiResizeWindow(window(9) list(867:276 1559:692))
+\r t
+\a hiResizeWindow(window(9) list(890:278 1582:694))
+\r t
+\a hiResizeWindow(window(9) list(909:281 1601:697))
+\r t
+\a hiResizeWindow(window(9) list(926:283 1618:699))
+\r t
+\a hiResizeWindow(window(9) list(945:286 1637:702))
+\r t
+\a hiResizeWindow(window(9) list(964:288 1656:704))
+\r t
+\a hiResizeWindow(window(9) list(983:290 1675:706))
+\r t
+\a hiResizeWindow(window(9) list(1000:293 1692:709))
+\r t
+\a hiResizeWindow(window(9) list(1013:293 1705:709))
+\r t
+\a hiResizeWindow(window(9) list(1024:295 1716:711))
+\r t
+\a hiResizeWindow(window(9) list(1037:297 1729:713))
+\r t
+\a hiResizeWindow(window(9) list(1046:299 1738:715))
+\r t
+\a hiResizeWindow(window(9) list(1055:299 1747:715))
+\r t
+\a hiResizeWindow(window(9) list(1059:301 1751:717))
+\r t
+\a hiResizeWindow(window(9) list(1064:303 1756:719))
+\r t
+\a hiResizeWindow(window(9) list(1065:303 1757:719))
+\r t
+\a hiResizeWindow(window(9) list(1067:304 1759:720))
+\r t
+\a hiResizeWindow(window(9) list(1068:305 1760:721))
+\r t
+\a hiResizeWindow(window(9) list(1069:306 1761:722))
+\r t
+\a hiResizeWindow(window(9) list(1070:307 1762:723))
+\r t
+\a hiResizeWindow(window(9) list(1072:309 1764:725))
+\r t
+\a hiResizeWindow(window(9) list(1072:310 1764:726))
+\r t
+\a hiResizeWindow(window(9) list(1074:312 1766:728))
+\r t
+\a hiResizeWindow(window(9) list(1075:313 1767:729))
+\r t
+\a hiResizeWindow(window(9) list(1077:316 1769:732))
+\r t
+\a hiResizeWindow(window(9) list(1079:319 1771:735))
+\r t
+\a hiResizeWindow(window(9) list(1082:322 1774:738))
+\r t
+\a hiResizeWindow(window(9) list(1084:324 1776:740))
+\r t
+\a hiResizeWindow(window(9) list(1086:326 1778:742))
+\r t
+\a hiResizeWindow(window(9) list(1088:329 1780:745))
+\r t
+\a hiResizeWindow(window(9) list(1090:331 1782:747))
+\r t
+\a hiResizeWindow(window(9) list(1092:334 1784:750))
+\r t
+\a hiResizeWindow(window(9) list(1095:337 1787:753))
+\r t
+\a hiResizeWindow(window(9) list(1098:340 1790:756))
+\r t
+\a hiResizeWindow(window(9) list(1102:343 1794:759))
+\r t
+\a hiResizeWindow(window(9) list(1107:347 1799:763))
+\r t
+\a hiResizeWindow(window(9) list(1113:351 1805:767))
+\r t
+\a hiResizeWindow(window(9) list(1120:355 1812:771))
+\r t
+\a hiResizeWindow(window(9) list(1125:359 1817:775))
+\r t
+\a hiResizeWindow(window(9) list(1131:363 1823:779))
+\r t
+\a hiResizeWindow(window(9) list(1137:367 1829:783))
+\r t
+\a hiResizeWindow(window(9) list(1143:371 1835:787))
+\r t
+\a hiResizeWindow(window(9) list(1149:375 1841:791))
+\r t
+\a hiResizeWindow(window(9) list(1153:377 1845:793))
+\r t
+\a hiResizeWindow(window(9) list(1154:378 1846:794))
+\r t
+\a hiResizeWindow(window(9) list(1155:379 1847:795))
+\r t
+\a hiResizeWindow(window(9) list(1157:380 1849:796))
+\r t
+\a hiResizeWindow(window(9) list(1158:381 1850:797))
+\r t
+\a hiResizeWindow(window(9) list(1159:382 1851:798))
+\r t
+\a hiCloseWindow(window(9))
+\r t
+\a sevEditModels('sevSession1)
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\r t
+\a hiiSetCurrentForm('editModelsForm)
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 1 "/auto/ee2/Cadence/local/designkits/BYU/lib/AMI12/models/spectre/allModels.scs")
+\r t
+\a hiFormDone(editModelsForm)
+\r t
+\a sevEditSelectedAnas('sevSession1)
+\p > 
+\a _asii_spectre4_analysis_form->tran_stop->value="150n"
+\r "150n"
+\a _asii_spectre4_analysis_form->tran_errpreset->moderate->value =  t
+\r t
+\a hiFormDone(_asii_spectre4_analysis_form)
+\r t
+\r t
+\a sevChangeOutsOnSchematic('sevSession1 'plot)
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i -0.5:-0.25
+\i -0.5:-0.25
+\o 
+\o wire drawing -> net: "INPUT" bounding box: (-1.00,-0.25) (0.00,-0.25)
+\r window:2
+\a showClickInfo()
+\i 2.1875:-0.5
+\i 2.1875:-0.5
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (1.81,-0.50) (2.38,-0.50)
+\r window:2
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a hiSetCurrentWindow(window(6))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /auto/ee2/Cadence/IC610/tools.lnx86/dfII/etc/si/control.spectre /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Feb 16 09:09:45 2015
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\o Netlist Warning: The netlisting procedure specified for (BYU_LIB pmos4 spectre) is 
+\o obsolete. You can convert your library with the 
+\o Tools - Conversion Tool Box menu on the CIW. 
+\o 
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\o End netlisting Feb 16 09:09:45 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   23
+\o 
+\o 	Elapsed time:          1.0s (23.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o Loading devCheck.cxt 
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\a _wiaSetDataContext("./simulation/tutorial3/spectre/config/psf")
+\r t
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(10))
+\r t
+\a hiCloseWindow(window(10))
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 0:-0.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -0.3125:-0.25
+\o 
+\o wire drawing -> net: "INPUT" bounding box: (-1.00,-0.25) (0.00,-0.25)
+\r window:2
+\a showClickInfo()
+\i -0.125:-0.5
+\o 
+\o wire drawing -> net: "5V" bounding box: (-0.69,-0.50) (0.00,-0.50)
+\r window:2
+\a showClickInfo()
+\i -0.1875:-0.625
+\o 
+\o wire drawing -> net: "5V" bounding box: (-0.69,-0.62) (0.00,-0.62)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i -0.0625:-0.625
+\r window:2
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 0:-0.625
+\r t
+\a mouseAddPt()
+\i -0.25:-0.625
+\r t
+\a mouseAddPt()
+\i -0.5:-2.3125
+\r t
+\a mouseAddPt()
+\i -2.875:-2.3125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiSetCurrentWindow(window(6))
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:16:50 2015
+\o ERROR (OSSHNL-109): The cell view, 'MYLIB/tutorial3/schematic', has been modified since the last extraction. 
+\o Re-extract the design (File->Check and Save menu option) for schematic cell 
+\o views to correct this error.
+\o  
+\o End netlisting Feb 16 09:16:50 2015
+\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
+\o  or may not be produced at all.
+\o To generate correct netlist, fix the errors and re-netlist.
+\o       ...unsuccessful.
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:223))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:296))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:375))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:405))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:408))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:409))
+\r t
+\a envSetVal("ui" "ciwCmdInputLines" 'int 4)
+\r t
+\i asdf
+\e *Error* toplevel: undefined variable - asdf
+\p > 
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiCloseWindow(window(6))
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\r t
+\a showClickInfo()
+\i 0.375:-1.9375
+\r window:2
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\r t
+\a hiResizeWindow(window(12) list(108:274 800:690))
+\r t
+\a hiResizeWindow(window(12) list(117:276 809:692))
+\r t
+\a hiResizeWindow(window(12) list(126:278 818:694))
+\r t
+\a hiResizeWindow(window(12) list(134:280 826:696))
+\r t
+\a hiResizeWindow(window(12) list(143:283 835:699))
+\r t
+\a hiResizeWindow(window(12) list(151:283 843:699))
+\r t
+\a hiResizeWindow(window(12) list(159:284 851:700))
+\r t
+\a hiResizeWindow(window(12) list(168:286 860:702))
+\r t
+\a hiResizeWindow(window(12) list(178:286 870:702))
+\r t
+\a hiResizeWindow(window(12) list(188:288 880:704))
+\r t
+\a hiResizeWindow(window(12) list(201:291 893:707))
+\r t
+\a hiResizeWindow(window(12) list(213:293 905:709))
+\r t
+\a hiResizeWindow(window(12) list(228:298 920:714))
+\r t
+\a hiResizeWindow(window(12) list(242:303 934:719))
+\r t
+\a hiResizeWindow(window(12) list(257:308 949:724))
+\r t
+\a hiResizeWindow(window(12) list(272:313 964:729))
+\r t
+\a hiResizeWindow(window(12) list(289:318 981:734))
+\r t
+\a hiResizeWindow(window(12) list(306:323 998:739))
+\r t
+\a hiResizeWindow(window(12) list(323:328 1015:744))
+\r t
+\a hiResizeWindow(window(12) list(340:333 1032:749))
+\r t
+\a hiResizeWindow(window(12) list(357:338 1049:754))
+\r t
+\a hiResizeWindow(window(12) list(374:345 1066:761))
+\r t
+\a hiResizeWindow(window(12) list(391:352 1083:768))
+\r t
+\a hiResizeWindow(window(12) list(408:359 1100:775))
+\r t
+\a hiResizeWindow(window(12) list(425:366 1117:782))
+\r t
+\a hiResizeWindow(window(12) list(438:373 1130:789))
+\r t
+\a hiResizeWindow(window(12) list(451:380 1143:796))
+\r t
+\a hiResizeWindow(window(12) list(464:387 1156:803))
+\r t
+\a hiResizeWindow(window(12) list(473:392 1165:808))
+\r t
+\a hiResizeWindow(window(12) list(482:397 1174:813))
+\r t
+\a hiResizeWindow(window(12) list(491:402 1183:818))
+\r t
+\a hiResizeWindow(window(12) list(500:407 1192:823))
+\r t
+\a hiResizeWindow(window(12) list(507:412 1199:828))
+\r t
+\a hiResizeWindow(window(12) list(514:417 1206:833))
+\r t
+\a hiResizeWindow(window(12) list(521:422 1213:838))
+\r t
+\a hiResizeWindow(window(12) list(528:427 1220:843))
+\r t
+\a hiResizeWindow(window(12) list(535:432 1227:848))
+\r t
+\a hiResizeWindow(window(12) list(541:437 1233:853))
+\r t
+\a hiResizeWindow(window(12) list(548:441 1240:857))
+\r t
+\a hiResizeWindow(window(12) list(550:443 1242:859))
+\r t
+\a hiResizeWindow(window(12) list(554:446 1246:862))
+\r t
+\a hiResizeWindow(window(12) list(558:448 1250:864))
+\r t
+\a hiResizeWindow(window(12) list(559:449 1251:865))
+\r t
+\a hiResizeWindow(window(12) list(561:451 1253:867))
+\r t
+\a hiResizeWindow(window(12) list(563:452 1255:868))
+\r t
+\a hiResizeWindow(window(12) list(564:453 1256:869))
+\r t
+\a hiResizeWindow(window(12) list(565:453 1257:869))
+\r t
+\a hiResizeWindow(window(12) list(566:454 1258:870))
+\r t
+\a hiResizeWindow(window(12) list(567:454 1259:870))
+\r t
+\a hiResizeWindow(window(12) list(568:455 1260:871))
+\r t
+\a hiResizeWindow(window(12) list(569:456 1261:872))
+\r t
+\a hiResizeWindow(window(12) list(571:457 1263:873))
+\r t
+\a hiResizeWindow(window(12) list(573:458 1265:874))
+\r t
+\a hiResizeWindow(window(12) list(574:459 1266:875))
+\r t
+\a hiResizeWindow(window(12) list(576:460 1268:876))
+\r t
+\a hiResizeWindow(window(12) list(577:461 1269:877))
+\r t
+\a hiResizeWindow(window(12) list(578:462 1270:878))
+\r t
+\a hiResizeWindow(window(12) list(579:463 1271:879))
+\r t
+\a hiResizeWindow(window(12) list(580:463 1272:879))
+\r t
+\a hiResizeWindow(window(12) list(581:464 1273:880))
+\r t
+\a hiResizeWindow(window(12) list(582:464 1274:880))
+\r t
+\a hiResizeWindow(window(12) list(583:465 1275:881))
+\r t
+\a hiResizeWindow(window(12) list(584:466 1276:882))
+\r t
+\a hiResizeWindow(window(12) list(584:467 1276:883))
+\r t
+\a hiResizeWindow(window(12) list(585:468 1277:884))
+\r t
+\a sevLoadState('sevSession4)
+\p > 
+\a hiiSetCurrentForm('sevLoadForm4)
+\r t
+\a asiUnixBrowser( hiGetCurrentForm() _amsExpandPath(hiGetCurrentForm()->stateSaveDir->value) 'stateSaveDir "path" 'nil 'directoryOnly)
+\w *WARNING* "/auto/fsg/lhsiao/.artist_states" is not a directory.
+\r nil
+\a hiFormCancel(sevLoadForm4)
+\r t
+\r nil
+\a sevChooseDesign('sevSession4)
+\p > 
+\a hiiSetCurrentForm('sevDesignForm4)
+\r t
+\a hiFormDone(sevDesignForm4)
+\r t
+\r t
+\a sevChooseDesign('sevSession4)
+\p > 
+\a hiFormDone(sevDesignForm4)
+\r t
+\r t
+\a sevChooseSimulator('sevSession4)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm4)
+\r t
+\a sevSimulatorForm4->simulator->value="spectre"
+\r "spectre"
+\a hiFormDone(sevSimulatorForm4)
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\r t
+\r t
+\a sevEditModels('sevSession4)
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\r t
+\a hiiSetCurrentForm('editModelsForm)
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 1 "/auto/ee2/Cadence/local/designkits/BYU/lib/AMI12/models/spectre/allModels.scs")
+\r t
+\a _hiFormApplyCB(editModelsForm)
+\r t
+\a hiFormDone(editModelsForm)
+\r t
+\a sevEditSelectedAnas('sevSession4)
+\p > 
+\a _asii_spectre6_analysis_form->tran_errpreset->moderate->value =  t
+\r t
+\a _asii_spectre6_analysis_form->tran_stop->value="150n"
+\r "150n"
+\a _asii_spectre6_analysis_form->tran_enable->boolean->value =  t
+\r t
+\a hiFormDone(_asii_spectre6_analysis_form)
+\r t
+\r t
+\a sevChangeOutsOnSchematic('sevSession4 'plot)
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i -0.4375:-0.25
+\i -0.4375:-0.25
+\o 
+\o wire drawing -> net: "INPUT" bounding box: (-1.00,-0.25) (0.00,-0.25)
+\r window:2
+\a showClickInfo()
+\i 2.1875:-0.5
+\i 2.1875:-0.5
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (1.81,-0.50) (2.38,-0.50)
+\r window:2
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:21:01 2015
+\o End netlisting Feb 16 09:21:01 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          1.0s (15.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\a _wiaSetDataContext("./simulation/tutorial3/spectre/config/psf")
+\r t
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(13))
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i -2.75:0.625
+\r window:2
+\a vvDisplayCalculator()
+\r t
+\a hiResizeWindow(window(15) list(202:572 842:972))
+\r t
+\a hiResizeWindow(window(15) list(206:572 846:972))
+\r t
+\a hiResizeWindow(window(15) list(218:572 858:972))
+\r t
+\a hiResizeWindow(window(15) list(232:572 872:972))
+\r t
+\a hiResizeWindow(window(15) list(249:572 889:972))
+\r t
+\a hiResizeWindow(window(15) list(272:572 912:972))
+\r t
+\a hiResizeWindow(window(15) list(299:572 939:972))
+\r t
+\a hiResizeWindow(window(15) list(330:572 970:972))
+\r t
+\a hiResizeWindow(window(15) list(363:572 1003:972))
+\r t
+\a hiResizeWindow(window(15) list(402:572 1042:972))
+\r t
+\a hiResizeWindow(window(15) list(441:572 1081:972))
+\r t
+\a hiResizeWindow(window(15) list(486:572 1126:972))
+\r t
+\a hiResizeWindow(window(15) list(527:572 1167:972))
+\r t
+\a hiResizeWindow(window(15) list(570:572 1210:972))
+\r t
+\a hiResizeWindow(window(15) list(613:579 1253:979))
+\r t
+\a hiResizeWindow(window(15) list(656:584 1296:984))
+\r t
+\a hiResizeWindow(window(15) list(695:589 1335:989))
+\r t
+\a hiResizeWindow(window(15) list(734:594 1374:994))
+\r t
+\a hiResizeWindow(window(15) list(773:599 1413:999))
+\r t
+\a hiResizeWindow(window(15) list(802:604 1442:1004))
+\r t
+\a hiResizeWindow(window(15) list(833:609 1473:1009))
+\r t
+\a hiResizeWindow(window(15) list(864:614 1504:1014))
+\r t
+\a hiResizeWindow(window(15) list(889:619 1529:1019))
+\r t
+\a hiResizeWindow(window(15) list(908:624 1548:1024))
+\r t
+\a hiResizeWindow(window(15) list(917:626 1557:1026))
+\r t
+\a hiResizeWindow(window(15) list(921:626 1561:1026))
+\r t
+\a hiResizeWindow(window(15) list(924:625 1564:1025))
+\r t
+\a hiResizeWindow(window(15) list(926:623 1566:1023))
+\r t
+\a hiResizeWindow(window(15) list(933:616 1573:1016))
+\r t
+\a hiResizeWindow(window(15) list(944:604 1584:1004))
+\r t
+\a hiResizeWindow(window(15) list(955:591 1595:991))
+\r t
+\a hiResizeWindow(window(15) list(960:586 1600:986))
+\r t
+\a hiResizeWindow(window(15) list(966:586 1606:986))
+\r t
+\a hiResizeWindow(window(15) list(975:591 1615:991))
+\r t
+\a hiResizeWindow(window(15) list(982:596 1622:996))
+\r t
+\a hiResizeWindow(window(15) list(987:601 1627:1001))
+\r t
+\a hiResizeWindow(window(15) list(991:604 1631:1004))
+\r t
+\a hiResizeWindow(window(15) list(992:605 1632:1005))
+\r t
+\a hiResizeWindow(window(15) list(995:607 1635:1007))
+\r t
+\a hiResizeWindow(window(15) list(998:610 1638:1010))
+\r t
+\a hiResizeWindow(window(15) list(1004:616 1644:1016))
+\r t
+\a hiResizeWindow(window(15) list(1010:621 1650:1021))
+\r t
+\a hiResizeWindow(window(15) list(1019:629 1659:1029))
+\r t
+\a hiResizeWindow(window(15) list(1029:637 1669:1037))
+\r t
+\a hiResizeWindow(window(15) list(1040:646 1680:1046))
+\r t
+\a hiResizeWindow(window(15) list(1052:655 1692:1055))
+\r t
+\a hiResizeWindow(window(15) list(1067:661 1707:1061))
+\r t
+\a hiResizeWindow(window(15) list(1079:668 1719:1068))
+\r t
+\a hiResizeWindow(window(15) list(1092:675 1732:1075))
+\r t
+\a hiResizeWindow(window(15) list(1104:681 1744:1081))
+\r t
+\a hiResizeWindow(window(15) list(1116:688 1756:1088))
+\r t
+\a hiResizeWindow(window(15) list(1129:695 1769:1095))
+\r t
+\a hiResizeWindow(window(15) list(1140:702 1780:1102))
+\r t
+\a hiResizeWindow(window(15) list(1149:709 1789:1109))
+\r t
+\a hiResizeWindow(window(15) list(1158:716 1798:1116))
+\r t
+\a hiResizeWindow(window(15) list(1165:723 1805:1123))
+\r t
+\a hiResizeWindow(window(15) list(1172:730 1812:1130))
+\r t
+\a hiResizeWindow(window(15) list(1177:735 1817:1135))
+\r t
+\a hiResizeWindow(window(15) list(1182:739 1822:1139))
+\r t
+\a hiResizeWindow(window(15) list(1186:744 1826:1144))
+\r t
+\a hiResizeWindow(window(15) list(1187:745 1827:1145))
+\r t
+\a hiResizeWindow(window(15) list(1188:745 1828:1145))
+\r t
+\a hiResizeWindow(window(15) list(1189:745 1829:1145))
+\r t
+\a hiResizeWindow(window(15) list(1190:745 1830:1145))
+\r t
+\a hiResizeWindow(window(15) list(1191:745 1831:1145))
+\r t
+\a hiResizeWindow(window(15) list(1192:745 1832:1145))
+\r t
+\a hiResizeWindow(window(15) list(1193:745 1833:1145))
+\r t
+\a hiResizeWindow(window(15) list(1192:745 1832:1145))
+\r t
+\a hiResizeWindow(window(15) list(1191:745 1831:1145))
+\r t
+\a hiResizeWindow(window(15) list(1190:745 1830:1145))
+\r t
+\a hiResizeWindow(window(15) list(1189:745 1829:1145))
+\r t
+\a hiResizeWindow(window(15) list(1188:745 1828:1145))
+\r t
+\a hiResizeWindow(window(15) list(1187:745 1827:1145))
+\r t
+\a hiResizeWindow(window(15) list(1186:745 1826:1145))
+\r t
+\a hiResizeWindow(window(15) list(1184:745 1824:1145))
+\r t
+\a hiResizeWindow(window(15) list(1183:745 1823:1145))
+\r t
+\a hiResizeWindow(window(15) list(1182:745 1822:1145))
+\r t
+\a hiResizeWindow(window(15) list(1181:745 1821:1145))
+\r t
+\a hiResizeWindow(window(15) list(1180:745 1820:1145))
+\r t
+\a hiResizeWindow(window(15) list(1179:745 1819:1145))
+\r t
+\a hiResizeWindow(window(15) list(1177:745 1817:1145))
+\r t
+\a hiResizeWindow(window(15) list(1176:745 1816:1145))
+\r t
+\a hiResizeWindow(window(15) list(1175:745 1815:1145))
+\r t
+\a hiResizeWindow(window(15) list(1174:745 1814:1145))
+\r t
+\a hiResizeWindow(window(15) list(1173:745 1813:1145))
+\r t
+\a hiResizeWindow(window(15) list(1171:745 1811:1145))
+\r t
+\a hiResizeWindow(window(15) list(1170:745 1810:1145))
+\r t
+\a hiResizeWindow(window(15) list(1168:745 1808:1145))
+\r t
+\a hiResizeWindow(window(15) list(1166:745 1806:1145))
+\r t
+\a hiResizeWindow(window(15) list(1164:745 1804:1145))
+\r t
+\a hiResizeWindow(window(15) list(1163:745 1803:1145))
+\r t
+\a hiResizeWindow(window(15) list(1161:745 1801:1145))
+\r t
+\a hiResizeWindow(window(15) list(1158:745 1798:1145))
+\r t
+\a hiResizeWindow(window(15) list(1156:745 1796:1145))
+\r t
+\a hiResizeWindow(window(15) list(1154:745 1794:1145))
+\r t
+\a hiResizeWindow(window(15) list(1151:745 1791:1145))
+\r t
+\a hiResizeWindow(window(15) list(1149:745 1789:1145))
+\r t
+\a hiResizeWindow(window(15) list(1146:745 1786:1145))
+\r t
+\a hiResizeWindow(window(15) list(1143:745 1783:1145))
+\r t
+\a hiResizeWindow(window(15) list(1141:745 1781:1145))
+\r t
+\a hiResizeWindow(window(15) list(1139:745 1779:1145))
+\r t
+\a hiResizeWindow(window(15) list(1136:745 1776:1145))
+\r t
+\a hiResizeWindow(window(15) list(1133:745 1773:1145))
+\r t
+\a hiResizeWindow(window(15) list(1130:745 1770:1145))
+\r t
+\a hiResizeWindow(window(15) list(1128:745 1768:1145))
+\r t
+\a hiResizeWindow(window(15) list(1125:745 1765:1145))
+\r t
+\a hiResizeWindow(window(15) list(1122:745 1762:1145))
+\r t
+\a hiResizeWindow(window(15) list(1121:745 1761:1145))
+\r t
+\a hiResizeWindow(window(15) list(1120:745 1760:1145))
+\r t
+\a hiResizeWindow(window(15) list(1118:745 1758:1145))
+\r t
+\a hiResizeWindow(window(15) list(1116:745 1756:1145))
+\r t
+\a hiResizeWindow(window(15) list(1115:745 1755:1145))
+\r t
+\a hiResizeWindow(window(15) list(1114:745 1754:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:745 1753:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:744 1753:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:710 1758:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:624 1782:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:533 1815:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:425 1831:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:362 1831:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:311 1831:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:254 1831:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:238 1832:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:217 1839:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:208 1844:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:191 1853:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:179 1860:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:175 1863:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:175 1866:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:176 1873:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:176 1875:1145))
+\r t
+\a hiResizeWindow(window(15) list(1113:176 1876:1145))
+\r t
+\a _vivaStartSelectSignalMode("VT")
+\r (("" ""))
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i -0.5625:-0.25
+\i -0.5625:-0.25
+\a calSetBuffer("VT(\"/INPUT\")")
+\r nil
+\o 
+\o wire drawing -> net: "INPUT" bounding box: (-1.00,-0.25) (0.00,-0.25)
+\r window:2
+\a hiSetCurrentWindow(window(15))
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 1:-1.625
+\i 1:-1.625
+\r window:2
+\a showClickInfo()
+\i 2.125:-0.5
+\i 2.125:-0.5
+\a calSetBuffer("VT(\"/OUTPUT\")")
+\r nil
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (1.81,-0.50) (2.38,-0.50)
+\r window:2
+\a hiSetCurrentWindow(window(15))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("5.257259e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i ddsServOpen("MYLIB" "inv_1x" "schematic" "edit" nil)
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.375:-2.3125
+\i 2.375:-2.3125
+\i 2.375:-2.3125
+\i 2.375:-2.3125
+\a calSetBuffer("VT(\"/OUTPUT\")")
+\r Getting schematic propert bagnil
+\r window:2
+\a hiCloseWindow(window(15))
+\r t
+\a _adeStartSelectSignalMode("false" "vt")
+\r (("" ""))
+\a showClickInfo()
+\i 1.5:-1.9375
+\r window:2
+\a showClickInfo()
+\i 2.375:-2.4375
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.38,-2.81) (2.38,-2.00)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i -2.8125:-2.5
+\r t
+\a mouseAddPt()
+\i 2.4375:-3
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:40:54 2015
+\o ERROR (OSSHNL-109): The cell view, 'MYLIB/tutorial3/schematic', has been modified since the last extraction. 
+\o Re-extract the design (File->Check and Save menu option) for schematic cell 
+\o views to correct this error.
+\o  
+\o End netlisting Feb 16 09:40:54 2015
+\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
+\o  or may not be produced at all.
+\o To generate correct netlist, fix the errors and re-netlist.
+\o       ...unsuccessful.
+\r t
+\a vvDisplayCalculator()
+\r t
+\a calSetBuffer("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )")
+\r nil
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\o WARNING (OCN-6040): The specified directory does not exist, or the directory does not contain valid PSF results.
+\o         Ensure that the path to the directory is correct and the directory has a logFile and PSF result files.
+\e Expression evaluation failed: val is not legal.
+\e Expression evaluation failed: val is not legal.
+\o "Data directory must point to valid simulation results."WARNING (OCN-6040): The specified directory does not exist, or the directory does not contain valid PSF results.
+\o         Ensure that the path to the directory is correct and the directory has a logFile and PSF result files.
+\a hiCloseWindow(swindow(3))
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(17) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(17) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(17) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* GetPropBag: Bad Library ID.
+\o Getting schematic propert bagLoading cph.cxt 
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\o WARNING (OCN-6040): The specified directory does not exist, or the directory does not contain valid PSF results.
+\o         Ensure that the path to the directory is correct and the directory has a logFile and PSF result files.
+\e Expression evaluation failed: val is not legal.
+\e Expression evaluation failed: val is not legal.
+\o "Data directory must point to valid simulation results."WARNING (OCN-6036): The results directory has not been specified as yet.
+\o         Specify the results directory using the openResults command, or refer to ocnHelp('openResults).
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\o WARNING (OCN-6040): The specified directory does not exist, or the directory does not contain valid PSF results.
+\o         Ensure that the path to the directory is correct and the directory has a logFile and PSF result files.
+\e Expression evaluation failed: val is not legal.
+\e Expression evaluation failed: val is not legal.
+\o "Data directory must point to valid simulation results."WARNING (OCN-6036): The results directory has not been specified as yet.
+\o         Specify the results directory using the openResults command, or refer to ocnHelp('openResults).
+\a hiResizeWindow(window(1) list(598:25 1323:410))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:479))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:643))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:818))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:979))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:1141))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:1145))
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i -1.625:-3.125
+\r window:2
+\a showClickInfo()
+\i 2.5625:-2.8125
+\o 
+\o wire drawing -> net: "gnd!" bounding box: (2.38,-2.81) (2.69,-2.81)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.375:-2.8125
+\r t
+\a mouseAddPt()
+\i 2.6875:-2.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:43:08 2015
+\o End netlisting Feb 16 09:43:08 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          1.0s (15.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.756113e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.4375:-2.0625
+\r window:2
+\a geSubSelectPoint()
+\p > 
+\a mouseAddPt()
+\i 2.375:-1.75
+\r t
+\r nil
+\a showClickInfo()
+\i 2.375:-1.9375
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.38,-2.00) (2.38,-1.25)
+\r window:2
+\a showClickInfo()
+\i 2.375:-1.75
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.38,-2.00) (2.38,-1.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.5:-2.0625
+\r window:2
+\a schHiDelete()
+\p > 
+\a mouseAddPt()
+\i 2.5:-2
+\r t
+\a deletePoint()
+\r t
+\a schHiCopy()
+\r t
+\a geSingleSelectBox()
+\i 2.25:-2.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.6875:-3.1875
+\r t
+\r t
+\a mouseAddPt()
+\i 2.375:-2.875
+\r t
+\a mouseAddPt()
+\i 2.375:-2.0625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:44:06 2015
+\o End netlisting Feb 16 09:44:06 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.230705e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.375:-1
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.38,-1.25) (2.38,-0.50)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.5:-1.25
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.38,-1.25) (2.69,-1.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i 2.25:-1.8125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.6875:-2.375
+\r t
+\r t
+\a mouseAddPt()
+\i 2.4375:-2
+\r t
+\a mouseAddPt()
+\i 2.4375:-1.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:45:00 2015
+\o End netlisting Feb 16 09:45:00 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("3.697628e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.497030e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.4375:-1.3125
+\o 
+\o gnd (instance "I31", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.5:-1.25
+\o 
+\o wire drawing -> net: "gnd!" bounding box: (2.38,-1.25) (2.69,-1.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.3125:-0.5
+\r t
+\a mouseAddPt()
+\i 2.6875:-1.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevChangeOutsOnSchematic('sevSession4 'plot)
+\o Extracting "tutorial3 schematic"
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-0.8125
+\i 2.3125:-0.75
+\r window:2
+\a showClickInfo()
+\i 2.25:-0.5
+\i 2.25:-0.5
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (1.81,-0.50) (2.31,-0.50)
+\r window:2
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:50:40 2015
+\o End netlisting Feb 16 09:50:41 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          1.0s (15.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("5.258720e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.375:-2.1875
+\o 
+\o gnd (instance "I30", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.3125:-1.25
+\r t
+\a mouseAddPt()
+\i 2.375:-2
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i 0.75:-2.1875
+\r window:2
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:51:42 2015
+\o End netlisting Feb 16 09:51:42 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("6.042536e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.375:-2.9375
+\o 
+\o gnd (instance "I29", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.3125:-2
+\r t
+\a mouseAddPt()
+\i 2.375:-2.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 09:52:18 2015
+\o End netlisting Feb 16 09:52:19 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          1.0s (15.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("6.801767e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\i ddsServOpen("MYLIB" "aoi21_1x" "schematic" "edit" nil)
+\a hiResizeWindow(swindow(4) list(213:153 1113:853))
+\r t
+\a hiResizeWindow(swindow(4) list(213:153 1113:853))
+\r t
+\a hiResizeWindow(swindow(4) list(257:157 1157:857))
+\r t
+\a hiResizeWindow(swindow(4) list(264:157 1164:857))
+\r t
+\a hiResizeWindow(swindow(4) list(287:159 1187:859))
+\r t
+\a hiResizeWindow(swindow(4) list(312:162 1212:862))
+\r t
+\a hiResizeWindow(swindow(4) list(337:165 1237:865))
+\r t
+\a hiResizeWindow(swindow(4) list(362:170 1262:870))
+\r t
+\a hiResizeWindow(swindow(4) list(387:175 1287:875))
+\r t
+\a hiResizeWindow(swindow(4) list(402:180 1302:880))
+\r t
+\a hiResizeWindow(swindow(4) list(427:187 1327:887))
+\r t
+\a hiResizeWindow(swindow(4) list(452:194 1352:894))
+\r t
+\a hiResizeWindow(swindow(4) list(473:201 1373:901))
+\r t
+\a hiResizeWindow(swindow(4) list(494:208 1394:908))
+\r t
+\a hiResizeWindow(swindow(4) list(507:213 1407:913))
+\r t
+\a hiResizeWindow(swindow(4) list(520:218 1420:918))
+\r t
+\a hiResizeWindow(swindow(4) list(531:223 1431:923))
+\r t
+\a hiResizeWindow(swindow(4) list(536:225 1436:925))
+\r t
+\a hiResizeWindow(swindow(4) list(540:227 1440:927))
+\r t
+\a hiResizeWindow(swindow(4) list(541:228 1441:928))
+\r t
+\a hiResizeWindow(swindow(4) list(544:230 1444:930))
+\r t
+\a hiResizeWindow(swindow(4) list(545:231 1445:931))
+\r t
+\a hiResizeWindow(swindow(4) list(546:232 1446:932))
+\r t
+\a hiResizeWindow(swindow(4) list(547:233 1447:933))
+\r t
+\a hiResizeWindow(swindow(4) list(548:233 1448:933))
+\r t
+\a hiResizeWindow(swindow(4) list(549:234 1449:934))
+\r t
+\a hiResizeWindow(swindow(4) list(551:235 1451:935))
+\r t
+\a hiResizeWindow(swindow(4) list(555:235 1455:935))
+\r t
+\a hiResizeWindow(swindow(4) list(558:237 1458:937))
+\r t
+\a hiResizeWindow(swindow(4) list(562:238 1462:938))
+\r t
+\a hiResizeWindow(swindow(4) list(568:238 1468:938))
+\r t
+\a hiResizeWindow(swindow(4) list(573:240 1473:940))
+\r t
+\a hiResizeWindow(swindow(4) list(580:241 1480:941))
+\r t
+\a hiResizeWindow(swindow(4) list(585:243 1485:943))
+\r t
+\a hiResizeWindow(swindow(4) list(589:244 1489:944))
+\r t
+\a hiResizeWindow(swindow(4) list(593:244 1493:944))
+\r t
+\a hiResizeWindow(swindow(4) list(597:245 1497:945))
+\r t
+\a hiResizeWindow(swindow(4) list(601:246 1501:946))
+\r t
+\a hiResizeWindow(swindow(4) list(606:246 1506:946))
+\r t
+\a hiResizeWindow(swindow(4) list(613:248 1513:948))
+\r t
+\a hiResizeWindow(swindow(4) list(620:249 1520:949))
+\r t
+\a hiResizeWindow(swindow(4) list(628:251 1528:951))
+\r t
+\a hiResizeWindow(swindow(4) list(634:253 1534:953))
+\r t
+\a hiResizeWindow(swindow(4) list(638:254 1538:954))
+\r t
+\a hiResizeWindow(swindow(4) list(644:257 1544:957))
+\r t
+\a hiResizeWindow(swindow(4) list(648:258 1548:958))
+\r t
+\a hiResizeWindow(swindow(4) list(650:259 1550:959))
+\r t
+\a hiResizeWindow(swindow(4) list(651:260 1551:960))
+\r t
+\a hiResizeWindow(swindow(4) list(652:261 1552:961))
+\r t
+\i ddsServOpen("MYLIB" "inv_1x" "schematic" "edit" nil)
+\a hiCloseWindow(swindow(5))
+\r Getting schematic propert bagt
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 0.5625:-1.375
+\r window:2
+\a geSubSelectPoint()
+\p > 
+\a mouseAddPt()
+\i -0.3125:-0.25
+\r t
+\r nil
+\a showClickInfo()
+\i -0.3125:-0.25
+\o 
+\o wire drawing -> net: "INPUT" bounding box: (-1.00,-0.25) (0.00,-0.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i -0.375:-0.5
+\o 
+\o wire drawing -> net: "5V" bounding box: (-0.69,-0.50) (0.00,-0.50)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -0.6875:-0.5
+\r t
+\a mouseAddPt()
+\i 0:-0.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -1:-0.25
+\r t
+\a mouseAddPt()
+\i 0:-0.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWireLabel()
+\p > 
+\a hiiSetCurrentForm('schCreateWireLabelForm)
+\r t
+\a schCreateWireLabelForm->tabField->page1->label->value="INPUT"
+\r "INPUT"
+\a mouseAddPt()
+\i -0.4375:-0.5
+\r t
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a mouseAddPt()
+\i 0.5625:-1.1875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:08:28 2015
+\o End netlisting Feb 16 10:08:29 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          1.0s (15.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\a hiResizeWindow(window(12) list(62:551 754:967))
+\r t
+\r t
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a calSetBuffer("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )")
+\r nil
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("5.508988e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\i ddsServOpen("MYLIB" "aoi21_1x" "schematic" "edit" nil)
+\a hiCloseWindow(swindow(6))
+\r Getting schematic propert bagt
+\a hiResizeWindow(window(12) list(64:551 756:967))
+\r t
+\a hiResizeWindow(window(12) list(68:551 760:967))
+\r t
+\a hiResizeWindow(window(12) list(73:551 765:967))
+\r t
+\a hiResizeWindow(window(12) list(84:551 776:967))
+\r t
+\a hiResizeWindow(window(12) list(99:549 791:965))
+\r t
+\a hiResizeWindow(window(12) list(120:547 812:963))
+\r t
+\a hiResizeWindow(window(12) list(139:545 831:961))
+\r t
+\a hiResizeWindow(window(12) list(158:545 850:961))
+\r t
+\a hiResizeWindow(window(12) list(187:545 879:961))
+\r t
+\a hiResizeWindow(window(12) list(216:543 908:959))
+\r t
+\a hiResizeWindow(window(12) list(247:541 939:957))
+\r t
+\a hiResizeWindow(window(12) list(278:538 970:954))
+\r t
+\a hiResizeWindow(window(12) list(309:538 1001:954))
+\r t
+\a hiResizeWindow(window(12) list(338:535 1030:951))
+\r t
+\a hiResizeWindow(window(12) list(349:535 1041:951))
+\r t
+\a hiResizeWindow(window(12) list(376:535 1068:951))
+\r t
+\a hiResizeWindow(window(12) list(401:535 1093:951))
+\r t
+\a hiResizeWindow(window(12) list(426:535 1118:951))
+\r t
+\a hiResizeWindow(window(12) list(449:535 1141:951))
+\r t
+\a hiResizeWindow(window(12) list(470:535 1162:951))
+\r t
+\a hiResizeWindow(window(12) list(487:535 1179:951))
+\r t
+\a hiResizeWindow(window(12) list(498:535 1190:951))
+\r t
+\a hiResizeWindow(window(12) list(509:535 1201:951))
+\r t
+\a hiResizeWindow(window(12) list(516:535 1208:951))
+\r t
+\a hiResizeWindow(window(12) list(517:535 1209:951))
+\r t
+\a hiResizeWindow(window(12) list(518:535 1210:951))
+\r t
+\a hiResizeWindow(window(12) list(519:535 1211:951))
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevChangeOutsOnSchematic('sevSession4 'plot)
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:10:03 2015
+\o End netlisting Feb 16 10:10:03 2015
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\r t
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiCloseWindow(swindow(4))
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(12) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(12) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* (GE-2067): There is no graphical edit environment assigned to window(12) because the window is not a graphic editor window.
+\w Make sure that your current window is a valid graphic editor window.
+\w If it is a valid graph editor window, contact customer service to investigate this issue.
+\w *WARNING* GetPropBag: Bad Library ID.
+\r Getting schematic propert bagt
+\a hiSetCurrentWindow(window(17))
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-2.5
+\i 2.3125:-2.5
+\r window:2
+\a showClickInfo()
+\i 2.5:-2.8125
+\i 2.5:-2.8125
+\r window:2
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a showClickInfo()
+\i 2.5625:-2.875
+\r window:2
+\a schHiDelete()
+\p > 
+\a mouseAddPt()
+\i 2.5:-2.8125
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.6875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i -2.8125:-2.5
+\r t
+\a mouseAddPt()
+\i 2.375:-3
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.3125:-2.8125
+\r t
+\a mouseAddPt()
+\i 2.6875:-2.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i 2.3125:-1.75
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-2.00) (2.31,-1.25)
+\r window:2
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:11:32 2015
+\o ERROR (OSSHNL-109): The cell view, 'MYLIB/tutorial3/schematic', has been modified since the last extraction. 
+\o Re-extract the design (File->Check and Save menu option) for schematic cell 
+\o views to correct this error.
+\o  
+\o End netlisting Feb 16 10:11:32 2015
+\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
+\o  or may not be produced at all.
+\o To generate correct netlist, fix the errors and re-netlist.
+\o       ...unsuccessful.
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 0.4375:-3.125
+\r window:2
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevTableSelectRows(sevWindowForm4->outListBox 1)
+\r t
+\a sevChangeOutsOnSchematic('sevSession4 'plot)
+\r t
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-0.9375
+\i 2.3125:-0.9375
+\r window:2
+\a showClickInfo()
+\i 2.3125:-0.875
+\i 2.3125:-0.8125
+\r window:2
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:12:14 2015
+\o End netlisting Feb 16 10:12:14 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("5.010949e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-2.25
+\r window:2
+\a geSubSelectPoint()
+\p > 
+\a mouseAddPt()
+\i 2.5:-2
+\r t
+\r nil
+\a showClickInfo()
+\i 2.3125:-1.875
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-2.00) (2.31,-1.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.5:-2
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-2.00) (2.69,-2.00)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i 2.125:-2.625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.75:-3.1875
+\r t
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.9375
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i 1.1875:-3.3125
+\r window:2
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:13:38 2015
+\o End netlisting Feb 16 10:13:38 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.489855e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-1.5
+\r window:2
+\a showClickInfo()
+\i 2.4375:-1.25
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-1.25) (2.69,-1.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.3125:-1.125
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-1.25) (2.31,-0.50)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i 1.9375:-1.8125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.75:-2.375
+\r t
+\r t
+\a mouseAddPt()
+\i 2.375:-2.0625
+\r t
+\a mouseAddPt()
+\i 2.375:-1.3125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:14:15 2015
+\o End netlisting Feb 16 10:14:15 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("3.954674e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a calSetBuffer("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )")
+\r nil
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("3.991904e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-1.375
+\o 
+\o gnd (instance "I34", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.3125:-0.5
+\r t
+\a mouseAddPt()
+\i 2.3125:-1.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:15:58 2015
+\o End netlisting Feb 16 10:15:58 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.785345e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-2.125
+\o 
+\o gnd (instance "I33", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.3125:-1.25
+\r t
+\a mouseAddPt()
+\i 2.3125:-2
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:16:29 2015
+\o End netlisting Feb 16 10:16:29 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("5.556489e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-2.9375
+\o 
+\o gnd (instance "I32", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.3125:-2
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i 2.3125:-3
+\r t
+\a mouseAddPt()
+\i 1.5625:-3.4375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i 2.3125:-2.9375
+\o 
+\o gnd (instance "I32", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 2.3125:-2
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:17:18 2015
+\o End netlisting Feb 16 10:17:18 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("6.361537e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i -0.3125:-0.5
+\o 
+\o wire drawing -> net: "INPUT" bounding box: (-0.88,-0.50) (0.00,-0.50)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i -0.875:-0.375
+\o 
+\o wire drawing -> net: "INPUT" bounding box: (-0.88,-0.50) (-0.88,-0.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i -0.375:-0.25
+\o 
+\o wire drawing -> net: "5V" bounding box: (-0.69,-0.25) (0.00,-0.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i -0.6875:-0.625
+\o 
+\o wire drawing -> net: "5V" bounding box: (-0.69,-1.69) (-0.69,-0.25)
+\r window:2
+\a showClickInfo()
+\i -0.1875:-0.625
+\o 
+\o wire drawing -> net: "gnd!" bounding box: (-0.31,-0.62) (0.00,-0.62)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i -0.3125:-1.625
+\o 
+\o wire drawing -> net: "gnd!" bounding box: (-0.31,-2.31) (-0.31,-0.62)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -0.6875:-0.25
+\r t
+\a mouseAddPt()
+\i 0:-0.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i -0.4375:-2.3125
+\o 
+\o wire drawing -> net: "gnd!" bounding box: (-2.88,-2.31) (-0.31,-2.31)
+\r window:2
+\a schDirectEdit(1)
+\i -0.375:-2.3125
+\i -0.375:-2.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.375:-2.3125
+\r t
+\r nil
+\a showClickInfo()
+\i -0.4375:-2.3125
+\o 
+\o wire drawing -> net: "gnd!" bounding box: (-2.88,-2.31) (-0.31,-2.31)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -2.875:-2.3125
+\r t
+\a mouseAddPt()
+\i -0.5:-2.3125
+\r t
+\a mouseAddPt()
+\i -0.5:-0.5
+\r t
+\a mouseAddPt()
+\i 0:-0.5
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -0.875:-0.25
+\r t
+\a mouseAddPt()
+\i -0.875:-0.625
+\r t
+\a mouseAddPt()
+\i 0:-0.625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWireLabel()
+\p > 
+\a schCreateWireLabelForm->tabField->page1->label->value="INPUT"
+\r "INPUT"
+\a mouseAddPt()
+\i -0.25:-0.625
+\r t
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:19:27 2015
+\o End netlisting Feb 16 10:19:28 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          1.0s (15.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\r nil
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.907475e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a calSetBuffer("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )")
+\r nil
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("5.536697e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.3125:-2.5625
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-2.81) (2.31,-2.00)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.4375:-2.8125
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-2.81) (2.69,-2.81)
+\r window:2
+\a schHiDelete()
+\r t
+\a hiUndo()
+\r t
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 1.5625:-3.3125
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a geSubSelectPoint()
+\p > 
+\a mouseAddPt()
+\i 2.5:-2.8125
+\r t
+\r nil
+\a schHiDelete()
+\p > 
+\a mouseAddPt()
+\i 2.5:-2.8125
+\r t
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.8125
+\r t
+\a mouseAddPt()
+\i 2.6875:-2.8125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:20:44 2015
+\o End netlisting Feb 16 10:20:44 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.904649e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.141090e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.4375:-2
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-2.00) (2.69,-2.00)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.3125:-1.6875
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-2.00) (2.31,-1.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i 2.25:-2.5625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.6875:-3.1875
+\r t
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.9375
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:21:26 2015
+\o End netlisting Feb 16 10:21:27 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          1.0s (15.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("3.385060e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a calSetBuffer("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )")
+\r nil
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("4.235988e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 2.5:-1.1875
+\r window:2
+\a showClickInfo()
+\i 2.5:-1.25
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-1.25) (2.69,-1.25)
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.3125:-1.125
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (2.31,-1.25) (2.31,-0.50)
+\r window:2
+\a schHiDelete()
+\r t
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i 2.1875:-1.75
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.6875:-2.4375
+\r t
+\r t
+\a mouseAddPt()
+\i 2.3125:-2.0625
+\r t
+\a mouseAddPt()
+\i 2.3125:-1.3125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "tutorial3 schematic"
+\o Schematic check completed with no errors.
+\o "MYLIB tutorial3 schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevNetlistAndRun('sevSession4)
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/tutorial3/spectre/config/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Feb 16 10:22:10 2015
+\o End netlisting Feb 16 10:22:10 2015
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\r t
+\o simulate...
+\o simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\a hiSetCurrentWindow(window(17))
+\r t
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("3.554987e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"rising\" VT(\"/OUTPUT\") 2.5 1 \"falling\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a calSetBuffer("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )")
+\r nil
+\a awvPlotSimpleExpression("delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )" ?plotStyle "Append" ?graphType "Rectangular" ?graphModifier "Magnitude")
+\r t
+\a calSetBuffer("2.634778e-10")
+\r "delay(VT(\"/INPUT\") 2.5 1 \"falling\" VT(\"/OUTPUT\") 2.5 1 \"rising\" 0 0 nil nil  )"nilnil
+\i hiCaughtControlC
+\a hiSetCurrentWindow(window(2))
+\r t
+\a showClickInfo()
+\i 0.375:-2.0625
+\r window:2
+\a hiSetCurrentWindow(window(17))
+\r t
+\i ddsServOpen("MYLIB" "aoi21_1x" "schematic" "edit" nil)
+\a hiResizeWindow(swindow(7) list(133:151 1033:851))
+\r t
+\a hiResizeWindow(swindow(7) list(137:151 1037:851))
+\r t
+\a hiResizeWindow(swindow(7) list(145:151 1045:851))
+\r t
+\a hiResizeWindow(swindow(7) list(157:151 1057:851))
+\r t
+\a hiResizeWindow(swindow(7) list(174:151 1074:851))
+\r t
+\a hiResizeWindow(swindow(7) list(199:151 1099:851))
+\r t
+\a hiResizeWindow(swindow(7) list(212:153 1112:853))
+\r t
+\a hiResizeWindow(swindow(7) list(221:153 1121:853))
+\r t
+\a hiResizeWindow(swindow(7) list(239:155 1139:855))
+\r t
+\a hiResizeWindow(swindow(7) list(262:157 1162:857))
+\r t
+\a hiResizeWindow(swindow(7) list(283:159 1183:859))
+\r t
+\a hiResizeWindow(swindow(7) list(304:162 1204:862))
+\r t
+\a hiResizeWindow(swindow(7) list(325:164 1225:864))
+\r t
+\a hiResizeWindow(swindow(7) list(346:166 1246:866))
+\r t
+\a hiResizeWindow(swindow(7) list(359:169 1259:869))
+\r t
+\a hiResizeWindow(swindow(7) list(376:169 1276:869))
+\r t
+\a hiResizeWindow(swindow(7) list(395:171 1295:871))
+\r t
+\a hiResizeWindow(swindow(7) list(406:174 1306:874))
+\r t
+\a hiResizeWindow(swindow(7) list(408:174 1308:874))
+\r t
+\a hiResizeWindow(swindow(7) list(425:176 1325:876))
+\r t
+\a hiResizeWindow(swindow(7) list(444:179 1344:879))
+\r t
+\a hiResizeWindow(swindow(7) list(463:181 1363:881))
+\r t
+\a hiResizeWindow(swindow(7) list(478:183 1378:883))
+\r t
+\a hiResizeWindow(swindow(7) list(497:186 1397:886))
+\r t
+\a hiResizeWindow(swindow(7) list(508:188 1408:888))
+\r t
+\a hiResizeWindow(swindow(7) list(519:193 1419:893))
+\r t
+\a hiResizeWindow(swindow(7) list(532:198 1432:898))
+\r t
+\a hiResizeWindow(swindow(7) list(543:203 1443:903))
+\r t
+\a hiResizeWindow(swindow(7) list(554:208 1454:908))
+\r t
+\a hiResizeWindow(swindow(7) list(563:213 1463:913))
+\r t
+\a hiResizeWindow(swindow(7) list(568:215 1468:915))
+\r t
+\a hiResizeWindow(swindow(7) list(569:215 1469:915))
+\r t
+\a hiResizeWindow(swindow(7) list(570:216 1470:916))
+\r t
+\a hiResizeWindow(swindow(7) list(571:217 1471:917))
+\r t
+\a hiResizeWindow(swindow(7) list(571:218 1471:918))
+\r t
+\a hiResizeWindow(swindow(7) list(571:219 1471:919))
+\r t
+\a hiResizeWindow(swindow(7) list(571:220 1471:920))
+\r t
+\a hiResizeWindow(swindow(7) list(571:221 1471:921))
+\r t
+\a hiResizeWindow(swindow(7) list(571:222 1471:922))
+\r t
+\a hiResizeWindow(swindow(7) list(571:223 1471:923))
+\r t
+\a hiResizeWindow(swindow(7) list(570:224 1470:924))
+\r t
+\a hiQuit()
+\p > 
+\a hiDBoxOK(hiQuitDBox)
+\r Getting schematic propert bagt
+\p > 
+\a hiDBoxOK(sevblockingDialogBox)
+\p > 
+\a hiiSetCurrentForm('sevSaveForm4)
+\r t
+\a hiFormDone(sevSaveForm4)
+\o Loading adpServer.cxt 
+\w *WARNING* Form 'sevLoadForm4', field 'stateSaveDir': corrupt activeUT list
+\w *WARNING* Form 'sevLoadForm4', field 'lib': corrupt activeUT list
+\w *WARNING* Form 'sevLoadForm4', field 'cell': corrupt activeUT list
+\w *WARNING* Form 'sevLoadForm4', field 'simulator': corrupt activeUT list
+\w *WARNING* Form 'sevLoadForm4', field 'simulator': corrupt activeUT list
+\w *WARNING* Form 'sevLoadForm4', field 'name': corrupt activeUT list
+\w *WARNING* Form 'sevLoadForm4', field 'name': corrupt activeUT list
+\w *WARNING* Form 'sevLoadForm4', field 'components': corrupt activeUT list
+\r t
+\r t
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
+\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for ADE XL to run ADE L
+\o 

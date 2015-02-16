@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"+1n" "BYU_LIB_pmos4_spectre"
+"+0n" "BYU_LIB_nmos4_spectre"
+"Av" ":1v"
+"Yv" ":2v"

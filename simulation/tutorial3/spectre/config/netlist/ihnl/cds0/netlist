@@ -1,0 +1,6 @@
+    \+1 (Y A vdd! vdd!) ami12P w=1.2e-05 l=1.2e-06 as=4.32e-11 ad=3.96e-11 \
+        ps=1.92e-05 pd=1.86e-05 m=1 region=sat
+    \+0 (Y A 0 0) ami12N w=6e-06 l=1.2e-06 as=1.98e-11 ad=1.98e-11 \
+        ps=1.26e-05 pd=1.26e-05 m=1 region=sat
+ends inv_1x
+// End of subcircuit definition.

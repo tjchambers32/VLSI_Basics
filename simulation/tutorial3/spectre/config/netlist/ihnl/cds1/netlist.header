@@ -1,0 +1,6 @@
+
+// Library name: MYLIB
+// Cell name: aoi21_1x
+// View name: analog_extracted
+// Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+subckt aoi21_1x A B C Y

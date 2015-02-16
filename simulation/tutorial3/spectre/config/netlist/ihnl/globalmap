@@ -1,0 +1,12 @@
+CADENCE IHNL01070
+$model
+MYLIB/aoi21_1x/analog_extracted MYLIB/aoi21_1x/analog_extracted/spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl/MYLIB_tutorial3_config/0 aoi21_1x
+MYLIB/inv_1x/analog_extracted MYLIB/inv_1x/analog_extracted/spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl/MYLIB_tutorial3_config/0 inv_1x
+MYLIB/tutorial3/schematic MYLIB/tutorial3/schematic/spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl/MYLIB_tutorial3_config/1 tutorial3
+$endmodel
+$net
+vdd! vdd!
+gnd! 0
+$endnet
+$param
+$endparam

@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"vdd!v" "vdd!v"
+"gnd!v" "0v"
+"I20n I19n I14n I13n I12n I11n I6n I5n I4n I3n I2n I0n" "inv_1x"
+"I1n" "aoi21_1x"
+"V0n" "NCSU_Analog_Parts_vpulse_spectre"
+"V1n" "NCSU_Analog_Parts_vdc_spectre"

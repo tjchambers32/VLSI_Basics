@@ -1,0 +1,241 @@
+/**********************************************
+
+File:        divaLVS.rul    
+
+Description: Procedures for Diva 4.4  
+             used for design library
+
+Date:        3/15/96
+
+Author:      Kathy Jones 
+             (with lots of help from Sue Beaufore)
+
+**********************************************/
+
+;******* LVS Procedure ***********
+
+lvsRules(
+
+; Combine parallel capacitors
+    procedure( parallelCAP( c1Plist, c2Plist )
+        prog( (parPlist )
+        parPlist = ncons( nil )
+        if( c1Plist->c != nil && c2Plist->c != nil then
+            parPlist->c = ( c1Plist->c + c2Plist->c )
+        )
+        return( parPlist )
+        ) ; end prog
+    ) ; end parallelCAP
+ 
+; Combine series capacitors
+    procedure( seriesCAP( c1Plist, c2Plist )
+        prog( (serPlist )
+        serPlist = ncons( nil )
+        if( c1Plist->c != nil && c2Plist->c != nil then
+            serPlist->c = ( c1Plist->c + c2Plist->c )
+        )
+        return( serPlist )
+        ) ; end prog
+    ) ; end seriesCAP
+ 
+; Compare capacitor properties
+    procedure( compareCAP( layCAP, schCAP )
+        prog( ()
+        diffC = 0.0
+        errC=nil
+        tol=0.01
+ 
+        if( layCAP->c == nil
+            sprintf( layC, "Lay C missing")
+          )
+        if( layCAP->c != nil
+            sprintf( layC, "Lay C=%g ", float( layCAP->c ))
+          )
+        if( schCAP->c == nil
+            sprintf( schC, "Sch C missing")
+          )
+        if( schCAP->c != nil
+            sprintf( schC, "Sch C=%g ", float( schCAP->c ))
+          )
+        if( layCAP->c == nil || schCAP->c == nil then
+            sprintf(errC, "%s %s" schC layC )
+            diffC = 1.0
+          )
+ 
+        if( layCAP->c != nil && schCAP->c != nil then
+            diffC =  abs( layCAP->c - schCAP->c )
+            if( diffC > tol * schCAP->c then
+                sprintf( errC,
+                    "Capacitor size error: Sch = %g , Lay = %g",
+                   float( schCAP->c ), float( layCAP->c ) )
+            )
+
+        return( errC )
+        )
+        ) ; end prog
+    ) ; end compareCAP
+ 
+; Combine resistance on parallel resistors
+    procedure( parallelRES( r1Plist, r2Plist )
+        prog( (parPlist )
+        parPlist = ncons( nil )
+        if( r1Plist->r != nil && r2Plist->r != nil then
+            parPlist->r =
+                ( r1Plist->r * r2Plist->r ) / ( r1Plist->r + r2Plist->r )
+        )
+        return( parPlist )
+        ) ; end prog
+    ) ; end parallelRES
+ 
+
+; Combine resistance on series resistors
+    procedure( seriesRES( r1Plist, r2Plist )
+        prog( (serPlist)
+        serPlist = ncons( nil )
+        if( r1Plist->r != nil && r2Plist->r != nil then
+            serPlist->r = ( r1Plist->r + r2Plist->r)
+        )
+            return( serPlist )
+        ) ; end prog
+    ) ; end seriesRES
+ 
+; Compare resistor properties
+    procedure( compareRES( layRes, schRes )
+        prog( ()
+        diffR = 0.0
+        tol=0.05
+        errR=nil
+ 
+        if( layRes->r == nil
+            sprintf( layR, "Lay R missing")
+          )
+        if( layRes->r != nil
+            sprintf( layR, "Lay R=%g ", float( layRes->r ))
+          )
+        if( schRes->r == nil
+            sprintf( schR, "Sch R missing")
+          )
+        if( schRes->r != nil
+            sprintf( schR, "Sch R=%g ", float( schRes->r ))
+          )
+        if( layRes->r == nil || schRes->r == nil then
+            sprintf(errR, "%s %s" schR layR )
+            diffR = 1.0
+          )
+        if( layRes->r != nil && schRes->r != nil then
+            diffR = abs( layRes->r - schRes->r )
+            if( diffR > tol * schRes->r then
+                sprintf( errR,
+                   "Resistor size error: Sch = %g , Lay =  %g ",
+                   float( schRes->r ), float( layRes->r ) )
+               )
+          )
+ 
+        return( errR )
+        ) ; end prog
+    ) ; end compareRES
+
+; Combine parallel MOS properties
+    procedure( parallelMOS( m1Plist, m2Plist )
+        prog( ( parMos )
+        parMos = ncons( nil )
+        if( m1Plist->l != nil && m2Plist->l != nil then
+            parMos->l = ( m1Plist->l + m2Plist->l ) / 2.0
+        )
+        if( m1Plist->w != nil && m2Plist->w != nil then
+            parMos->w = m1Plist->w + m2Plist->w
+        )
+        return( parMos )
+        )
+    )
+
+ 
+; Compare MOS device properties
+    procedure( compareMOS( layPlist, schPlist )
+        prog( (tol diffL diffW)
+        tol = 0.2e-6
+        diffL = 0.0
+        diffW = 0.0
+        sprintf( errorL, "Gate length: Sch=%g  Lay=%g ",
+                 float( schPlist->l ), float( layPlist->l ) )
+        sprintf( errorW, "Gate width: Sch=%g  Lay=%g ",
+                 float( schPlist->w ), float( layPlist->w ) )
+ 
+        if( layPlist->w == nil then
+            sprintf( layW, "Lay W missing")
+          )
+        if( layPlist->w != nil then
+            sprintf( layW, "Lay W=%g ", float( layPlist->w ))
+          )
+ 
+        if( schPlist->w == nil then
+            sprintf( schW, "Sch W missing")
+          )
+        if( schPlist->w != nil then
+            sprintf( schW, "Sch W=%g " , float( schPlist->w ) )
+          )
+ 
+        if( layPlist->w == nil || schPlist->w == nil then
+            diffW = 1.0
+            sprintf(errorW, "%s %s" schW layW )
+            )
+ 
+        if( layPlist->w != nil && schPlist->w != nil then
+            diffW =  abs( layPlist->w - schPlist->w )
+            if( diffW > tol then
+                sprintf( errorW, "Gate width error: Sch=%g  Lay=%g",
+                        float( schPlist->w ), float( layPlist->w ) )
+                )
+            )
+ 
+        if( layPlist->l != nil then
+            sprintf( layL, "Lay L=%g ", float( layPlist->l ))
+          )
+        if( schPlist->l != nil then
+            sprintf( schL, "Sch L=%g ", float( schPlist->l ))
+          )
+ 
+        if( layPlist->l == nil then
+            sprintf( layL, "Lay L missing ")
+          )
+        if( schPlist->l == nil then
+            sprintf( schL, "Sch L missing ")
+          )
+ 
+        if( layPlist->l == nil || schPlist->l == nil then
+            diffL = 1.0
+            sprintf(errorL, "%s %s" schL layL )
+            )
+ 
+        if( layPlist->l != nil && schPlist->l != nil then
+            diffL =  abs( layPlist->l - schPlist->l )
+            if( diffL > tol then
+                sprintf( errorL, "Gate length error: Sch=%g  Lay=%g ",
+                    float( schPlist->l ), float( layPlist->l ) )
+                )
+            )
+ 
+        if( diffW > tol || diffL > tol then
+            sprintf( msg, "%s , %s", errorW, errorL )
+            return( msg )
+          )
+        return( nil )
+        ) ; end prog
+     ) ; end compareMOS
+
+    permuteDevice( parallel "nmos" parallelMOS )
+    permuteDevice( parallel "pmos" parallelMOS )
+ 
+    compareDeviceProperty( "nmos" compareMOS )
+    compareDeviceProperty( "pmos" compareMOS )
+ 
+    permuteDevice( parallel "res" parallelRES )
+    permuteDevice( series "res" seriesRES )
+    compareDeviceProperty( "res" compareRES )
+ 
+    pruneDevice( general "cap" )
+    permuteDevice( parallel "cap" parallelCAP )
+    permuteDevice( series "cap" seriesCAP )
+    compareDeviceProperty( "cap" compareCAP )
+
+) ; end lvsRules

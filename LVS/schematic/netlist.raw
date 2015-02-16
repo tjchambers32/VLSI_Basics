@@ -1,0 +1,50 @@
+t 8 A input
+t 11 B input
+t 6 C input
+t 3 OUT output
+
+n 1 vdd!
+n 0 gnd!
+n 3 /OUT
+n 4 /net020
+n 5 /net023
+n 6 /C
+n 7 /net040
+n 8 /A
+n 9 /net043
+n 11 /B
+
+; nmos Instance /M9 = auLvs device Q0
+d nmos D G S B (p D S)
+i 0 nmos 4 11 0 0 " m 1 l 1.2e-6 w 1.8e-6 "
+
+; nmos Instance /M8 = auLvs device Q1
+i 1 nmos 3 6 4 0 " m 1 l 1.2e-6 w 1.8e-6 "
+
+; nmos Instance /M7 = auLvs device Q2
+i 2 nmos 5 6 0 0 " m 1 l 1.2e-6 w 1.8e-6 "
+
+; nmos Instance /M6 = auLvs device Q3
+i 3 nmos 5 11 0 0 " m 1 l 1.2e-6 w 1.8e-6 "
+
+; nmos Instance /M5 = auLvs device Q4
+i 4 nmos 3 8 5 0 " m 1 l 1.2e-6 w 1.8e-6 "
+
+; pmos Instance /M4 = auLvs device Q5
+d pmos D G S B (p D S)
+i 5 pmos 9 6 1 1 " m 1 l 1.2e-6 w 5.4e-6 "
+
+; pmos Instance /M3 = auLvs device Q6
+i 6 pmos 9 11 1 1 " m 1 l 1.2e-6 w 5.4e-6 "
+
+; pmos Instance /M2 = auLvs device Q7
+i 7 pmos 3 6 7 1 " m 1 l 1.2e-6 w 5.4e-6 "
+
+; pmos Instance /M1 = auLvs device Q8
+i 8 pmos 7 11 9 1 " m 1 l 1.2e-6 w 5.4e-6 "
+
+; pmos Instance /M0 = auLvs device Q9
+i 9 pmos 3 8 9 1 " m 1 l 1.2e-6 w 5.4e-6 "
+t 0 gnd! global
+t 1 vdd! global
+
