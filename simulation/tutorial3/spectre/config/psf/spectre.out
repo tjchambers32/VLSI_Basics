@@ -7,13 +7,13 @@ Protected by U.S. Patents: 5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-Simulating `input.scs' on garlic.ee.byu.edu at 10:22:13 AM, Mon Feb 16, 2015.
+Simulating `input.scs' on tarragon.ee.byu.edu at 10:09:35 AM, Fri Feb 20, 2015.
 Command line:
     /ee2/Cadence/MMSIM/tools.lnx86/spectre/bin/32bit/spectre input.scs  \
         +escchars +log ../psf/spectre.out +inter=mpsc  \
-        +mpssession=spectre6_29055_19 -format sst2 -raw ../psf  \
+        +mpssession=spectre1_14128_1 -format sst2 -raw ../psf  \
         +lqtimeout 900 -maxw 5 -maxn 5
-spectre pid = 2865
+spectre pid = 16576
 
 Loading /ee2/Cadence/MMSIM/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
 Loading /ee2/Cadence/MMSIM/tools.lnx86/cmi/lib/5.0/libnortel_sh.so ...
@@ -27,7 +27,7 @@ Circuit inventory:
             bsim3v3 30    
             vsource 2     
 
-Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre6_29055_19, ).
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre1_14128_1, ).
 
 *************************************************
 Transient Analysis `tran': time = (0 s -> 150 ns)
@@ -74,7 +74,7 @@ Important parameter values:
     tran: time = 138.9 ns    (92.6 %), step = 3 ns            (2 %)
     tran: time = 147.9 ns    (98.6 %), step = 3 ns            (2 %)
 Number of accepted tran steps =             346
-Intrinsic tran analysis time =              40 ms.
+Intrinsic tran analysis time =              50 ms.
 Total time required for tran analysis `tran' was 50 ms.
 
 finalTimeOP: writing operating point information to rawfile.
@@ -85,8 +85,8 @@ designParamVals: writing netlist parameters to rawfile.
 primitives: writing primitives to rawfile.
 subckts: writing subcircuits to rawfile.
 
-Aggregate audit (12:34:12 PM, Mon Feb 16, 2015):
-Time used: CPU = 232 ms, elapsed = 7.92 ks (2h 11m 59s), util. = 2.93e-03%.
-Time spent in licensing: elapsed = 10 ms.
+Aggregate audit (10:22:08 AM, Fri Feb 20, 2015):
+Time used: CPU = 198 ms, elapsed = 753 s (12m  33.0s), util. = 26.3e-03%.
+Time spent in licensing: elapsed = 30 ms.
 Virtual memory used = 4.71 Mbytes.
 spectre completes with 0 errors, 0 warnings, and 0 notices.

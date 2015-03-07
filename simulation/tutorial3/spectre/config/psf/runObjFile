@@ -1,9 +1,9 @@
 HEADER
 "PSFversion" "1.00"
 "Run Generator" "drlRun rev. 1.0"
-"Run Time Stamp" "Feb 16 10:22:14 2015"
+"Run Time Stamp" "Feb 20 10:09:37 2015"
 "simulator" "spectre"
-"date" "Feb 16 10:22:14 2015"
+"date" "Feb 20 10:09:37 2015"
 "tranSST2Data" "TRUE"
 "netlistDir" "../netlist"
 TYPE
