@@ -4160,3 +4160,12 @@
 \o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
 \o (deLicense-6) Checked out the license for ADE XL to run ADE L
 \r t
+\a showClickInfo()
+\i 0.875:-3.4375
+\r window:2
+\a hiCloseWindow(swindow(1))
+\p > 
+\a hiDBoxOK(geDBox)
+\r Getting schematic propert bagt
+\o Loading cph.cxt 
+\r t
