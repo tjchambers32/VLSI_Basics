@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: virtuoso version 6.1.3 09/08/2008 02:56 (cic612lnx) $
 \o Hierarchy:		/auto/ee2/Cadence/IC610/tools.lnx86/dfII/
 \o Sub version:		sub-version IC6.1.3.1 (32-bit addresses)
-\o Host name (type):	fennel.ee.byu.edu (x86_64)
+\o Host name (type):	cilantro.ee.byu.edu (x86_64)
 \o Operating system:	Linux 2.6.32-358.11.1.el6.x86_64 #1 SMP Wed May 15 10:48:38 EDT 2013
 \o X display name (WxH):	:0.0 (1920x1200)
 \o Available geometry:			TL(0:25) BR(1919:1174)
@@ -12,8 +12,8 @@
 \o Qt version:		4.2.3
 \o Window Manager:	gnome (metacity)
 \o User Name:		lhsiao
-\o Working Directory:	fennel.ee.byu.edu:/auto/fsg/lhsiao/cadence
-\o Process Id:		16320
+\o Working Directory:	cilantro.ee.byu.edu:/auto/fsg/lhsiao/cadence
+\o Process Id:		12382
 \o 
 \o COPYRIGHT © 1992-2008  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           © 1992-2008  UNIX SYSTEMS Laboratories INC.,
@@ -49,25 +49,13 @@
 \o Done loading NCSU_CDK customizations.
 \p > 
 \o  
-\o Library Manager created library "451_Lab4"; doing technology file query.
-\p > 
-\a hiiSetCurrentForm('ddsTechOptionForm)
-\r t
-\a ddsTechOptionForm->Option->value= "Do not need process information"
-\r "Do not need process information"
-\a hiFormDone(ddsTechOptionForm)
-\i techSetTechLibName(ddGetObj("451_Lab4") "cdsDefTechLib")
-\i techSetTechFileName(ddGetObj("451_Lab4") "techfile.cds")
-\w *WARNING* techSetTechFileName is obsolete.
-\r t
-\o  
-\o Library Manager new cellview request for library "451_Lab4".
-\i deNew('(nil libName "451_Lab4"))
+\o Library Manager new cellview request for library "Lab5".
+\i deNew('(nil libName "Lab5"))
 \p > 
 \a hiiSetCurrentForm('deNewForm)
 \r t
-\a deNewForm->deCellName->value="lab4"
-\r "lab4"
+\a deNewForm->deCellName->value="partovi"
+\r "partovi"
 \a hiFormDone(deNewForm)
 \r t
 \o *WARNING* (icLic-3) Could not get license Virtuoso_Schematic_Editor_L
@@ -80,426 +68,766 @@
 \o Loading le.cxt 
 \o Loading lx.cxt 
 \o Loading lce.cxt 
-\a hiResizeWindow(swindow(1) list(135:150 1035:850))
+\a hiResizeWindow(swindow(1) list(132:150 1032:850))
 \r t
-\a hiResizeWindow(swindow(1) list(137:150 1037:850))
+\a hiResizeWindow(swindow(1) list(134:150 1034:850))
 \r t
-\a hiResizeWindow(swindow(1) list(140:150 1040:850))
+\a hiResizeWindow(swindow(1) list(136:151 1036:851))
 \r t
-\a hiResizeWindow(swindow(1) list(144:150 1044:850))
+\a hiResizeWindow(swindow(1) list(140:151 1040:851))
 \r t
-\a hiResizeWindow(swindow(1) list(149:150 1049:850))
+\a hiResizeWindow(swindow(1) list(147:153 1047:853))
 \r t
-\a hiResizeWindow(swindow(1) list(157:150 1057:850))
+\a hiResizeWindow(swindow(1) list(158:155 1058:855))
 \r t
-\a hiResizeWindow(swindow(1) list(165:150 1065:850))
+\a hiResizeWindow(swindow(1) list(172:155 1072:855))
 \r t
-\a hiResizeWindow(swindow(1) list(178:150 1078:850))
+\a hiResizeWindow(swindow(1) list(186:158 1086:858))
 \r t
-\a hiResizeWindow(swindow(1) list(192:150 1092:850))
+\a hiResizeWindow(swindow(1) list(211:160 1111:860))
 \r t
-\a hiResizeWindow(swindow(1) list(206:150 1106:850))
+\a hiResizeWindow(swindow(1) list(236:162 1136:862))
 \r t
-\a hiResizeWindow(swindow(1) list(220:150 1120:850))
+\a hiResizeWindow(swindow(1) list(265:162 1165:862))
 \r t
-\a hiResizeWindow(swindow(1) list(234:150 1134:850))
+\a hiResizeWindow(swindow(1) list(300:162 1200:862))
 \r t
-\a hiResizeWindow(swindow(1) list(248:150 1148:850))
+\a hiResizeWindow(swindow(1) list(335:164 1235:864))
 \r t
-\a hiResizeWindow(swindow(1) list(271:152 1171:852))
+\a hiResizeWindow(swindow(1) list(370:166 1270:866))
 \r t
-\a hiResizeWindow(swindow(1) list(292:152 1192:852))
+\a hiResizeWindow(swindow(1) list(405:168 1305:868))
 \r t
-\a hiResizeWindow(swindow(1) list(309:152 1209:852))
+\a hiResizeWindow(swindow(1) list(440:170 1340:870))
 \r t
-\a hiResizeWindow(swindow(1) list(338:152 1238:852))
+\a hiResizeWindow(swindow(1) list(475:173 1375:873))
 \r t
-\a hiResizeWindow(swindow(1) list(361:154 1261:854))
+\a hiResizeWindow(swindow(1) list(510:175 1410:875))
 \r t
-\a hiResizeWindow(swindow(1) list(380:157 1280:857))
+\a hiResizeWindow(swindow(1) list(545:177 1445:877))
 \r t
-\a hiResizeWindow(swindow(1) list(399:159 1299:859))
+\a hiResizeWindow(swindow(1) list(580:180 1480:880))
 \r t
-\a hiResizeWindow(swindow(1) list(418:164 1318:864))
+\a hiResizeWindow(swindow(1) list(613:180 1513:880))
 \r t
-\a hiResizeWindow(swindow(1) list(439:169 1339:869))
+\a hiResizeWindow(swindow(1) list(644:182 1544:882))
 \r t
-\a hiResizeWindow(swindow(1) list(460:174 1360:874))
+\a hiResizeWindow(swindow(1) list(671:187 1571:887))
 \r t
-\a hiResizeWindow(swindow(1) list(481:179 1381:879))
+\a hiResizeWindow(swindow(1) list(690:194 1590:894))
 \r t
-\a hiResizeWindow(swindow(1) list(502:186 1402:886))
+\a hiResizeWindow(swindow(1) list(709:201 1609:901))
 \r t
-\a hiResizeWindow(swindow(1) list(523:188 1423:888))
+\a hiResizeWindow(swindow(1) list(726:208 1626:908))
 \r t
-\a hiResizeWindow(swindow(1) list(540:191 1440:891))
+\a hiResizeWindow(swindow(1) list(741:215 1641:915))
 \r t
-\a hiResizeWindow(swindow(1) list(557:194 1457:894))
+\a hiResizeWindow(swindow(1) list(756:222 1656:922))
 \r t
-\a hiResizeWindow(swindow(1) list(574:197 1474:897))
+\a hiResizeWindow(swindow(1) list(767:229 1667:929))
 \r t
-\a hiResizeWindow(swindow(1) list(591:200 1491:900))
+\a hiResizeWindow(swindow(1) list(776:236 1676:936))
 \r t
-\a hiResizeWindow(swindow(1) list(606:203 1506:903))
+\a hiResizeWindow(swindow(1) list(781:243 1681:943))
 \r t
-\a hiResizeWindow(swindow(1) list(617:206 1517:906))
+\a hiResizeWindow(swindow(1) list(786:247 1686:947))
 \r t
-\a hiResizeWindow(swindow(1) list(628:209 1528:909))
+\a hiResizeWindow(swindow(1) list(790:252 1690:952))
 \r t
-\a hiResizeWindow(swindow(1) list(637:214 1537:914))
+\a hiResizeWindow(swindow(1) list(790:256 1690:956))
 \r t
-\a hiResizeWindow(swindow(1) list(642:219 1542:919))
+\a hiResizeWindow(swindow(1) list(792:260 1692:960))
 \r t
-\a hiResizeWindow(swindow(1) list(646:224 1546:924))
+\a hiResizeWindow(swindow(1) list(793:263 1693:963))
 \r t
-\a hiResizeWindow(swindow(1) list(651:229 1551:929))
+\a hiResizeWindow(swindow(1) list(794:266 1694:966))
 \r t
-\a hiResizeWindow(swindow(1) list(655:234 1555:934))
+\a hiResizeWindow(swindow(1) list(795:269 1695:969))
 \r t
-\a hiResizeWindow(swindow(1) list(655:234 1555:934))
+\a hiResizeWindow(swindow(1) list(796:273 1696:973))
 \r t
-\a hiResizeWindow(swindow(1) list(656:235 1556:935))
+\a hiResizeWindow(swindow(1) list(797:278 1697:978))
 \r t
-\a hiResizeWindow(swindow(1) list(658:237 1558:937))
+\a hiResizeWindow(swindow(1) list(799:284 1699:984))
 \r t
-\a hiResizeWindow(swindow(1) list(658:238 1558:938))
+\a hiResizeWindow(swindow(1) list(799:289 1699:989))
 \r t
-\a hiResizeWindow(swindow(1) list(659:239 1559:939))
+\a hiResizeWindow(swindow(1) list(799:294 1699:994))
 \r t
-\a hiResizeWindow(swindow(1) list(660:240 1560:940))
+\a hiResizeWindow(swindow(1) list(799:300 1699:1000))
 \r t
-\a hiResizeWindow(swindow(1) list(661:241 1561:941))
+\a hiResizeWindow(swindow(1) list(799:307 1699:1007))
 \r t
-\a hiResizeWindow(swindow(1) list(661:242 1561:942))
+\a hiResizeWindow(swindow(1) list(799:314 1699:1014))
 \r t
-\a hiResizeWindow(swindow(1) list(661:243 1561:943))
+\a hiResizeWindow(swindow(1) list(797:321 1697:1021))
 \r t
-\a hiResizeWindow(swindow(1) list(661:245 1561:945))
+\a hiResizeWindow(swindow(1) list(797:329 1697:1029))
 \r t
-\a hiResizeWindow(swindow(1) list(661:246 1561:946))
+\a hiResizeWindow(swindow(1) list(795:333 1695:1033))
 \r t
-\a hiResizeWindow(swindow(1) list(661:248 1561:948))
+\a hiResizeWindow(swindow(1) list(793:338 1693:1038))
 \r t
-\a hiResizeWindow(swindow(1) list(661:249 1561:949))
+\a hiResizeWindow(swindow(1) list(791:344 1691:1044))
 \r t
-\a hiResizeWindow(swindow(1) list(661:250 1561:950))
+\a hiResizeWindow(swindow(1) list(785:350 1685:1050))
 \r t
-\a hiResizeWindow(swindow(1) list(661:252 1561:952))
+\a hiResizeWindow(swindow(1) list(779:356 1679:1056))
 \r t
-\a hiResizeWindow(swindow(1) list(660:254 1560:954))
+\a hiResizeWindow(swindow(1) list(773:362 1673:1062))
 \r t
-\a hiResizeWindow(swindow(1) list(660:255 1560:955))
+\a hiResizeWindow(swindow(1) list(767:368 1667:1068))
 \r t
-\a hiResizeWindow(swindow(1) list(660:257 1560:957))
+\a hiResizeWindow(swindow(1) list(761:372 1661:1072))
 \r t
-\a hiResizeWindow(swindow(1) list(658:259 1558:959))
+\a hiResizeWindow(swindow(1) list(757:373 1657:1073))
 \r t
-\a hiResizeWindow(swindow(1) list(657:260 1557:960))
+\a hiResizeWindow(swindow(1) list(753:375 1653:1075))
 \r t
-\a hiResizeWindow(swindow(1) list(657:262 1557:962))
+\a hiResizeWindow(swindow(1) list(748:377 1648:1077))
 \r t
-\a hiResizeWindow(swindow(1) list(656:263 1556:963))
+\a hiResizeWindow(swindow(1) list(740:379 1640:1079))
 \r t
-\a hiResizeWindow(swindow(1) list(656:265 1556:965))
+\a hiResizeWindow(swindow(1) list(733:379 1633:1079))
 \r t
-\a hiResizeWindow(swindow(1) list(656:266 1556:966))
+\a hiResizeWindow(swindow(1) list(727:381 1627:1081))
 \r t
-\a hiResizeWindow(swindow(1) list(656:269 1556:969))
+\a hiResizeWindow(swindow(1) list(722:382 1622:1082))
 \r t
-\a hiResizeWindow(swindow(1) list(656:271 1556:971))
+\a hiResizeWindow(swindow(1) list(716:382 1616:1082))
 \r t
-\a hiResizeWindow(swindow(1) list(656:275 1556:975))
+\a hiResizeWindow(swindow(1) list(712:384 1612:1084))
 \r t
-\a hiResizeWindow(swindow(1) list(656:278 1556:978))
+\a hiResizeWindow(swindow(1) list(709:384 1609:1084))
 \r t
-\a hiResizeWindow(swindow(1) list(656:281 1556:981))
+\a hiResizeWindow(swindow(1) list(708:384 1608:1084))
 \r t
-\a hiResizeWindow(swindow(1) list(656:284 1556:984))
+\a hiResizeWindow(swindow(1) list(707:385 1607:1085))
 \r t
-\a hiResizeWindow(swindow(1) list(656:286 1556:986))
+\a hiResizeWindow(swindow(1) list(706:386 1606:1086))
 \r t
-\a hiResizeWindow(swindow(1) list(656:290 1556:990))
+\a hiResizeWindow(swindow(1) list(705:386 1605:1086))
 \r t
-\a hiResizeWindow(swindow(1) list(656:292 1556:992))
+\a hiResizeWindow(swindow(1) list(705:387 1605:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(656:295 1556:995))
+\a hiResizeWindow(swindow(1) list(704:387 1604:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(656:296 1556:996))
+\a hiResizeWindow(swindow(1) list(704:385 1605:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(656:299 1556:999))
+\a hiResizeWindow(swindow(1) list(704:349 1638:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(656:301 1556:1001))
+\a hiResizeWindow(swindow(1) list(704:255 1716:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(657:304 1557:1004))
+\a hiResizeWindow(swindow(1) list(704:180 1787:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(657:306 1557:1006))
+\a hiResizeWindow(swindow(1) list(704:120 1839:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(657:308 1557:1008))
+\a hiResizeWindow(swindow(1) list(704:77 1870:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(658:310 1558:1010))
+\a hiResizeWindow(swindow(1) list(704:65 1880:1087))
 \r t
-\a hiResizeWindow(swindow(1) list(658:312 1558:1012))
+\a hiResizeWindow(swindow(1) list(704:66 1880:1088))
 \r t
-\a hiResizeWindow(swindow(1) list(658:314 1558:1014))
+\a hiResizeWindow(swindow(1) list(704:67 1880:1089))
 \r t
-\a hiResizeWindow(swindow(1) list(659:316 1559:1016))
+\a hiResizeWindow(swindow(1) list(704:69 1880:1091))
 \r t
-\a hiResizeWindow(swindow(1) list(659:319 1559:1019))
+\a hiResizeWindow(swindow(1) list(704:71 1880:1093))
 \r t
-\a hiResizeWindow(swindow(1) list(660:322 1560:1022))
+\a hiResizeWindow(swindow(1) list(703:72 1879:1094))
 \r t
-\a hiResizeWindow(swindow(1) list(661:323 1561:1023))
+\a hiResizeWindow(swindow(1) list(703:75 1879:1097))
 \r t
-\a hiResizeWindow(swindow(1) list(663:326 1563:1026))
+\a hiResizeWindow(swindow(1) list(702:77 1878:1099))
 \r t
-\a hiResizeWindow(swindow(1) list(663:329 1563:1029))
+\a hiResizeWindow(swindow(1) list(701:80 1877:1102))
 \r t
-\a hiResizeWindow(swindow(1) list(663:332 1563:1032))
+\a hiResizeWindow(swindow(1) list(701:82 1877:1104))
 \r t
-\a hiResizeWindow(swindow(1) list(665:334 1565:1034))
+\a hiResizeWindow(swindow(1) list(701:86 1877:1108))
 \r t
-\a hiResizeWindow(swindow(1) list(666:337 1566:1037))
+\a hiResizeWindow(swindow(1) list(700:88 1876:1110))
 \r t
-\a hiResizeWindow(swindow(1) list(667:338 1567:1038))
+\a hiResizeWindow(swindow(1) list(700:91 1876:1113))
 \r t
-\a hiResizeWindow(swindow(1) list(667:340 1567:1040))
+\a hiResizeWindow(swindow(1) list(700:94 1876:1116))
 \r t
-\a hiResizeWindow(swindow(1) list(668:342 1568:1042))
+\a hiResizeWindow(swindow(1) list(700:96 1876:1118))
 \r t
-\a hiResizeWindow(swindow(1) list(668:344 1568:1044))
+\a hiResizeWindow(swindow(1) list(700:98 1876:1120))
 \r t
-\a hiResizeWindow(swindow(1) list(669:345 1569:1045))
+\a hiResizeWindow(swindow(1) list(699:101 1875:1123))
 \r t
-\a hiResizeWindow(swindow(1) list(669:347 1569:1047))
+\a hiResizeWindow(swindow(1) list(699:104 1875:1126))
 \r t
-\a hiResizeWindow(swindow(1) list(669:348 1569:1048))
+\a hiResizeWindow(swindow(1) list(699:106 1875:1128))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1569:1049))
+\a hiResizeWindow(swindow(1) list(699:108 1875:1130))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1571:1049))
+\a hiResizeWindow(swindow(1) list(698:111 1874:1133))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1586:1050))
+\a hiResizeWindow(swindow(1) list(697:114 1873:1136))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1632:1052))
+\a hiResizeWindow(swindow(1) list(697:115 1873:1137))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1698:1052))
+\a hiResizeWindow(swindow(1) list(696:116 1872:1138))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1739:1057))
+\a hiResizeWindow(swindow(1) list(696:117 1872:1139))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1751:1063))
+\a hiResizeWindow(swindow(1) list(696:118 1872:1140))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1760:1069))
+\a hiResizeWindow(swindow(1) list(696:119 1872:1141))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1772:1079))
+\a hiResizeWindow(swindow(1) list(696:120 1872:1142))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1782:1088))
+\a hiResizeWindow(swindow(1) list(695:120 1871:1142))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1790:1099))
+\a hiResizeWindow(swindow(1) list(695:121 1871:1143))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1804:1110))
+\a hiResizeWindow(swindow(1) list(694:122 1870:1144))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1811:1118))
+\a hiResizeWindow(swindow(1) list(693:123 1869:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1819:1127))
+\a hiResizeWindow(swindow(1) list(692:123 1868:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1831:1135))
+\a hiResizeWindow(swindow(1) list(691:123 1867:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1839:1139))
+\a hiResizeWindow(swindow(1) list(690:123 1866:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1847:1144))
+\a hiResizeWindow(swindow(1) list(689:123 1865:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1853:1145))
+\a hiResizeWindow(swindow(1) list(688:123 1864:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1857:1145))
+\a hiResizeWindow(swindow(1) list(687:123 1863:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1862:1145))
+\a hiResizeWindow(swindow(1) list(686:123 1862:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1866:1145))
+\a hiResizeWindow(swindow(1) list(684:123 1860:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1872:1145))
+\a hiResizeWindow(swindow(1) list(683:123 1859:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:349 1877:1145))
+\a hiResizeWindow(swindow(1) list(682:123 1858:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:348 1877:1145))
+\a hiResizeWindow(swindow(1) list(681:123 1857:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:336 1877:1145))
+\a hiResizeWindow(swindow(1) list(680:123 1856:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:299 1877:1145))
+\a hiResizeWindow(swindow(1) list(679:123 1855:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:254 1877:1145))
+\a hiResizeWindow(swindow(1) list(678:123 1854:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:226 1877:1145))
+\a hiResizeWindow(swindow(1) list(677:123 1853:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:215 1877:1145))
+\a hiResizeWindow(swindow(1) list(675:123 1851:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:210 1877:1145))
+\a hiResizeWindow(swindow(1) list(674:123 1850:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:202 1877:1145))
+\a hiResizeWindow(swindow(1) list(673:123 1849:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:194 1877:1145))
+\a hiResizeWindow(swindow(1) list(672:123 1848:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:185 1877:1145))
+\a hiResizeWindow(swindow(1) list(671:123 1847:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:176 1877:1145))
+\a hiResizeWindow(swindow(1) list(670:123 1846:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:170 1877:1145))
+\a hiResizeWindow(swindow(1) list(670:121 1848:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:167 1877:1145))
+\a hiResizeWindow(swindow(1) list(670:105 1870:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:162 1877:1145))
+\a hiResizeWindow(swindow(1) list(670:75 1906:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:159 1877:1145))
+\a hiResizeWindow(swindow(1) list(670:52 1916:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:158 1877:1145))
+\a hiResizeWindow(swindow(1) list(670:34 1916:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:157 1877:1145))
+\a hiResizeWindow(swindow(1) list(670:29 1916:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:156 1877:1145))
+\a hiResizeWindow(swindow(1) list(670:28 1916:1145))
 \r t
-\a hiResizeWindow(swindow(1) list(669:155 1877:1145))
-\r t
+\a showClickInfo()
+\i 0.9375:0.375
+\r window:2
+\a showClickInfo()
+\i -1.125:0.1875
+\r window:2
 \a schHiCreateInst()
 \a hiResizeWindow(window(3) list(0:25 220:439))
 \r t
 \p > 
 \a hiiSetCurrentForm('schCreateInstForm)
 \r t
-\a schiCreateInstBrowseButtonCB(schCreateInstForm)
-\a hiResizeWindow(window(3) list(0:25 220:455))
-\r t
-\r t
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "dinv_1x" )
-\o Loading cdf.cxt 
-\r ("dinv_1x")
-\a hiSetCurrentWindow(window(2))
-\r t
-\a mouseAddPt()
-\i 1.125:-1.0625
-\r t
-\a hiSetCurrentWindow(window(3))
-\r t
+\a schComponentBrowserForm->schBrowserLib1->value="Lab5"
+\r "Lab5"
 \a schComponentBrowserForm->schBrowserListBox1->value= '( "inv_1x" )
+\o Loading cdf.cxt 
 \r ("inv_1x")
 \a hiSetCurrentWindow(window(2))
 \r t
 \a mouseAddPt()
-\i -2.3125:-0.25
+\i -2.125:-1.4375
 \r t
 \a mouseAddPt()
-\i -1.3125:-0.25
+\i -1.125:-1.4375
 \r t
 \a mouseAddPt()
-\i -2.3125:-1.875
+\i -0.1875:-1.4375
+\r t
+\a schSetEnv("sideways" t)
 \r t
 \a mouseAddPt()
-\i -1.3125:-1.875
-\r t
-\a hiSetCurrentWindow(window(3))
-\r t
-\a schComponentBrowserForm->schBrowserLib1->value="AMI12"
-\r "AMI12"
-\a schComponentBrowserForm->schBrowserLib1->value="BYU_LIB"
-\r "BYU_LIB"
-\a schComponentBrowserForm->schBrowserLib1->value="BYU_basic"
-\r "BYU_basic"
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "noConn" )
-\r ("noConn")
-\a hiSetCurrentWindow(window(2))
-\r t
-\a mouseAddPt()
-\i 4.0625:-2.125
+\i 5.3125:-2.3125
 \r t
 \a hiSetCurrentWindow(window(3))
 \r t
 \a schComponentBrowserForm->schBrowserLib1->value="NCSU_Analog_Parts"
 \r "NCSU_Analog_Parts"
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "Voltage_Sources" )
-\r ("Voltage_Sources")
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "vpulse" )
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "P_Transistors" )
+\r ("P_Transistors")
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "pmos" )
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\w *WARNING* LookupLibProp: Library "Lab5" has no "minLength" property!
+\p > 
+\a hiSetCurrentWindow(window(2))
+\r t
+\a mouseAddPt()
+\i 2.3125:-0.3125
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "N_Transistors" )
+\r ("N_Transistors")
+\a hiiSetCurrentForm('ncsuSetMosfetPropForm)
+\r t
+\a ncsuSetMosfetPropForm->Choice->value= "Attach to a technology library"
+\r "Attach to a technology library"
+\a hiFormDone(ncsuSetMosfetPropForm)
+\p > 
+\a hiiSetCurrentForm('NCSU_attachTechLibForm)
+\r t
+\a ddsSyncWithForm( NCSU_attachTechLibForm                                                 'browse                                                  'designLib                                                  'cellname                                                  'viewname )
+\r t
+\i ddsServSelect("Lab5" "" "")
+\i ddsServSelect("Lab5" "inv_1x" "")
+\a hiiSetCurrentForm('ncsuSetMosfetPropForm)
+\r t
+\i ddsServSelect("NCSU_Analog_Parts" "" "")
+\i ddsServSelect("NCSU_Analog_Parts" "pmos" "")
+\w *WARNING* Form 'NCSU_attachTechLibForm', field 'designLib': Bad value "NCSU_Analog_Parts".
+\w 	Cyclic value must be one in the list of choices.
+\i ddsServSelect("NCSU_Analog_Parts" "pmos" "spectre")
+\w *WARNING* Form 'NCSU_attachTechLibForm', field 'designLib': Bad value "NCSU_Analog_Parts".
+\w 	Cyclic value must be one in the list of choices.
+\a hiiSetCurrentForm('NCSU_attachTechLibForm)
+\w *WARNING* Form 'NCSU_attachTechLibForm', field 'designLib': Bad value "NCSU_Analog_Parts".
+\w 	Cyclic value must be one in the list of choices.
+\r t
+\a ddsSyncWithForm( NCSU_attachTechLibForm                                                 'browse                                                  'designLib                                                  'cellname                                                  'viewname )
+\r t
+\i ddsServSelect("Lab5" "" "")
+\a NCSU_attachTechLibForm->techLib->value="other..."
+\r "other..."
+\a NCSU_attachTechLibForm->techLib->value="other..."
+\r "other..."
+\a hiiSetCurrentForm('ncsuSetMosfetPropForm)
+\r t
+\a hiiSetCurrentForm('NCSU_attachTechLibForm)
+\r t
+\a NCSU_attachTechLibForm->techLib->value="other..."
+\r "other..."
+\a NCSU_attachTechLibForm->techLib->value="AMI 0.60u C5N (3M, 2P, high-res)"
+\r "AMI 0.60u C5N (3M, 2P, high-res)"
+\a _hiFormApplyCB(NCSU_attachTechLibForm)
+\o Attach successfully completed
+\r t
+\a hiFormDone(NCSU_attachTechLibForm)
+\o Attach successfully completed
+\r t
+\r t
 \o Loading simui.cxt 
-\r ("vpulse")
+\r ("pmos")
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a hiFormCancel(schCreateInstForm) 
+\o Warning: Cannot set the transistor width below 10 grid units. Resetting ...
+\o CheckMicronSizeCB: Width is not a number. Use the variable "" to set this property
+\o Warning: Cannot set the transistor width below 4 grid units. Resetting ...
+\o CheckMicronSizeCB: Length is not a number. Use the variable "" to set this property
+\r t
 \a hiSetCurrentWindow(window(2))
 \r t
 \a mouseAddPt()
-\i 0.0625:-2.9375
-\r t
-\a hiSetCurrentWindow(window(3))
-\r t
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "Supply_Nets" )
-\r ("Supply_Nets")
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "gnd" )
-\r ("gnd")
-\a hiSetCurrentWindow(window(2))
+\i 2.3125:-0.25
 \r t
 \a mouseAddPt()
-\i -1.75:-3.375
-\r t
-\a hiSetCurrentWindow(window(3))
-\r t
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "vdd" )
-\r ("vdd")
-\a hiSetCurrentWindow(window(2))
-\r t
-\a mouseAddPt()
-\i -2.6875:-2.9375
-\r t
-\a hiSetCurrentWindow(window(3))
-\r t
-\a schComponentBrowserForm->schBrowserListBox1->value= '( ".. (Go up 1 level)" )
-\r (".. (Go up 1 level)")
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "Voltage_Sources" )
-\r ("Voltage_Sources")
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "vdc" )
-\r ("vdc")
-\a hiSetCurrentWindow(window(2))
-\r t
-\a mouseAddPt()
-\i -1:-3
-\r t
-\a hiiToggleEnterForm(schCreateInstForm)
-\a hiResizeWindow(window(3) list(0:25 220:471))
-\r t
+\i 2.375:-0.3125
 \r t
 \a cancelEnterFun()
 \r t
 \r nil
 \a showClickInfo()
-\i 0.125:-3.125
-\o 
-\o vpulse (instance "V0", library "NCSU_Analog_Parts")
+\i 2.4375:-0.3125
 \r window:2
+\a showClickInfo()
+\i 2.5:-0.3125
+\o 
+\o pmos (instance "M1", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.5:-0.3125
+\o 
+\o pmos (instance "M2", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 2.5:-0.375
+\o 
+\o pmos (instance "M0", library "NCSU_Analog_Parts")
+\r window:2
+\a schHiDelete()
+\r t
+\i ddsServOpen("MYLIB" "inv_1x" "schematic" "edit" nil)
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\a hiResizeWindow(swindow(2) list(148:150 1048:850))
+\r t
+\a hiResizeWindow(swindow(2) list(157:150 1057:850))
+\r t
+\a hiResizeWindow(swindow(2) list(172:150 1072:850))
+\r t
+\a hiResizeWindow(swindow(2) list(191:150 1091:850))
+\r t
+\a hiResizeWindow(swindow(2) list(212:150 1112:850))
+\r t
+\a hiResizeWindow(swindow(2) list(235:150 1135:850))
+\r t
+\a hiResizeWindow(swindow(2) list(264:150 1164:850))
+\r t
+\a hiResizeWindow(swindow(2) list(295:150 1195:850))
+\r t
+\a hiResizeWindow(swindow(2) list(326:150 1226:850))
+\r t
+\a hiResizeWindow(swindow(2) list(361:152 1261:852))
+\r t
+\a hiResizeWindow(swindow(2) list(394:152 1294:852))
+\r t
+\a hiResizeWindow(swindow(2) list(425:154 1325:854))
+\r t
+\a hiResizeWindow(swindow(2) list(456:156 1356:856))
+\r t
+\a hiResizeWindow(swindow(2) list(485:158 1385:858))
+\r t
+\a hiResizeWindow(swindow(2) list(516:160 1416:860))
+\r t
+\a hiResizeWindow(swindow(2) list(539:162 1439:862))
+\r t
+\a hiResizeWindow(swindow(2) list(558:164 1458:864))
+\r t
+\a hiResizeWindow(swindow(2) list(575:167 1475:867))
+\r t
+\a hiResizeWindow(swindow(2) list(592:169 1492:869))
+\r t
+\a hiResizeWindow(swindow(2) list(603:171 1503:871))
+\r t
+\a hiResizeWindow(swindow(2) list(612:173 1512:873))
+\r t
+\a hiResizeWindow(swindow(2) list(619:175 1519:875))
+\r t
+\a hiResizeWindow(swindow(2) list(620:175 1520:875))
+\r t
+\a hiResizeWindow(swindow(2) list(621:175 1521:875))
+\r t
+\a showClickInfo()
+\i -0.0625:0.5
+\o Getting schematic propert bag
+\o pmos (instance "M8", library "NCSU_Analog_Parts")
+\r window:4
 \a schHiObjectProperty()
 \o Loading layers.cxt 
 \r t
 \a hiiSetCurrentForm('schObjPropForm)
 \r t
-\a schObjPropForm->v1->value="5"
-\r "5"
-\a schObjPropForm->per->value="40n"
-\r "40n"
-\a schObjPropForm->pw->value="20n"
-\r "20n"
-\a schObjPropForm->tr->value="2n"
-\r "2n"
-\a schObjPropForm->tf->value="2n"
-\r "2n"
-\a hiFormDone(schObjPropForm)
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a hiCloseWindow(swindow(2))
+\o Getting schematic propert bagLoading cph.cxt 
+\r t
+\a hiSetCurrentWindow(window(2))
 \r t
 \a showClickInfo()
-\i 0.125:-3.0625
-\o 
-\o vpulse (instance "V0", library "NCSU_Analog_Parts")
+\i 3:-2.125
 \r window:2
+\a showClickInfo()
+\i 0.4375:-0.375
+\r window:2
+\a showClickInfo()
+\i 1.5625:-0.0625
+\r window:2
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:455))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:471))
+\r t
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a cancelEnterFun(schCreateInstForm)
+\r t
+\r nil
+\i ddsEditProp("Lab5" "" "")
+\p > 
+\a peDisplayForm(_plForm 2)
+\o First select a property to modify
+\r t
+\a peDisplayForm(_plForm 0)
+\p > 
+\a hiiSetCurrentForm('_pePLISTAddForm)
+\r t
+\a hiFormCancel(_pePLISTAddForm)
+\r t
+\r t
+\a peDisplayForm(_plForm 2)
+\o First select a property to modify
+\r t
+\a peDisplayForm(_plForm 2)
+\o First select a property to modify
+\r t
+\a peDisplayForm(_plForm 2)
+\o First select a property to modify
+\r t
+\a peDisplayForm(_plForm 2)
+\o First select a property to modify
+\r t
+\a peDisplayForm(_plForm 2)
+\o First select a property to modify
+\r t
+\a hiFormCancel(_peForm0) 
+\r t
+\o  
+\o Library Manager deleting library "Lab5".
+\i ddDeleteLocal(ddGetObj("Lab5" "" "" ""))
+\w *WARNING* Failed to open cellView (partovi symbol) from lib (Lab5) in 'r' mode because cellview does not exist.
+\w *WARNING* Failed to open cellView (partovi symbol) from lib (Lab5) in 'r' mode because cellview does not exist.
+\o Getting schematic propert bagDeleted library 'Lab5'.
+\o  
+\o Library Manager created library "Lab5"; doing technology file query.
+\p > 
+\a hiiSetCurrentForm('ddsTechOptionForm)
+\r t
+\a ddsTechOptionForm->Option->value= "Reference existing technology libraries"
+\r "Reference existing technology libraries"
+\a ddsTechOptionForm->Option->value= "Attach to an existing technology library"
+\r "Attach to an existing technology library"
+\a hiFormDone(ddsTechOptionForm)
+\i tcNewLibDisplayAttachTechForm("Lab5")
+\p > 
+\a hiiSetCurrentForm('tcNewLibAttachTechForm)
+\r t
+\a hiFormDone(tcNewLibAttachTechForm)
+\o Design library 'Lab5' successfully attached to technology library 'AMI12'.
+\r t
+\r t
+\i ddsServOpen("Lab5" "partovi" "schematic" "edit" nil)
+\o *WARNING* (icLic-3) Could not get license Virtuoso_Schematic_Editor_L
+\o (deLicense-3) Could not get a license for Schematics L. Trying a higher-tiered license
+\o (deLicense-6) Checked out the license for Schematics XL to run Schematics L
+\w *WARNING* Missing Masters:
+\w     Library   Cell      View     
+\w     MyLib     inv_1x    symbol   
+\w     MyLib     inv_32x   symbol   
+\w 
+\p > 
+\a hiDBoxOK(geDBox)
+\r t
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\a hiResizeWindow(swindow(3) list(131:148 1031:848))
+\r t
+\a hiResizeWindow(swindow(3) list(133:148 1033:848))
+\r t
+\a hiResizeWindow(swindow(3) list(135:147 1035:847))
+\r t
+\a hiResizeWindow(swindow(3) list(139:146 1039:846))
+\r t
+\a hiResizeWindow(swindow(3) list(145:144 1045:844))
+\r t
+\a hiResizeWindow(swindow(3) list(154:144 1054:844))
+\r t
+\a hiResizeWindow(swindow(3) list(163:144 1063:844))
+\r t
+\a hiResizeWindow(swindow(3) list(177:144 1077:844))
+\r t
+\a hiResizeWindow(swindow(3) list(193:144 1093:844))
+\r t
+\a hiResizeWindow(swindow(3) list(210:144 1110:844))
+\r t
+\a hiResizeWindow(swindow(3) list(231:144 1131:844))
+\r t
+\a hiResizeWindow(swindow(3) list(252:144 1152:844))
+\r t
+\a hiResizeWindow(swindow(3) list(275:144 1175:844))
+\r t
+\a hiResizeWindow(swindow(3) list(306:146 1206:846))
+\r t
+\a hiResizeWindow(swindow(3) list(339:146 1239:846))
+\r t
+\a hiResizeWindow(swindow(3) list(372:148 1272:848))
+\r t
+\a hiResizeWindow(swindow(3) list(407:150 1307:850))
+\r t
+\a hiResizeWindow(swindow(3) list(442:150 1342:850))
+\r t
+\a hiResizeWindow(swindow(3) list(477:152 1377:852))
+\r t
+\a hiResizeWindow(swindow(3) list(512:154 1412:854))
+\r t
+\a hiResizeWindow(swindow(3) list(545:159 1445:859))
+\r t
+\a hiResizeWindow(swindow(3) list(578:159 1478:859))
+\r t
+\a hiResizeWindow(swindow(3) list(609:162 1509:862))
+\r t
+\a hiResizeWindow(swindow(3) list(634:167 1534:867))
+\r t
+\a hiResizeWindow(swindow(3) list(657:172 1557:872))
+\r t
+\a hiResizeWindow(swindow(3) list(676:174 1576:874))
+\r t
+\a hiResizeWindow(swindow(3) list(695:179 1595:879))
+\r t
+\a hiResizeWindow(swindow(3) list(712:184 1612:884))
+\r t
+\a hiResizeWindow(swindow(3) list(725:189 1625:889))
+\r t
+\a hiResizeWindow(swindow(3) list(738:196 1638:896))
+\r t
+\a hiResizeWindow(swindow(3) list(751:201 1651:901))
+\r t
+\a hiResizeWindow(swindow(3) list(758:206 1658:906))
+\r t
+\a hiResizeWindow(swindow(3) list(765:211 1665:911))
+\r t
+\a hiResizeWindow(swindow(3) list(770:213 1670:913))
+\r t
+\a hiResizeWindow(swindow(3) list(771:213 1671:913))
+\r t
+\a hiResizeWindow(swindow(3) list(771:214 1671:914))
+\r t
+\a showClickInfo()
+\i -1.4375:0.25
+\o Getting schematic propert bag
+\o inv_1x (instance "I0", library "MyLib")
+\r window:5
 \a schHiObjectProperty()
 \r t
-\a schObjPropForm->v1_dsp->value="both"
-\r "both"
-\a schObjPropForm->v2_dsp->value="both"
-\r "both"
-\a schObjPropForm->per_dsp->value="both"
-\r "both"
-\a schObjPropForm->pw_dsp->value="both"
-\r "both"
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\i hiCaughtControlC
+\a schObjPropForm->libraryName->value="Lab5"
+\r "Lab5"
+\a _hiFormApplyCB(schObjPropForm)
+\w *WARNING* Failed to open cellView (inv_1x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\w *WARNING* Failed to open cellView (inv_1x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i -0.5625:0.4375
+\o 
+\o inv_1x (instance "I1", library "MyLib")
+\r window:5
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->libraryName->value="Lab5"
+\r "Lab5"
+\a _hiFormApplyCB(schObjPropForm)
+\w *WARNING* Failed to open cellView (inv_1x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\w *WARNING* Failed to open cellView (inv_1x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 0.6875:0.3125
+\o 
+\o inv_1x (instance "I2", library "MyLib")
+\r window:5
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->libraryName->value="Lab5"
+\r "Lab5"
+\a hiFormDone(schObjPropForm)
+\w *WARNING* Failed to open cellView (inv_1x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\w *WARNING* Failed to open cellView (inv_1x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\r t
+\a showClickInfo()
+\i 0.5625:0.1875
+\o 
+\o inv_1x (instance "I2", library "Lab5")
+\r window:5
+\a showClickInfo()
+\i 4.125:0.125
+\o 
+\o inv_1x (instance "I6", library "MyLib")
+\r window:5
+\a geScroll(nil "s" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->libraryName->value="Lab5"
+\r "Lab5"
+\a _hiFormApplyCB(schObjPropForm)
+\w *WARNING* Failed to open cellView (inv_1x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\w *WARNING* Failed to open cellView (inv_1x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 4.9375:0.75
+\o 
+\o inv_32x (instance "I7", library "MyLib")
+\r window:5
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->libraryName->value="Lab5"
+\r "Lab5"
+\a hiFormDone(schObjPropForm)
+\w *WARNING* Failed to open cellView (inv_32x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\w *WARNING* Failed to open cellView (inv_32x symbol) from lib (MyLib) in 'r' mode because cellview does not exist.
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a hiZoomInAtMouse()
+\i 3.1875:-0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i 3.1875:-0.125
+\r t
+\a showClickInfo()
+\i 3.25:1.125
+\r window:5
+\a showClickInfo()
+\i 3.1875:1.25
+\o 
+\o pmos (instance "M3", library "BYU_LIB")
+\r window:5
+\a schHiObjectProperty()
+\r t
+\i hiCaughtControlC
+\a schObjPropForm->libraryName->value="NCSU_Analog_Parts"
+\r "NCSU_Analog_Parts"
 \a _hiFormApplyCB(schObjPropForm)
 \r t
 \a hiFormDone(schObjPropForm)
@@ -507,235 +835,1110 @@
 \o 
 \r t
 \a showClickInfo()
-\i 0:-3.125
+\i 3.125:0.5
 \o 
-\o vpulse (instance "V0", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i 0.0625:-3.125
-\r t
-\a mouseAddPt()
-\i -2.6875:-2
-\r t
-\r t
-\a showClickInfo()
-\i -1.5625:-2.8125
-\r window:2
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i -1.75:-3.375
-\r t
-\a geSingleSelectBox()
-\i -1.875:-3.3125
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -1.5625:-3.75
-\r t
-\r t
-\a mouseAddPt()
-\i -1.75:-3.5625
-\r t
-\a mouseAddPt()
-\i -2.6875:-2.5625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiMove()
-\p > 
-\a geSingleSelectBox()
-\i -2.9375:-2.6875
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -2.3125:-3.1875
-\r t
-\r nil
-\a geSingleSelectBox()
-\i -2.9375:-2.5625
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -2.3125:-3.125
-\r t
-\r t
-\a mouseAddPt()
-\i -2.75:-2.8125
-\r t
-\a mouseAddPt()
-\i 0.1875:-3.625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -2.6875:-2.375
-\r t
-\a mouseAddPt()
-\i -2.6875:-2.25
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -2.6875:-2.25
-\r t
-\a mouseAddPt()
-\i -2.6875:-2.1875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -2.6875:-1.8125
-\r t
-\a mouseAddPt()
-\i -2.1875:-1.8125
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -1.4375:-1.8125
-\r t
-\a mouseAddPt()
-\i -1.1875:-1.8125
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiMove()
-\p > 
-\a geSingleSelectBox()
-\i 0.8125:-0.6875
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 2.8125:-1.875
-\r t
-\r t
-\a mouseAddPt()
-\i 2.25:-1.1875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -0.4375:-1.8125
-\r t
-\a mouseAddPt()
-\i 1.125:-1.1875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -0.6875:-1.8125
-\o 
-\o inv_1x (instance "I4", library "451_Lab4")
-\r window:2
-\a mouseSubSelectPt()
-\i -1.75:-1.8125
-\r nil
-\a schHiMousePopUp()
-\r t
-\a hiPopupDown(schInstPopUp)
-\r t
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i -0.75:-1.875
-\r t
-\a mouseAddPt()
-\i 4.1875:-1.125
-\r t
-\r t
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i 4.1875:-1.125
-\r t
-\a mouseAddPt()
-\i 5.125:-1.125
-\r t
-\r t
-\a showClickInfo()
-\i 3.375:-1.8125
-\r window:2
-\a showClickInfo()
-\i -0.9375:-3.1875
-\o 
-\o vdc (instance "V1", library "NCSU_Analog_Parts")
-\r window:2
+\o nmos (instance "M0", library "BYU_LIB")
+\r window:5
 \a schHiObjectProperty()
 \r t
-\a schObjPropForm->vdc->value="5v"
-\r "5v"
-\a schObjPropForm->vdc->value="5"
-\r "5"
+\a schObjPropForm->libraryName->value="NCSU_Analog_Parts"
+\r "NCSU_Analog_Parts"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
 \a hiFormDone(schObjPropForm)
-\r t
-\a schDirectEdit(1)
-\i -0.0625:-3.25
-\i -0.0625:-3.25
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 0.625:-3.9375
-\r t
-\r nil
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i 0.25:-3.625
-\r t
-\a mouseAddPt()
-\i -1:-2.75
-\r t
+\o No changes were made. No objects updated.
+\o 
 \r t
 \a showClickInfo()
-\i -2.375:-2.875
-\r window:2
-\a schHiCopy()
-\p > 
-\a geSingleSelectBox()
-\i -2.375:-2.875
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -2.875:-2.3125
+\i 3.1875:-0.1875
+\o 
+\o nmos (instance "M1", library "BYU_LIB")
+\r window:5
+\a schHiObjectProperty()
 \r t
+\a schObjPropForm->libraryName->value="NCSU_Analog_Parts"
+\r "NCSU_Analog_Parts"
+\a schObjPropForm->w->value="3.6u M"
+\r "3.6u M"
+\a schObjPropForm->objScope->value="all"
+\r "all"
+\a schObjPropForm->compFilter->value="same master"
+\r "same master"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 4:-1.125
+\r window:5
+\a geScroll(nil "s" nil)
+\r t
+\a hiZoomInAtMouse()
+\i 4.1875:-1.125
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a showClickInfo()
+\i 3.1875:0.4375
+\o 
+\o nmos (instance "M0", library "NCSU_Analog_Parts")
+\r window:5
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="3.6u M"
+\r "3.6u M"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 3.25:-0.75
+\o 
+\o nmos (instance "M2", library "NCSU_Analog_Parts")
+\r window:5
+\a schHiObjectProperty()
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 3.6875:-1
+\r window:5
+\a geScroll(nil "n" nil)
+\r t
+\a showClickInfo()
+\i 3.1875:1.25
+\o 
+\o pmos (instance "M3", library "NCSU_Analog_Parts")
+\r window:5
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="14.4u M"
+\r "14.4u M"
+\a schObjPropForm->w->value="4.8u M"
+\r "4.8u M"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 4.1875:-0.3125
+\r window:5
+\a hiResizeWindow(swindow(3) list(770:215 1670:915))
+\r t
+\a hiResizeWindow(swindow(3) list(768:216 1668:916))
+\r t
+\a hiResizeWindow(swindow(3) list(764:218 1664:918))
+\r t
+\a hiResizeWindow(swindow(3) list(759:221 1659:921))
+\r t
+\a hiResizeWindow(swindow(3) list(753:227 1653:927))
+\r t
+\a hiResizeWindow(swindow(3) list(742:229 1642:929))
+\r t
+\a hiResizeWindow(swindow(3) list(730:233 1630:933))
+\r t
+\a hiResizeWindow(swindow(3) list(714:238 1614:938))
+\r t
+\a hiResizeWindow(swindow(3) list(698:243 1598:943))
+\r t
+\a hiResizeWindow(swindow(3) list(679:250 1579:950))
+\r t
+\a hiResizeWindow(swindow(3) list(658:257 1558:957))
+\r t
+\a hiResizeWindow(swindow(3) list(635:264 1535:964))
+\r t
+\a hiResizeWindow(swindow(3) list(610:271 1510:971))
+\r t
+\a hiResizeWindow(swindow(3) list(579:280 1479:980))
+\r t
+\a hiResizeWindow(swindow(3) list(552:289 1452:989))
+\r t
+\a hiResizeWindow(swindow(3) list(525:298 1425:998))
+\r t
+\a hiResizeWindow(swindow(3) list(498:307 1398:1007))
+\r t
+\a hiResizeWindow(swindow(3) list(471:318 1371:1018))
+\r t
+\a hiResizeWindow(swindow(3) list(442:327 1342:1027))
+\r t
+\a hiResizeWindow(swindow(3) list(415:336 1315:1036))
+\r t
+\a hiResizeWindow(swindow(3) list(390:349 1290:1049))
+\r t
+\a hiResizeWindow(swindow(3) list(365:362 1265:1062))
+\r t
+\a hiResizeWindow(swindow(3) list(344:373 1244:1073))
+\r t
+\a hiResizeWindow(swindow(3) list(325:384 1225:1084))
+\r t
+\a hiResizeWindow(swindow(3) list(308:395 1208:1095))
+\r t
+\a hiResizeWindow(swindow(3) list(291:406 1191:1106))
+\r t
+\a hiResizeWindow(swindow(3) list(278:417 1178:1117))
+\r t
+\a hiResizeWindow(swindow(3) list(267:426 1167:1126))
+\r t
+\a hiResizeWindow(swindow(3) list(258:435 1158:1135))
+\r t
+\a hiResizeWindow(swindow(3) list(249:444 1149:1144))
+\r t
+\a hiResizeWindow(swindow(3) list(240:445 1140:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(233:445 1133:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(228:445 1128:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(224:445 1124:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(222:445 1122:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(221:445 1121:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:445 1120:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:444 1122:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:406 1173:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:310 1343:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:189 1468:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:95 1560:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:38 1607:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:25 1651:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:25 1677:1145))
+\r t
+\a hiResizeWindow(swindow(3) list(220:25 1691:1145))
+\r t
+\a schHiCheckAndSave()
+\o Extracting "partovi schematic"
+\o Warning: Solder dot on cross over at ( 3.8750, 0.7500 ).
+\o There were 0 errors and 1 warning found in "Lab5 partovi schematic".
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\o "Lab5 partovi schematic" saved.
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a showClickInfo()
+\i 4.6875:0.6875
+\o 
+\o inv_32x (instance "I7", library "Lab5")
+\r window:5
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 3.25:1.875
+\o 
+\o vdd (instance "I5", library "BYU_LIB")
+\r window:5
+\a schHiDelete()
+\r t
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:487))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:503))
+\r t
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "Supply_Nets" )
+\r ("Supply_Nets")
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "vdd" )
+\r ("vdd")
+\a hiSetCurrentWindow(window(5))
 \r t
 \a mouseAddPt()
-\i -2.6875:-2.5625
+\i 3.25:1.75
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "gnd" )
+\r ("gnd")
+\a hiSetCurrentWindow(window(5))
 \r t
 \a mouseAddPt()
-\i -1:-3.6875
+\i 3.375:-1.125
 \r t
 \a cancelEnterFun()
 \r t
 \r nil
-\a schHiCreateWire(0.0)
+\a showClickInfo()
+\i 3.25:-1.25
+\o 
+\o gnd (instance "I4", library "BYU_LIB")
+\r window:5
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 3.375:-1.25
+\o 
+\o gnd (instance "I9", library "NCSU_Analog_Parts")
+\r window:5
+\a schHiMove()
 \p > 
 \a mouseAddPt()
-\i -1:-3.5
+\i 3.375:-1.25
 \r t
 \a mouseAddPt()
-\i -1:-3.375
+\i 3.25:-1.25
+\r t
+\r t
+\o  
+\o Library Manager new cellview request for cell "Lab5 partovi".
+\i deNew('(nil libName "Lab5" cellName "partovi"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a deNewForm->deCellName->value="inv_2x"
+\r "inv_2x"
+\a hiFormDone(deNewForm)
+\r t
+\a hiResizeWindow(swindow(4) list(132:150 1032:850))
+\r t
+\a hiResizeWindow(swindow(4) list(134:149 1034:849))
+\r t
+\a hiResizeWindow(swindow(4) list(136:149 1036:849))
+\r t
+\a hiResizeWindow(swindow(4) list(139:148 1039:848))
+\r t
+\a hiResizeWindow(swindow(4) list(142:147 1042:847))
+\r t
+\a hiResizeWindow(swindow(4) list(147:147 1047:847))
+\r t
+\a hiResizeWindow(swindow(4) list(155:147 1055:847))
+\r t
+\a hiResizeWindow(swindow(4) list(168:147 1068:847))
+\r t
+\a hiResizeWindow(swindow(4) list(182:147 1082:847))
+\r t
+\a hiResizeWindow(swindow(4) list(203:147 1103:847))
+\r t
+\a hiResizeWindow(swindow(4) list(230:147 1130:847))
+\r t
+\a hiResizeWindow(swindow(4) list(261:147 1161:847))
+\r t
+\a hiResizeWindow(swindow(4) list(294:147 1194:847))
+\r t
+\a hiResizeWindow(swindow(4) list(327:147 1227:847))
+\r t
+\a hiResizeWindow(swindow(4) list(362:147 1262:847))
+\r t
+\a hiResizeWindow(swindow(4) list(397:147 1297:847))
+\r t
+\a hiResizeWindow(swindow(4) list(432:147 1332:847))
+\r t
+\a hiResizeWindow(swindow(4) list(467:147 1367:847))
+\r t
+\a hiResizeWindow(swindow(4) list(502:149 1402:849))
+\r t
+\a hiResizeWindow(swindow(4) list(533:149 1433:849))
+\r t
+\a hiResizeWindow(swindow(4) list(568:152 1468:852))
+\r t
+\a hiResizeWindow(swindow(4) list(599:155 1499:855))
+\r t
+\a hiResizeWindow(swindow(4) list(626:157 1526:857))
+\r t
+\a hiResizeWindow(swindow(4) list(649:159 1549:859))
+\r t
+\a hiResizeWindow(swindow(4) list(672:162 1572:862))
+\r t
+\a hiResizeWindow(swindow(4) list(691:164 1591:864))
+\r t
+\a hiResizeWindow(swindow(4) list(712:164 1612:864))
+\r t
+\a hiResizeWindow(swindow(4) list(729:164 1629:864))
+\r t
+\a hiResizeWindow(swindow(4) list(746:164 1646:864))
+\r t
+\a hiResizeWindow(swindow(4) list(759:164 1659:864))
+\r t
+\a hiResizeWindow(swindow(4) list(768:164 1668:864))
+\r t
+\a hiResizeWindow(swindow(4) list(777:164 1677:864))
+\r t
+\a hiResizeWindow(swindow(4) list(779:164 1679:864))
+\r t
+\i ddsServOpen("Lab5" "inv_1x" "schematic" "edit" nil)
+\a hiResizeWindow(swindow(5) list(144:151 1044:851))
+\r t
+\a hiResizeWindow(swindow(5) list(144:151 1044:851))
+\r t
+\a hiResizeWindow(swindow(5) list(153:151 1053:851))
+\r t
+\a hiResizeWindow(swindow(5) list(166:153 1066:853))
+\r t
+\a hiResizeWindow(swindow(5) list(180:156 1080:856))
+\r t
+\a hiResizeWindow(swindow(5) list(194:158 1094:858))
+\r t
+\a hiResizeWindow(swindow(5) list(211:160 1111:860))
+\r t
+\a hiResizeWindow(swindow(5) list(228:162 1128:862))
+\r t
+\a hiResizeWindow(swindow(5) list(243:164 1143:864))
+\r t
+\a hiResizeWindow(swindow(5) list(260:164 1160:864))
+\r t
+\a hiResizeWindow(swindow(5) list(272:164 1172:864))
+\r t
+\a hiResizeWindow(swindow(5) list(287:182 1187:882))
+\r t
+\a hiResizeWindow(swindow(5) list(306:189 1206:889))
+\r t
+\a hiResizeWindow(swindow(5) list(323:191 1223:891))
+\r t
+\a hiResizeWindow(swindow(5) list(340:196 1240:896))
+\r t
+\a hiResizeWindow(swindow(5) list(355:203 1255:903))
+\r t
+\a hiResizeWindow(swindow(5) list(370:210 1270:910))
+\r t
+\a hiResizeWindow(swindow(5) list(381:219 1281:919))
+\r t
+\a hiResizeWindow(swindow(5) list(390:226 1290:926))
+\r t
+\a hiResizeWindow(swindow(5) list(399:231 1299:931))
+\r t
+\a hiResizeWindow(swindow(5) list(406:236 1306:936))
+\r t
+\a hiResizeWindow(swindow(5) list(411:241 1311:941))
+\r t
+\a hiResizeWindow(swindow(5) list(415:245 1315:945))
+\r t
+\a hiResizeWindow(swindow(5) list(415:249 1315:949))
+\r t
+\a hiResizeWindow(swindow(5) list(416:250 1316:950))
+\r t
+\a hiResizeWindow(swindow(5) list(416:252 1316:952))
+\r t
+\a hiResizeWindow(swindow(5) list(417:253 1317:953))
+\r t
+\a schDirectEdit(1)
+\i -0.875:1.125
+\i -0.875:1.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.5625:-1.4375
+\r Getting schematic propert bagt
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i -0.0625:0.4375
+\r t
+\a hiSetCurrentWindow(window(6))
 \r t
 \a mouseAddPt()
-\i -1:-3
+\i 1.6875:0.5
+\r t
+\r t
+\a hiCloseWindow(swindow(5))
+\r Getting schematic propert bagt
+\a hiResizeWindow(swindow(4) list(777:164 1677:864))
+\r t
+\a hiResizeWindow(swindow(4) list(776:165 1676:865))
+\r t
+\a hiResizeWindow(swindow(4) list(771:167 1671:867))
+\r t
+\a hiResizeWindow(swindow(4) list(768:167 1668:867))
+\r t
+\a hiResizeWindow(swindow(4) list(765:169 1665:869))
+\r t
+\a hiResizeWindow(swindow(4) list(762:169 1662:869))
+\r t
+\a hiResizeWindow(swindow(4) list(756:171 1656:871))
+\r t
+\a hiResizeWindow(swindow(4) list(754:172 1654:872))
+\r t
+\a hiResizeWindow(swindow(4) list(752:173 1652:873))
+\r t
+\a hiResizeWindow(swindow(4) list(749:175 1649:875))
+\r t
+\a hiResizeWindow(swindow(4) list(749:175 1649:875))
+\r t
+\a hiResizeWindow(swindow(4) list(743:178 1643:878))
+\r t
+\a hiResizeWindow(swindow(4) list(743:178 1643:878))
+\r t
+\a hiResizeWindow(swindow(4) list(741:180 1641:880))
+\r t
+\a hiResizeWindow(swindow(4) list(739:182 1639:882))
+\r t
+\a hiResizeWindow(swindow(4) list(736:184 1636:884))
+\r t
+\a hiResizeWindow(swindow(4) list(730:188 1630:888))
+\r t
+\a hiResizeWindow(swindow(4) list(730:188 1630:888))
+\r t
+\a hiResizeWindow(swindow(4) list(726:191 1626:891))
+\r t
+\a hiResizeWindow(swindow(4) list(721:195 1621:895))
+\r t
+\a hiResizeWindow(swindow(4) list(716:201 1616:901))
+\r t
+\a hiResizeWindow(swindow(4) list(710:206 1610:906))
+\r t
+\a hiResizeWindow(swindow(4) list(705:212 1605:912))
+\r t
+\a hiResizeWindow(swindow(4) list(699:217 1599:917))
+\r t
+\a hiResizeWindow(swindow(4) list(692:223 1592:923))
+\r t
+\a hiResizeWindow(swindow(4) list(686:225 1586:925))
+\r t
+\a hiResizeWindow(swindow(4) list(682:227 1582:927))
+\r t
+\a hiResizeWindow(swindow(4) list(678:229 1578:929))
+\r t
+\a hiResizeWindow(swindow(4) list(677:230 1577:930))
+\r t
+\a hiResizeWindow(swindow(4) list(676:231 1576:931))
+\r t
+\a hiResizeWindow(swindow(4) list(675:231 1575:931))
+\r t
+\a hiResizeWindow(swindow(4) list(675:231 1578:931))
+\r t
+\a hiResizeWindow(swindow(4) list(675:229 1613:931))
+\r t
+\a hiResizeWindow(swindow(4) list(675:213 1700:931))
+\r t
+\a hiResizeWindow(swindow(4) list(675:196 1781:931))
+\r t
+\a hiResizeWindow(swindow(4) list(675:190 1841:931))
+\r t
+\a hiResizeWindow(swindow(4) list(675:186 1853:931))
+\r t
+\a showClickInfo()
+\i -0.0625:-0.125
+\r window:6
+\a hiZoomInAtMouse()
+\i 2.75:-0.3125
+\r t
+\a showClickInfo()
+\i 1.5:0.4375
+\r window:6
+\a hiZoomOutAtMouse()
+\i 1.6875:0.3125
+\r t
+\a hiZoomInAtMouse()
+\i 1.625:-0.625
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a geScroll(nil "s" nil)
+\r t
+\a hiZoomOutAtMouse()
+\i 3.5625:-0.125
+\r t
+\a hiZoomInAtMouse()
+\i 3.75:-0.4375
+\r t
+\a hiResizeWindow(swindow(4) list(674:186 1852:931))
+\r t
+\a hiResizeWindow(swindow(4) list(672:186 1850:931))
+\r t
+\a hiResizeWindow(swindow(4) list(670:186 1848:931))
+\r t
+\a hiResizeWindow(swindow(4) list(668:186 1846:931))
+\r t
+\a hiResizeWindow(swindow(4) list(663:186 1841:931))
+\r t
+\a hiResizeWindow(swindow(4) list(656:186 1834:931))
+\r t
+\a hiResizeWindow(swindow(4) list(654:186 1832:931))
+\r t
+\a hiResizeWindow(swindow(4) list(634:186 1812:931))
+\r t
+\a hiResizeWindow(swindow(4) list(616:186 1794:931))
+\r t
+\a hiResizeWindow(swindow(4) list(597:184 1775:929))
+\r t
+\a hiResizeWindow(swindow(4) list(578:184 1756:929))
+\r t
+\a hiResizeWindow(swindow(4) list(557:184 1735:929))
+\r t
+\a hiResizeWindow(swindow(4) list(534:184 1712:929))
+\r t
+\a hiResizeWindow(swindow(4) list(513:184 1691:929))
+\r t
+\a hiResizeWindow(swindow(4) list(474:184 1652:929))
+\r t
+\a hiResizeWindow(swindow(4) list(439:184 1617:929))
+\r t
+\a hiResizeWindow(swindow(4) list(402:184 1580:929))
+\r t
+\a hiResizeWindow(swindow(4) list(365:184 1543:929))
+\r t
+\a hiResizeWindow(swindow(4) list(322:186 1500:931))
+\r t
+\a hiResizeWindow(swindow(4) list(287:188 1465:933))
+\r t
+\a hiResizeWindow(swindow(4) list(252:188 1430:933))
+\r t
+\a hiResizeWindow(swindow(4) list(217:188 1395:933))
+\r t
+\a hiResizeWindow(swindow(4) list(182:188 1360:933))
+\r t
+\a hiResizeWindow(swindow(4) list(155:188 1333:933))
+\r t
+\a hiResizeWindow(swindow(4) list(145:188 1323:933))
+\r t
+\a hiResizeWindow(swindow(4) list(111:188 1289:933))
+\r t
+\a hiResizeWindow(swindow(4) list(96:188 1274:933))
+\r t
+\a hiResizeWindow(swindow(4) list(85:188 1263:933))
+\r t
+\a hiResizeWindow(swindow(4) list(76:190 1254:935))
+\r t
+\a hiResizeWindow(swindow(4) list(67:192 1245:937))
+\r t
+\a hiResizeWindow(swindow(4) list(66:194 1244:939))
+\r t
+\a hiResizeWindow(swindow(4) list(67:194 1245:939))
+\r t
+\a hiResizeWindow(swindow(4) list(68:194 1246:939))
+\r t
+\a hiResizeWindow(swindow(4) list(68:193 1246:938))
+\r t
+\a hiResizeWindow(swindow(4) list(69:193 1247:938))
+\r t
+\a hiResizeWindow(swindow(4) list(70:192 1248:937))
+\r t
+\a hiResizeWindow(swindow(4) list(72:191 1250:936))
+\r t
+\a hiResizeWindow(swindow(4) list(73:191 1251:936))
+\r t
+\a hiResizeWindow(swindow(4) list(77:189 1255:934))
+\r t
+\a hiResizeWindow(swindow(4) list(86:186 1264:931))
+\r t
+\a hiResizeWindow(swindow(4) list(98:181 1276:926))
+\r t
+\a hiResizeWindow(swindow(4) list(109:180 1287:925))
+\r t
+\a hiResizeWindow(swindow(4) list(123:178 1301:923))
+\r t
+\a hiResizeWindow(swindow(4) list(137:178 1315:923))
+\r t
+\a hiResizeWindow(swindow(4) list(149:178 1327:923))
+\r t
+\a hiResizeWindow(swindow(4) list(163:178 1341:923))
+\r t
+\a hiResizeWindow(swindow(4) list(179:178 1357:923))
+\r t
+\a hiResizeWindow(swindow(4) list(196:178 1374:923))
+\r t
+\a hiResizeWindow(swindow(4) list(212:178 1390:923))
+\r t
+\a hiResizeWindow(swindow(4) list(233:178 1411:923))
+\r t
+\a hiResizeWindow(swindow(4) list(254:178 1432:923))
+\r t
+\a hiResizeWindow(swindow(4) list(277:178 1455:923))
+\r t
+\a hiResizeWindow(swindow(4) list(298:178 1476:923))
+\r t
+\a hiResizeWindow(swindow(4) list(319:178 1497:923))
+\r t
+\a hiResizeWindow(swindow(4) list(342:178 1520:923))
+\r t
+\a hiResizeWindow(swindow(4) list(361:178 1539:923))
+\r t
+\a hiResizeWindow(swindow(4) list(380:178 1558:923))
+\r t
+\a hiResizeWindow(swindow(4) list(401:178 1579:923))
+\r t
+\a hiResizeWindow(swindow(4) list(422:178 1600:923))
+\r t
+\a hiResizeWindow(swindow(4) list(441:180 1619:925))
+\r t
+\a hiResizeWindow(swindow(4) list(456:182 1634:927))
+\r t
+\a hiResizeWindow(swindow(4) list(471:184 1649:929))
+\r t
+\a hiResizeWindow(swindow(4) list(486:186 1664:931))
+\r t
+\a hiResizeWindow(swindow(4) list(497:189 1675:934))
+\r t
+\a hiResizeWindow(swindow(4) list(508:191 1686:936))
+\r t
+\a hiResizeWindow(swindow(4) list(517:193 1695:938))
+\r t
+\a hiResizeWindow(swindow(4) list(524:195 1702:940))
+\r t
+\a hiResizeWindow(swindow(4) list(531:197 1709:942))
+\r t
+\a hiResizeWindow(swindow(4) list(532:199 1710:944))
+\r t
+\a hiResizeWindow(swindow(4) list(535:201 1713:946))
+\r t
+\a hiResizeWindow(swindow(4) list(536:202 1714:947))
+\r t
+\a hiResizeWindow(swindow(4) list(537:203 1715:948))
+\r t
+\a hiResizeWindow(swindow(4) list(539:204 1717:949))
+\r t
+\a hiResizeWindow(swindow(4) list(539:205 1717:950))
+\r t
+\a hiCloseWindow(swindow(4))
+\p > 
+\a hiDBoxCancel(geDBox t)
+\r Getting schematic propert bagt
+\w *WARNING* Close or Return in window:6 aborted.
+\r Getting schematic propert bagGetting schematic propert bagnil
+\a showClickInfo()
+\i 1.5:0.5
+\r window:6
+\a showClickInfo()
+\i 1.4375:0.5
+\r window:6
+\a showClickInfo()
+\i 1.3125:0.5
+\r window:6
+\a geScroll(nil "n" nil)
+\r t
+\a showClickInfo()
+\i 1.75:0.4375
+\o 
+\o pmos (instance "M8", library "NCSU_Analog_Parts")
+\r window:6
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->w->value="24u M"
+\r "24u M"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 1.5:-0.625
+\r window:6
+\a showClickInfo()
+\i 1.5:-0.5625
+\r window:6
+\a showClickInfo()
+\i 1.6875:-0.5625
+\o 
+\o nmos (instance "M10", library "NCSU_Analog_Parts")
+\r window:6
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="12u M"
+\r "12u M"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i 3.375:0.4375
+\r window:6
+\a schHiViewToView()
+\p > 
+\a hiiSetCurrentForm('schViewToViewForm)
+\r t
+\a hiFormDone(schViewToViewForm)
+\p > 
+\a hiiSetCurrentForm('schSgForm)
+\r t
+\a hiFormDone(schSgForm)
+\o Symbol (inv_2x symbol) generated and saved in library:Lab5.
+\r t
+\o Completed generating design in library "Lab5" as "inv_2x" "symbol".
+\o Adding CDF information ...
+\o     Adding base cell CDF parameter information ...
+\o     Adding base cell CDF simulation information ...
+\o     Adding base lib CDF label display information ...
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 0.75:0
+\r t
+\a mouseSingleSelectPt()
+\i 0.75:0
+\r t
+\a mouseSingleSelectPt()
+\i 0.75:0
+\r t
+\a mouseSingleSelectPt()
+\i 0.75:0
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->objScope->value="only current"
+\r "only current"
+\a schObjPropForm->labelText->value="inv_2x"
+\r "inv_2x"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a mouseSingleSelectPt()
+\i 1.0625:0.125
+\r t
+\a schDirectEdit(1)
+\i 1.1875:0.125
+\i 1.1875:0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.9375:0.125
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.1875:0
+\r t
+\a mouseSingleSelectPt()
+\i 1.125:0.0625
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schSymbolShapePopUp)
+\r t
+\a schHiCreateSymbolShape("line" "outline")
+\p > 
+\a hiiSetCurrentForm('schCreateSymbolShapeForm)
+\r t
+\a geSingleSelectBox()
+\i 1.1875:0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.125:0
+\r t
+\r nil
+\a mouseAddPt()
+\i 0.75:0.125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.25:0.125
+\r t
+\a mouseSingleSelectPt()
+\i 0.9375:0.125
+\r t
+\a mouseSingleSelectPt()
+\i 0.9375:0.125
+\r t
+\a mouseSingleSelectPt()
+\i 0.9375:0.125
+\r t
+\a hiPrevWinView(hiGetCurrentWindow())
+\r t
+\a mouseSingleSelectPt()
+\i 0.9375:0.125
+\r t
+\a schDirectEdit(1)
+\i 0.9375:0.125
+\i 0.9375:0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.9375:0.125
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.9375:0.125
+\r t
+\a hiPrevWinView(hiGetCurrentWindow())
+\r t
+\a schDirectEdit(1)
+\i 0.9375:0.125
+\i 0.9375:0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.9375:0.0625
+\r t
+\r nil
+\a hiPrevWinView(hiGetCurrentWindow())
+\r t
+\a mouseSingleSelectPt()
+\i 0.8125:-0.125
+\r t
+\a hiPrevWinView(hiGetCurrentWindow())
+\r t
+\a schDirectEdit(1)
+\i 0.8125:-0.125
+\i 0.8125:-0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.8125:-0.0625
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.1875:-0.0625
+\r t
+\a hiPrevWinView(hiGetCurrentWindow())
+\r t
+\a schDirectEdit(1)
+\i 1.1875:-0.0625
+\i 1.1875:-0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.1875:-0.0625
+\r t
+\r nil
+\a hiPrevWinView(hiGetCurrentWindow())
+\r t
+\a mouseSingleSelectPt()
+\i 1.1875:0
+\r t
+\a mouseSingleSelectPt()
+\i 1.125:0.0625
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiPrevWinView(hiGetCurrentWindow())
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormCancel(schObjPropForm)
+\r t
+\a mouseSingleSelectPt()
+\i 0.875:0.125
+\r t
+\a schHiCreateSymbolShape("polygon" "outline")
+\p > 
+\a geSingleSelectBox()
+\i 0.4375:0.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.4375:0.4375
+\r t
+\r nil
+\a mouseAddPt()
+\i 0.5:0.5
 \r t
 \a mouseAddPt()
-\i -1:-2.875
+\i 0.5:0.25
+\r t
+\a mouseAddPt()
+\i 0.8125:0.375
+\r t
+\a mouseAddPt()
+\i 0.5:0.5
+\r t
+\a mouseAddPt()
+\i 0.5:0.0625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.5:0.0625
+\r t
+\a schHiDelete()
+\r t
+\a mouseSingleSelectPt()
+\i 0.5625:0.4375
+\r t
+\a schDirectEdit(1)
+\i 0.4375:0.5
+\i 0.4375:0.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.8125:0.25
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i 0.625:0.375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.75:0.125
+\r t
+\r nil
+\a geSingleSelectBox()
+\i 0.375:0.5625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.875:0.25
+\r t
+\r t
+\a schHiMove()
+\r t
+\a mouseAddPt()
+\i 0.625:0.375
+\r t
+\a mouseAddPt()
+\i 0.6875:0
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.6875:0.0625
+\r t
+\a schDirectEdit(1)
+\i 0.4375:0.25
+\i 0.4375:0.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.9375:-0.375
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 0.6875:0.0625
+\r t
+\a mouseAddPt()
+\i 0.5:0.0625
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 0.3125:0
+\r t
+\a schDirectEdit(1)
+\i 0.3125:0
+\i 0.3125:0
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.1875:0.0625
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 0.3125:0.1875
+\i 0.3125:0.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.75:-0.25
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 0.625:0
+\r t
+\a mouseAddPt()
+\i 0.5:0
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.125:0
+\r t
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 1.125:0
+\r t
+\a mouseAddPt()
+\i 1.3125:0.0625
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.5625:0.125
+\r t
+\a mouseSingleSelectPt()
+\i 1.625:0.125
+\r t
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 1.875:0.125
+\r t
+\a mouseAddPt()
+\i 0.75:0.1875
+\r t
+\r t
+\a schDirectEdit(1)
+\i 1.125:0.125
+\i 1.125:0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.4375:0
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a mouseSingleSelectPt()
+\i 1.25:0.0625
+\r t
+\a mouseSingleSelectPt()
+\i 1.0625:-0.0625
+\r t
+\a mouseSingleSelectPt()
+\i 1:-0.5
+\r nil
+\a schDirectEdit(1)
+\i 1.0625:-0.25
+\i 1.0625:-0.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.625:0.25
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 1.3125:0.0625
+\r t
+\a mouseAddPt()
+\i 0.75:0.0625
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.4375:0
+\r t
+\a schDirectEdit(1)
+\i 1.4375:0
+\i 1.4375:0
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.875:0
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.125:-0.0625
+\r nil
+\a schHiCreateSymbolShape("circle" "outline")
+\p > 
+\a geSingleSelectBox()
+\i 0.5625:0
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.625:0
+\r t
+\r nil
+\a mouseAddPt()
+\i 0.5625:0
+\r t
+\a mouseAddPt()
+\i 0.625:0
 \r t
 \a cancelEnterFun()
 \r t
@@ -743,311 +1946,987 @@
 \a schHiMove()
 \p > 
 \a geSingleSelectBox()
-\i 0.0625:-3.375
+\i 1.0625:-0.25
 \p > 
 \a addPoint(hiGetCommandPoint())
-\i 0.75:-3.9375
+\i 0.625:0.125
 \r t
 \r t
 \a mouseAddPt()
-\i 0.3125:-3.625
+\i 0.75:0.0625
 \r t
 \a mouseAddPt()
-\i -2.5625:0.25
+\i 0.8125:0.0625
 \r t
 \a cancelEnterFun()
 \r t
 \r nil
-\a schHiCreateWire(0.0)
+\a mouseSingleSelectPt()
+\i 0.625:0
+\r t
+\a schHiMove()
 \p > 
 \a mouseAddPt()
-\i -2.625:0.125
+\i 0.625:0.0625
 \r t
 \a mouseAddPt()
-\i -2.1875:-0.1875
+\i 0.625:0.0625
+\r t
+\r t
+\a schDirectEdit(1)
+\i 0.625:0.0625
+\i 0.625:0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.6875:0
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 0.625:0.0625
 \r t
 \a mouseAddPt()
-\i -1.4375:-0.1875
+\i 0.6875:0.0625
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 0.875:-0.0625
+\r t
+\a mouseSingleSelectPt()
+\i 0.875:-0.0625
+\r t
+\a schDirectEdit(1)
+\i 0.875:-0.0625
+\i 0.875:-0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.9375:-0.0625
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.3125:-0.1875
+\r nil
+\a schHiVICAndSave()
+\o Cross View Check completed with no errors.
+\o "Lab5 inv_2x symbol" saved.
+\r t
+\a schHiVICAndSave()
+\o Cross View Check completed with no errors.
+\o "Lab5 inv_2x symbol" saved.
+\r t
+\a mouseSingleSelectPt()
+\i 1.4375:-0.1875
+\r nil
+\a hiCloseWindow(swindow(6))
+\r t
+\a hiCloseWindow(swindow(4))
+\p > 
+\a hiDBoxOK(geDBox)
+\r Getting schematic propert bagt
+\r t
+\a showClickInfo()
+\i 4.625:1.125
+\r window:5
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:519))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:535))
+\r t
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserLib1->value="Lab5"
+\r "Lab5"
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "inv_2x" )
+\r ("inv_2x")
+\a hiSetCurrentWindow(window(5))
 \r t
 \a mouseAddPt()
-\i -1.125:-0.1875
+\i 4.375:0.75
 \r t
 \a cancelEnterFun()
 \r t
 \r nil
+\a hiZoomOutAtMouse()
+\i 5.375:0.6875
+\r t
+\a hiZoomInAtMouse()
+\i 5.375:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 5.375:0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i 5.3125:0.625
+\r t
+\a showClickInfo()
+\i 4.9375:0.75
+\o 
+\o inv_2x (instance "I10", library "Lab5")
+\r window:5
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 4.9375:0.75
+\r t
+\a mouseAddPt()
+\i 4.9375:1.125
+\r t
+\r t
+\a showClickInfo()
+\i 5.1875:0.75
+\o 
+\o wire drawing -> net: "net4" bounding box: (5.12,0.75) (5.69,0.75)
+\r window:5
+\a schHiDelete()
+\p > 
 \a geSubSelectPoint()
 \p > 
 \a mouseAddPt()
-\i -1.3125:-0.1875
+\i 5.375:0.75
 \r t
-\r nil
-\a schHiDelete()
-\p > 
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i -1.3125:-0.1875
-\r t
-\a mouseAddPt()
-\i -1.125:-0.1875
 \r t
 \a deletePoint()
 \r t
 \a mouseAddPt()
-\i -1.125:-0.1875
-\r t
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i -1.125:-0.1875
-\r t
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i -1.125:-0.1875
-\r t
-\a mouseAddPt()
-\i -1.125:-0.1875
-\r t
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i -1.1875:-0.1875
-\r t
-\a deletePoint()
+\i 5.375:0.75
 \r t
 \a schHiMove()
 \r t
-\a geSingleSelectBox()
-\i -0.25:-0.625
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -1.25:0.125
-\r t
+\a mouseAddPt()
+\i 4.8125:1.0625
 \r t
 \a mouseAddPt()
-\i -0.8125:-0.25
-\r t
-\a mouseAddPt()
-\i 0:-0.1875
-\r t
-\a geSingleSelectBox()
-\i -0.4375:0
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -0.25:-0.375
-\r t
-\r t
-\a mouseAddPt()
-\i -0.3125:-0.125
-\r t
-\a mouseAddPt()
-\i -1.0625:0.125
-\r t
-\a geSingleSelectBox()
-\i -1.25:0.3125
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -0.75:-0.1875
-\r t
-\r t
-\a deletePoint()
-\r t
-\a hiiSetCurrentForm('schMoveForm)
+\i 4.8125:0.6875
 \r t
 \a cancelEnterFun()
-\r t
-\r nil
-\a schDirectEdit(1)
-\i -1.375:0.25
-\i -1.375:0.25
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -0.875:-0.1875
-\r t
-\r nil
-\a schHiDelete()
-\r t
-\a schDirectEdit(1)
-\i -0.625:0.125
-\i -0.625:0.125
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 1:-0.625
-\r t
-\r nil
-\a showClickInfo()
-\i -0.125:-0.1875
-\o 
-\o inv_1x (instance "I2", library "451_Lab4")
-\r window:2
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i 0.0625:-0.125
-\r t
-\a mouseAddPt()
-\i -0.5625:-0.1875
-\r t
-\r t
-\a showClickInfo()
-\i -0.625:-0.25
-\o 
-\o inv_1x (instance "I2", library "451_Lab4")
-\r window:2
-\a showClickInfo()
-\i -0.75:-0.25
-\o 
-\o inv_1x (instance "I2", library "451_Lab4")
-\r window:2
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i -0.5625:-0.25
-\r t
-\a mouseAddPt()
-\i -0.6875:-0.25
-\r t
-\r t
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -1.4375:-0.1875
-\r t
-\a mouseAddPt()
-\i -1.125:-0.1875
-\r t
-\a mouseAddPt()
-\i -0.375:-0.1875
-\r t
-\a mouseAddPt()
-\i 1.125:-1.0625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiMove()
-\p > 
-\a geSingleSelectBox()
-\i 3.3125:-0.5
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 5.6875:-1.5
-\r t
-\r t
-\a mouseAddPt()
-\i 4.0625:-1.0625
-\r t
-\a mouseAddPt()
-\i 3.375:-1.0625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWireLabel()
-\p > 
-\a mouseAddPt()
-\i 0.6875:-1.0625
-\r t
-\a hiiSetCurrentForm('schCreateWireLabelForm)
-\r t
-\a cancelEnterFun(schCreateWireLabelForm)
 \r t
 \r nil
 \a schHiCreateWire(0.0)
 \p > 
 \a mouseAddPt()
-\i 2.6875:-1.0625
+\i 5.3125:0.75
 \r t
 \a mouseAddPt()
-\i 3.0625:-1.0625
-\r t
-\a mouseAddPt()
-\i 3.8125:-1.0625
-\r t
-\a mouseAddPt()
-\i 4:-1.0625
-\r t
-\a mouseAddPt()
-\i 4.75:-1.0625
-\r t
-\a mouseAddPt()
-\i 5:-1.0625
-\r t
-\a mouseAddPt()
-\i 5:-1.3125
+\i 5.6875:0.75
 \r t
 \a cancelEnterFun()
+\r t
+\r nil
+\a schHiCheckAndSave()
+\o Extracting "partovi schematic"
+\o Warning: Solder dot on cross over at ( 3.8750, 0.7500 ).
+\o There were 0 errors and 1 warning found in "Lab5 partovi schematic".
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\o "Lab5 partovi schematic" saved.
+\r t
+\o  
+\o Library Manager new cellview request for library "Lab5".
+\i deNew('(nil libName "Lab5"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a deNewForm->deCellName->value="char"
+\r "char"
+\a hiFormDone(deNewForm)
+\r t
+\a hiResizeWindow(swindow(7) list(132:150 1032:850))
+\r t
+\a hiResizeWindow(swindow(7) list(133:151 1033:851))
+\r t
+\a hiResizeWindow(swindow(7) list(135:152 1035:852))
+\r t
+\a hiResizeWindow(swindow(7) list(137:154 1037:854))
+\r t
+\a hiResizeWindow(swindow(7) list(139:155 1039:855))
+\r t
+\a hiResizeWindow(swindow(7) list(141:156 1041:856))
+\r t
+\a hiResizeWindow(swindow(7) list(143:158 1043:858))
+\r t
+\a hiResizeWindow(swindow(7) list(144:160 1044:860))
+\r t
+\a hiResizeWindow(swindow(7) list(145:161 1045:861))
+\r t
+\a hiResizeWindow(swindow(7) list(147:164 1047:864))
+\r t
+\a hiResizeWindow(swindow(7) list(147:165 1047:865))
+\r t
+\a hiResizeWindow(swindow(7) list(147:166 1047:866))
+\r t
+\a hiResizeWindow(swindow(7) list(147:167 1047:867))
+\r t
+\a hiResizeWindow(swindow(7) list(147:168 1047:868))
+\r t
+\a hiResizeWindow(swindow(7) list(147:169 1047:869))
+\r t
+\a hiResizeWindow(swindow(7) list(147:171 1047:871))
+\r t
+\a hiResizeWindow(swindow(7) list(147:172 1047:872))
+\r t
+\a hiResizeWindow(swindow(7) list(147:173 1047:873))
+\r t
+\a hiResizeWindow(swindow(7) list(147:175 1047:875))
+\r t
+\a hiResizeWindow(swindow(7) list(147:176 1047:876))
+\r t
+\a hiResizeWindow(swindow(7) list(147:178 1047:878))
+\r t
+\a hiResizeWindow(swindow(7) list(146:180 1046:880))
+\r t
+\a hiResizeWindow(swindow(7) list(146:181 1046:881))
+\r t
+\a hiResizeWindow(swindow(7) list(144:184 1044:884))
+\r t
+\a hiResizeWindow(swindow(7) list(141:186 1041:886))
+\r t
+\a hiResizeWindow(swindow(7) list(139:189 1039:889))
+\r t
+\a hiResizeWindow(swindow(7) list(136:191 1036:891))
+\r t
+\a hiResizeWindow(swindow(7) list(133:194 1033:894))
+\r t
+\a hiResizeWindow(swindow(7) list(129:198 1029:898))
+\r t
+\a hiResizeWindow(swindow(7) list(124:203 1024:903))
+\r t
+\a hiResizeWindow(swindow(7) list(118:209 1018:909))
+\r t
+\a hiResizeWindow(swindow(7) list(112:215 1012:915))
+\r t
+\a hiResizeWindow(swindow(7) list(103:223 1003:923))
+\r t
+\a hiResizeWindow(swindow(7) list(93:231 993:931))
+\r t
+\a hiResizeWindow(swindow(7) list(83:239 983:939))
+\r t
+\a hiResizeWindow(swindow(7) list(73:247 973:947))
+\r t
+\a hiResizeWindow(swindow(7) list(65:253 965:953))
+\r t
+\a hiResizeWindow(swindow(7) list(57:260 957:960))
+\r t
+\a hiResizeWindow(swindow(7) list(48:266 948:966))
+\r t
+\a hiResizeWindow(swindow(7) list(41:271 941:971))
+\r t
+\a hiResizeWindow(swindow(7) list(35:273 935:973))
+\r t
+\a hiResizeWindow(swindow(7) list(30:277 930:977))
+\r t
+\a hiResizeWindow(swindow(7) list(26:279 926:979))
+\r t
+\a hiResizeWindow(swindow(7) list(25:281 925:981))
+\r t
+\a hiResizeWindow(swindow(7) list(23:283 923:983))
+\r t
+\a hiResizeWindow(swindow(7) list(22:283 922:983))
+\r t
+\a hiResizeWindow(swindow(7) list(21:284 921:984))
+\r t
+\a hiResizeWindow(swindow(7) list(20:285 920:985))
+\r t
+\a hiResizeWindow(swindow(7) list(19:285 919:985))
+\r t
+\a hiResizeWindow(swindow(7) list(18:285 918:985))
+\r t
+\a hiResizeWindow(swindow(7) list(18:286 918:986))
+\r t
+\a hiResizeWindow(swindow(7) list(19:287 919:987))
+\r t
+\a hiResizeWindow(swindow(7) list(23:287 923:987))
+\r t
+\a hiResizeWindow(swindow(7) list(30:287 930:987))
+\r t
+\a hiResizeWindow(swindow(7) list(45:287 945:987))
+\r t
+\a hiResizeWindow(swindow(7) list(62:287 962:987))
+\r t
+\a hiResizeWindow(swindow(7) list(85:289 985:989))
+\r t
+\a hiResizeWindow(swindow(7) list(108:289 1008:989))
+\r t
+\a hiResizeWindow(swindow(7) list(133:289 1033:989))
+\r t
+\a hiResizeWindow(swindow(7) list(158:289 1058:989))
+\r t
+\a hiResizeWindow(swindow(7) list(185:291 1085:991))
+\r t
+\a hiResizeWindow(swindow(7) list(212:293 1112:993))
+\r t
+\a hiResizeWindow(swindow(7) list(239:293 1139:993))
+\r t
+\a hiResizeWindow(swindow(7) list(266:293 1166:993))
+\r t
+\a hiResizeWindow(swindow(7) list(293:293 1193:993))
+\r t
+\a hiResizeWindow(swindow(7) list(314:293 1214:993))
+\r t
+\a hiResizeWindow(swindow(7) list(337:295 1237:995))
+\r t
+\a hiResizeWindow(swindow(7) list(356:295 1256:995))
+\r t
+\a hiResizeWindow(swindow(7) list(375:295 1275:995))
+\r t
+\a hiResizeWindow(swindow(7) list(394:295 1294:995))
+\r t
+\a hiResizeWindow(swindow(7) list(413:295 1313:995))
+\r t
+\a hiResizeWindow(swindow(7) list(432:297 1332:997))
+\r t
+\a hiResizeWindow(swindow(7) list(449:297 1349:997))
+\r t
+\a hiResizeWindow(swindow(7) list(464:297 1364:997))
+\r t
+\a hiResizeWindow(swindow(7) list(479:297 1379:997))
+\r t
+\a hiResizeWindow(swindow(7) list(492:297 1392:997))
+\r t
+\a hiResizeWindow(swindow(7) list(505:297 1405:997))
+\r t
+\a hiResizeWindow(swindow(7) list(518:297 1418:997))
+\r t
+\a hiResizeWindow(swindow(7) list(527:297 1427:997))
+\r t
+\a hiResizeWindow(swindow(7) list(536:299 1436:999))
+\r t
+\a hiResizeWindow(swindow(7) list(543:299 1443:999))
+\r t
+\a hiResizeWindow(swindow(7) list(547:299 1447:999))
+\r t
+\a hiResizeWindow(swindow(7) list(551:299 1451:999))
+\r t
+\a hiResizeWindow(swindow(7) list(552:299 1452:999))
+\r t
+\a hiResizeWindow(swindow(7) list(554:299 1454:999))
+\r t
+\a hiResizeWindow(swindow(7) list(555:299 1455:999))
+\r t
+\a hiResizeWindow(swindow(7) list(556:299 1456:999))
+\r t
+\a hiResizeWindow(swindow(7) list(557:299 1457:999))
+\r t
+\a hiResizeWindow(swindow(7) list(558:299 1458:999))
+\r t
+\a hiResizeWindow(swindow(7) list(560:299 1460:999))
+\r t
+\a hiResizeWindow(swindow(7) list(563:299 1463:999))
+\r t
+\a hiResizeWindow(swindow(7) list(566:299 1466:999))
+\r t
+\a hiResizeWindow(swindow(7) list(570:299 1470:999))
+\r t
+\a hiResizeWindow(swindow(7) list(573:299 1473:999))
+\r t
+\a hiResizeWindow(swindow(7) list(578:299 1478:999))
+\r t
+\a hiResizeWindow(swindow(7) list(586:299 1486:999))
+\r t
+\a hiResizeWindow(swindow(7) list(597:299 1497:999))
+\r t
+\a hiResizeWindow(swindow(7) list(611:299 1511:999))
+\r t
+\a hiResizeWindow(swindow(7) list(625:299 1525:999))
+\r t
+\a hiResizeWindow(swindow(7) list(639:299 1539:999))
+\r t
+\a hiResizeWindow(swindow(7) list(655:299 1555:999))
+\r t
+\a hiResizeWindow(swindow(7) list(672:299 1572:999))
+\r t
+\a hiResizeWindow(swindow(7) list(688:299 1588:999))
+\r t
+\a hiResizeWindow(swindow(7) list(703:299 1603:999))
+\r t
+\a hiResizeWindow(swindow(7) list(717:299 1617:999))
+\r t
+\a hiResizeWindow(swindow(7) list(732:301 1632:1001))
+\r t
+\a hiResizeWindow(swindow(7) list(745:301 1645:1001))
+\r t
+\a hiResizeWindow(swindow(7) list(758:303 1658:1003))
+\r t
+\a hiResizeWindow(swindow(7) list(769:303 1669:1003))
+\r t
+\a hiResizeWindow(swindow(7) list(776:303 1676:1003))
+\r t
+\a hiResizeWindow(swindow(7) list(778:304 1678:1004))
+\r t
+\a hiResizeWindow(swindow(7) list(781:304 1681:1004))
+\r t
+\a hiResizeWindow(swindow(7) list(785:306 1685:1006))
+\r t
+\a hiResizeWindow(swindow(7) list(786:306 1686:1006))
+\r t
+\a hiResizeWindow(swindow(7) list(787:306 1687:1006))
+\r t
+\a showClickInfo()
+\i -0.125:-0.0625
+\r Getting schematic propert bagwindow:9
+\a schHiCreateInst()
+\a hiResizeWindow(window(3) list(0:25 220:551))
+\r t
+\a hiResizeWindow(window(3) list(0:25 220:567))
+\r t
+\p > 
+\a hiSetCurrentWindow(window(3))
+\r t
+\a schComponentBrowserForm->schBrowserListBox1->value= '( "partovi" )
+\r ("partovi")
+\a hiSetCurrentWindow(window(9))
+\r t
+\a mouseAddPt()
+\i -0.5:0.4375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i -1.0625:0.375
+\r t
+\a hiResizeWindow(swindow(7) list(-2:21 1918:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(787:306 1687:1006))
+\r t
+\a hiResizeWindow(swindow(7) list(787:306 1689:1006))
+\r t
+\a hiResizeWindow(swindow(7) list(787:306 1722:1036))
+\r t
+\a hiResizeWindow(swindow(7) list(787:306 1838:1110))
+\r t
+\a hiResizeWindow(swindow(7) list(787:306 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(787:305 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(776:292 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(699:214 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(621:112 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(550:31 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(528:25 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(527:25 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(526:25 1916:1145))
+\r t
+\a hiResizeWindow(swindow(7) list(525:25 1916:1145))
+\r t
+\i ddsServOpen("451_Lab4" "lab4" "schematic" "edit" nil)
+\a hiCloseWindow(swindow(8))
+\r Getting schematic propert bagt
+\i ddsServOpen("MYLIB" "tutorial3" "schematic" "edit" nil)
+\a schDirectEdit(1)
+\i 4.9375:-0.0625
+\i 4.9375:-0.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.875:-3.5
+\r Getting schematic propert bagt
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i 3.9375:-1.25
+\r t
+\a hiSetCurrentWindow(window(9))
+\r t
+\a mouseAddPt()
+\i 5.875:-1.4375
+\r t
+\r t
+\a hiSetCurrentWindow(window(11))
+\r t
+\a showClickInfo()
+\i -1.8125:-3.25
+\r window:11
+\a schDirectEdit(1)
+\i -3.75:0.875
+\i -3.75:0.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.8125:-1.125
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i -1.75:-0.375
+\r t
+\a hiSetCurrentWindow(window(9))
+\r t
+\a mouseAddPt()
+\i 0.75:2
+\r t
+\r t
+\a showClickInfo()
+\i 0.6875:-1.1875
+\r window:9
+\a hiZoomInAtMouse()
+\i 1.875:0.3125
+\r t
+\a schDirectEdit(1)
+\i 3.4375:0.125
+\i 3.4375:0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 6.625:-4.125
+\r t
+\r nil
+\a showClickInfo()
+\i 5.5625:-1.3125
+\o 
+\o inv_1x (instance "I11", library "MYLIB")
+\r window:9
+\a schDirectEdit(1)
+\i 3.3125:0
+\i 3.3125:0
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 7.1875:-4
 \r t
 \r nil
 \a schHiMove()
 \p > 
 \a mouseAddPt()
-\i 4.0625:-2.3125
+\i 5.875:-1.375
 \r t
 \a mouseAddPt()
-\i 5:-1.5
+\i 4.0625:-0.3125
 \r t
-\a cancelEnterFun()
 \r t
-\r nil
-\a schHiCreateWireLabel()
-\p > 
-\a mouseAddPt()
-\i 2.8125:-1.0625
-\r t
-\a schMouseApplyOrFinish()
-\i 2.875:-1.0625
-\r t
-\a mouseAddPt()
-\i 2.875:-1.0625
-\r t
-\a cancelEnterFun(schCreateWireLabelForm)
-\r t
-\r nil
 \a showClickInfo()
-\i 2.9375:-1.0625
+\i 4.0625:-0.375
 \o 
-\o wire drawing -> bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a schHiCreateWireLabel()
+\o inv_1x (instance "I11", library "MYLIB")
+\r window:9
+\a schDirectEdit(1)
+\i 1.9375:0.9375
+\i 1.9375:0.9375
 \p > 
-\a schCreateWireLabelForm->tabField->page1->label->value="OUT"
-\r "OUT"
-\a hiiToggleEnterForm(schCreateWireLabelForm)
+\a addPoint(hiGetCommandPoint())
+\i 5.0625:-3
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 4:-0.3125
 \r t
 \a mouseAddPt()
-\i 2.875:-1.0625
+\i 3:-0.25
+\r t
+\r t
+\a showClickInfo()
+\i 0.4375:-0.9375
+\r window:9
+\a hiZoomInAtMouse()
+\i -0.6875:0.125
+\r t
+\a showClickInfo()
+\i 1.4375:-0.5
+\o 
+\o gnd (instance "I37", library "NCSU_Analog_Parts")
+\r window:9
+\a hiZoomOutAtMouse()
+\i 0.6875:-0.375
+\r t
+\a geScroll(nil "n" nil)
+\r t
+\a hiSetCurrentWindow(window(11))
+\r t
+\a showClickInfo()
+\i -0.9375:-3.6875
+\r window:11
+\a schHiCopy()
+\p > 
+\a geSingleSelectBox()
+\i -3.3125:-1.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.5:-2.625
+\r t
+\r t
+\a schHiCopy()
+\r t
+\a geSingleSelectBox()
+\i -3.0625:-1.0625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.625:-2.875
+\r t
 \r t
 \a mouseAddPt()
-\i 2.5625:-2.25
+\i -2.8125:-1.9375
+\r t
+\a hiSetCurrentWindow(window(9))
+\r t
+\a mouseAddPt()
+\i 3.6875:2.4375
+\r t
+\a showClickInfo()
+\i 2.0625:1.5
+\r window:9
+\a hiCloseWindow(swindow(9))
+\r Getting schematic propert bagt
+\r nil
+\a showClickInfo()
+\i 2.5625:1.3125
+\r window:9
+\a schDirectEdit(1)
+\i 2.9375:3.625
+\i 2.9375:3.625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4.625:1.6875
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i 3.6875:2.4375
+\r t
+\a mouseAddPt()
+\i 2.5:1.875
+\r t
+\r t
+\a schDirectEdit(1)
+\i -1.625:3.1875
+\i -1.625:3.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.875:1.0625
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i 0.4375:2
+\r t
+\a mouseAddPt()
+\i -2.3125:0.3125
+\r t
+\r t
+\a showClickInfo()
+\i -1.0625:0.8125
+\r window:9
+\a hiResizeWindow(swindow(7) list(-2:21 1918:1145))
+\r t
+\a schDirectEdit(1)
+\i -4.125:1.6875
+\i -4.125:1.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.6875:-0.9375
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i -2.3125:0.375
+\r t
+\a mouseAddPt()
+\i -3.125:-0.1875
+\r t
+\r t
+\a showClickInfo()
+\i -1.875:0.375
+\r window:9
+\a schDirectEdit(1)
+\i -3.875:1.5625
+\i -3.875:1.5625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.9375:-0.3125
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -5.3125:2
+\i -5.3125:2
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.875:-1.0625
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a schDirectEdit(1)
+\i -1.75:3.25
+\i -1.75:3.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.875:1.375
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt()
+\i 0.375:2.0625
+\r t
+\a mouseAddPt()
+\i -3.375:-0.4375
+\r t
+\r t
+\a showClickInfo()
+\i -1.375:-0.625
+\r window:9
+\a showClickInfo()
+\i -2.0625:-0.5
+\r window:9
+\a geSubSelectPoint()
+\p > 
+\a mouseAddPt()
+\i -2.125:-0.5625
+\r t
+\r nil
+\a schHiDelete()
+\p > 
+\a mouseAddPt()
+\i -2.125:-0.625
+\r t
+\a geSingleSelectBox()
+\i -1.6875:3.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.75:1.3125
+\r t
+\r t
+\a hiUndo()
+\r t
+\a mouseAddPt()
+\i -2:2.625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -1.75:3.3125
+\i -1.75:3.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 2.0625:1.125
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 0.5625:2.0625
+\r t
+\a mouseAddPt()
+\i -3.1875:1.1875
+\r t
+\r t
+\a showClickInfo()
+\i -1:-0.1875
+\r window:9
+\a showClickInfo()
+\i -4.1875:1
+\r window:9
+\a showClickInfo()
+\i -4.375:1
+\o 
+\o vpulse (instance "V0", library "NCSU_Analog_Parts")
+\r window:9
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->tr->value="2n"
+\r "2n"
+\a schObjPropForm->tf->value="2n"
+\r "2n"
+\a schObjPropForm->pw->value="20"
+\r "20"
+\a schObjPropForm->pw->value="20n"
+\r "20n"
+\a schObjPropForm->per->value="40n"
+\r "40n"
+\a schObjPropForm->td->value="12n"
+\r "12n"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i -4.375:-0.5625
+\o 
+\o vpulse (instance "V5", library "NCSU_Analog_Parts")
+\r window:9
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->tr->value="2n"
+\r "2n"
+\a schObjPropForm->tf->value="2n"
+\r "2n"
+\a schObjPropForm->pw->value="80n"
+\r "80n"
+\a schObjPropForm->per->value="160n"
+\r "160n"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o No changes were made. No objects updated.
+\o 
+\r t
+\a showClickInfo()
+\i -2:-0.625
+\r window:9
+\a showClickInfo()
+\i -2.125:1.0625
+\o 
+\o wire drawing -> bounding box: (-2.12,0.88) (-2.12,1.25)
+\r window:9
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i -2.125:1.25
+\r t
+\a mouseAddPt()
+\i -0.5:0.4375
+\r t
+\a mouseAddPt()
+\i -2.125:-0.375
+\r t
+\a mouseAddPt()
+\i -0.5:0.3125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 1.125:0.375
+\r t
+\a mouseAddPt()
+\i 1.375:0.25
 \r t
 \a cancelEnterFun()
 \r t
 \r nil
 \a showClickInfo()
-\i 1.5625:-2.125
-\r window:2
-\a schHiCreateWireLabel()
+\i 1.25:0.25
+\o 
+\o wire drawing -> bounding box: (1.19,0.25) (1.38,0.25)
+\r window:9
+\a schHiDelete()
 \p > 
-\a schCreateWireLabelForm->tabField->page1->label->value="A"
-\r "A"
 \a mouseAddPt()
-\i 0.5625:-1.0625
+\i 1.1875:0.375
+\r t
+\a deletePoint()
+\r t
+\a mouseAddPt()
+\i 1.3125:0.25
+\r t
+\a mouseAddPt()
+\i 1.1875:0.375
 \r t
 \a cancelEnterFun()
 \r t
 \r nil
-\a schHiCreateWireLabel()
+\a schHiCreateWire(0.0)
 \p > 
-\a schCreateWireLabelForm->tabField->page1->label->value="CLK"
-\r "CLK"
 \a mouseAddPt()
-\i 0.625:-1.1875
+\i 1.0625:0.4375
+\r t
+\a mouseAddPt()
+\i 1.8125:0.4375
 \r t
 \a cancelEnterFun()
 \r t
 \r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 1.125:0.4375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i 1.4375:-0.5
+\o 
+\o gnd (instance "I37", library "NCSU_Analog_Parts")
+\r window:9
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 1.4375:-1.3125
+\o 
+\o gnd (instance "I36", library "NCSU_Analog_Parts")
+\r window:9
+\a schHiDelete()
+\r t
+\a showClickInfo()
+\i 1.4375:-2.0625
+\o 
+\o gnd (instance "I35", library "NCSU_Analog_Parts")
+\r window:9
+\a schHiDelete()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt()
+\i 1.4375:0.4375
+\r t
+\a mouseAddPt()
+\i 1.4375:-1.875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 1.6875:2.9375
+\i 1.6875:2.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 3.0625:0.875
+\r t
+\r nil
+\a schHiDelete()
+\r t
+\a schDirectEdit(1)
+\i 3.125:3.5
+\i 3.125:3.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 4:1.625
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a mouseAddPt()
+\i 3.5:2.4375
+\r t
+\a mouseAddPt()
+\i -1.0625:1.625
+\r t
+\r t
+\a showClickInfo()
+\i -0.6875:-1.6875
+\r window:9
+\a schHiCheckAndSave()
+\o Extracting "char schematic"
+\o Schematic check completed with no errors.
+\o "Lab5 char schematic" saved.
+\r t
+\a showClickInfo()
+\i -1.0625:-1.4375
+\r window:9
 \a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
 \o Loading oasis.cxt 
 \o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
@@ -1066,507 +2945,17 @@
 \o Loading socket.cxt 
 \o Loading alvs.cxt 
 \r t
-\a hiResizeWindow(window(4) list(101:273 793:689))
-\r t
-\a hiResizeWindow(window(4) list(103:273 795:689))
-\r t
-\a hiResizeWindow(window(4) list(106:273 798:689))
-\r t
-\a hiResizeWindow(window(4) list(110:273 802:689))
-\r t
-\a hiResizeWindow(window(4) list(115:273 807:689))
-\r t
-\a hiResizeWindow(window(4) list(120:273 812:689))
-\r t
-\a hiResizeWindow(window(4) list(126:273 818:689))
-\r t
-\a hiResizeWindow(window(4) list(135:273 827:689))
-\r t
-\a hiResizeWindow(window(4) list(144:273 836:689))
-\r t
-\a hiResizeWindow(window(4) list(153:273 845:689))
-\r t
-\a hiResizeWindow(window(4) list(162:273 854:689))
-\r t
-\a hiResizeWindow(window(4) list(172:273 864:689))
-\r t
-\a hiResizeWindow(window(4) list(183:273 875:689))
-\r t
-\a hiResizeWindow(window(4) list(195:273 887:689))
-\r t
-\a hiResizeWindow(window(4) list(207:273 899:689))
-\r t
-\a hiResizeWindow(window(4) list(221:273 913:689))
-\r t
-\a hiResizeWindow(window(4) list(235:273 927:689))
-\r t
-\a hiResizeWindow(window(4) list(249:273 941:689))
-\r t
-\a hiResizeWindow(window(4) list(264:273 956:689))
-\r t
-\a hiResizeWindow(window(4) list(279:273 971:689))
-\r t
-\a hiResizeWindow(window(4) list(296:273 988:689))
-\r t
-\a hiResizeWindow(window(4) list(313:273 1005:689))
-\r t
-\a hiResizeWindow(window(4) list(330:273 1022:689))
-\r t
-\a hiResizeWindow(window(4) list(347:273 1039:689))
-\r t
-\a hiResizeWindow(window(4) list(381:277 1073:693))
-\r t
-\a hiResizeWindow(window(4) list(402:279 1094:695))
-\r t
-\a hiResizeWindow(window(4) list(419:279 1111:695))
-\r t
-\a hiResizeWindow(window(4) list(436:282 1128:698))
-\r t
-\a hiResizeWindow(window(4) list(455:285 1147:701))
-\r t
-\a hiResizeWindow(window(4) list(474:288 1166:704))
-\r t
-\a hiResizeWindow(window(4) list(493:291 1185:707))
-\r t
-\a hiResizeWindow(window(4) list(522:294 1214:710))
-\r t
-\a hiResizeWindow(window(4) list(545:299 1237:715))
-\r t
-\a hiResizeWindow(window(4) list(568:304 1260:720))
-\r t
-\a hiResizeWindow(window(4) list(591:309 1283:725))
-\r t
-\a hiResizeWindow(window(4) list(614:314 1306:730))
-\r t
-\a hiResizeWindow(window(4) list(637:319 1329:735))
-\r t
-\a hiResizeWindow(window(4) list(660:324 1352:740))
-\r t
-\a hiResizeWindow(window(4) list(669:331 1361:747))
-\r t
-\a hiResizeWindow(window(4) list(706:338 1398:754))
-\r t
-\a hiResizeWindow(window(4) list(727:345 1419:761))
-\r t
-\a hiResizeWindow(window(4) list(748:352 1440:768))
-\r t
-\a hiResizeWindow(window(4) list(771:361 1463:777))
-\r t
-\a hiResizeWindow(window(4) list(792:370 1484:786))
-\r t
-\a hiResizeWindow(window(4) list(813:377 1505:793))
-\r t
-\a hiResizeWindow(window(4) list(826:384 1518:800))
-\r t
-\a hiResizeWindow(window(4) list(839:389 1531:805))
-\r t
-\a hiResizeWindow(window(4) list(852:396 1544:812))
-\r t
-\a hiResizeWindow(window(4) list(865:401 1557:817))
-\r t
-\a hiResizeWindow(window(4) list(874:406 1566:822))
-\r t
-\a hiResizeWindow(window(4) list(883:411 1575:827))
-\r t
-\a hiResizeWindow(window(4) list(892:416 1584:832))
-\r t
-\a hiResizeWindow(window(4) list(901:421 1593:837))
-\r t
-\a hiResizeWindow(window(4) list(910:426 1602:842))
-\r t
-\a hiResizeWindow(window(4) list(919:431 1611:847))
-\r t
-\a hiResizeWindow(window(4) list(928:436 1620:852))
-\r t
-\a hiResizeWindow(window(4) list(937:441 1629:857))
-\r t
-\a hiResizeWindow(window(4) list(946:446 1638:862))
-\r t
-\a hiResizeWindow(window(4) list(955:448 1647:864))
-\r t
-\a hiResizeWindow(window(4) list(961:453 1653:869))
-\r t
-\a hiResizeWindow(window(4) list(968:458 1660:874))
-\r t
-\a hiResizeWindow(window(4) list(974:462 1666:878))
-\r t
-\a hiResizeWindow(window(4) list(980:464 1672:880))
-\r t
-\a hiResizeWindow(window(4) list(985:470 1677:886))
-\r t
-\a hiResizeWindow(window(4) list(991:476 1683:892))
-\r t
-\a hiResizeWindow(window(4) list(992:481 1684:897))
-\r t
-\a hiResizeWindow(window(4) list(997:486 1689:902))
-\r t
-\a hiResizeWindow(window(4) list(1001:491 1693:907))
-\r t
-\a hiResizeWindow(window(4) list(1005:495 1697:911))
-\r t
-\a hiResizeWindow(window(4) list(1009:499 1701:915))
-\r t
-\a hiResizeWindow(window(4) list(1014:503 1706:919))
-\r t
-\a hiResizeWindow(window(4) list(1018:507 1710:923))
-\r t
-\a hiResizeWindow(window(4) list(1022:512 1714:928))
-\r t
-\a hiResizeWindow(window(4) list(1023:513 1715:929))
-\r t
-\a hiResizeWindow(window(4) list(1025:515 1717:931))
-\r t
-\a hiResizeWindow(window(4) list(1026:516 1718:932))
-\r t
-\a hiResizeWindow(window(4) list(1026:519 1718:935))
-\r t
-\a hiResizeWindow(window(4) list(1028:520 1720:936))
-\r t
-\a hiResizeWindow(window(4) list(1030:522 1722:938))
-\r t
-\a hiResizeWindow(window(4) list(1030:523 1722:939))
-\r t
-\a hiResizeWindow(window(4) list(1032:524 1724:940))
-\r t
-\a hiResizeWindow(window(4) list(1032:525 1724:941))
-\r t
-\a hiResizeWindow(window(4) list(1033:526 1725:942))
-\r t
-\a hiResizeWindow(window(4) list(1035:527 1727:943))
-\r t
-\a hiResizeWindow(window(4) list(1036:528 1728:944))
-\r t
-\a hiResizeWindow(window(4) list(1037:528 1729:944))
-\r t
-\a hiResizeWindow(window(4) list(1038:530 1730:946))
-\r t
-\a hiResizeWindow(window(4) list(1038:531 1730:947))
-\r t
-\a hiResizeWindow(window(4) list(1039:532 1731:948))
-\r t
-\a hiResizeWindow(window(4) list(1040:532 1732:948))
-\r t
-\a hiResizeWindow(window(4) list(1041:532 1733:948))
-\r t
-\a hiResizeWindow(window(4) list(1041:533 1733:949))
-\r t
-\a hiResizeWindow(window(4) list(1042:533 1734:949))
-\r t
-\a hiResizeWindow(window(4) list(1043:534 1735:950))
-\r t
-\a hiResizeWindow(window(4) list(1044:534 1736:950))
-\r t
-\a hiResizeWindow(window(4) list(1044:535 1736:951))
-\r t
-\a hiResizeWindow(window(4) list(1045:536 1737:952))
-\r t
-\a hiResizeWindow(window(4) list(1047:536 1739:952))
-\r t
-\a hiResizeWindow(window(4) list(1049:537 1741:953))
-\r t
-\a hiResizeWindow(window(4) list(1050:537 1742:953))
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.4375:-1.125
-\r window:2
-\a showClickInfo()
-\i 0.5:-1.1875
-\i 0.4375:-1.1875
-\r window:2
-\a showClickInfo()
-\i 2.875:-1.125
-\r window:2
-\a showClickInfo()
-\i 0.9375:-1.125
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.8125:-1.0625
-\i 0.8125:-1.0625
-\r window:2
-\a showClickInfo()
-\i 2.9375:-1.125
-\r window:2
-\a showClickInfo()
-\i 2.9375:-1.0625
-\i 2.9375:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a showClickInfo()
-\i 0.875:-1.0625
-\i 0.875:-1.0625
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiResizeWindow(window(4) list(1049:537 1741:953))
-\r t
-\a hiResizeWindow(window(4) list(1048:537 1740:953))
-\r t
-\a hiResizeWindow(window(4) list(1047:537 1739:953))
-\r t
-\a hiResizeWindow(window(4) list(1046:536 1738:952))
-\r t
-\a hiResizeWindow(window(4) list(1045:536 1737:952))
-\r t
-\a hiResizeWindow(window(4) list(1044:536 1736:952))
-\r t
-\a hiResizeWindow(window(4) list(1043:536 1735:952))
-\r t
-\a hiResizeWindow(window(4) list(1040:536 1732:952))
-\r t
-\a hiResizeWindow(window(4) list(1038:536 1730:952))
-\r t
-\a hiResizeWindow(window(4) list(1033:536 1725:952))
-\r t
-\a hiResizeWindow(window(4) list(1027:536 1719:952))
-\r t
-\a hiResizeWindow(window(4) list(1014:536 1706:952))
-\r t
-\a hiResizeWindow(window(4) list(996:536 1688:952))
-\r t
-\a hiResizeWindow(window(4) list(977:538 1669:954))
-\r t
-\a hiResizeWindow(window(4) list(954:538 1646:954))
-\r t
-\a hiResizeWindow(window(4) list(925:538 1617:954))
-\r t
-\a hiResizeWindow(window(4) list(890:538 1582:954))
-\r t
-\a hiResizeWindow(window(4) list(855:538 1547:954))
-\r t
-\a hiResizeWindow(window(4) list(820:538 1512:954))
-\r t
-\a hiResizeWindow(window(4) list(785:538 1477:954))
-\r t
-\a hiResizeWindow(window(4) list(750:538 1442:954))
-\r t
-\a hiResizeWindow(window(4) list(715:538 1407:954))
-\r t
-\a hiResizeWindow(window(4) list(680:540 1372:956))
-\r t
-\a hiResizeWindow(window(4) list(654:540 1346:956))
-\r t
-\a hiResizeWindow(window(4) list(596:540 1288:956))
-\r t
-\a hiResizeWindow(window(4) list(553:540 1245:956))
-\r t
-\a hiResizeWindow(window(4) list(512:542 1204:958))
-\r t
-\a hiResizeWindow(window(4) list(471:542 1163:958))
-\r t
-\a hiResizeWindow(window(4) list(436:542 1128:958))
-\r t
-\a hiResizeWindow(window(4) list(401:542 1093:958))
-\r t
-\a hiResizeWindow(window(4) list(366:542 1058:958))
-\r t
-\a hiResizeWindow(window(4) list(335:542 1027:958))
-\r t
-\a hiResizeWindow(window(4) list(308:542 1000:958))
-\r t
-\a hiResizeWindow(window(4) list(285:544 977:960))
-\r t
-\a hiResizeWindow(window(4) list(262:546 954:962))
-\r t
-\a hiResizeWindow(window(4) list(241:548 933:964))
-\r t
-\a hiResizeWindow(window(4) list(226:548 918:964))
-\r t
-\a hiResizeWindow(window(4) list(213:550 905:966))
-\r t
-\a hiResizeWindow(window(4) list(202:550 894:966))
-\r t
-\a hiResizeWindow(window(4) list(197:550 889:966))
-\r t
-\a hiResizeWindow(window(4) list(196:550 888:966))
-\r t
-\a hiResizeWindow(window(4) list(195:551 887:967))
-\r t
-\a hiResizeWindow(window(4) list(194:552 886:968))
-\r t
-\a hiResizeWindow(window(4) list(192:553 884:969))
-\r t
-\a hiResizeWindow(window(4) list(191:554 883:970))
-\r t
-\a hiResizeWindow(window(4) list(189:555 881:971))
-\r t
-\a hiResizeWindow(window(4) list(188:555 880:971))
-\r t
-\a hiResizeWindow(window(4) list(186:555 878:971))
-\r t
-\a hiResizeWindow(window(4) list(184:556 876:972))
-\r t
-\a hiResizeWindow(window(4) list(181:557 873:973))
-\r t
-\a hiResizeWindow(window(4) list(178:559 870:975))
-\r t
-\a hiResizeWindow(window(4) list(175:559 867:975))
-\r t
-\a hiResizeWindow(window(4) list(173:561 865:977))
-\r t
-\a hiResizeWindow(window(4) list(171:561 863:977))
-\r t
-\a hiResizeWindow(window(4) list(169:561 861:977))
-\r t
-\a hiResizeWindow(window(4) list(167:562 859:978))
-\r t
-\a hiResizeWindow(window(4) list(164:562 856:978))
-\r t
-\a hiResizeWindow(window(4) list(162:562 854:978))
-\r t
-\a hiResizeWindow(window(4) list(161:562 853:978))
-\r t
-\a hiResizeWindow(window(4) list(160:562 852:978))
-\r t
-\a hiResizeWindow(window(4) list(159:562 851:978))
-\r t
-\a hiResizeWindow(window(4) list(158:562 850:978))
-\r t
-\a hiResizeWindow(window(4) list(157:562 849:978))
-\r t
-\a hiResizeWindow(window(4) list(156:562 848:978))
-\r t
-\a hiResizeWindow(window(4) list(155:563 847:979))
-\r t
-\a hiResizeWindow(window(4) list(154:563 846:979))
-\r t
-\a hiResizeWindow(window(4) list(152:564 844:980))
-\r t
-\a hiResizeWindow(window(4) list(151:564 843:980))
-\r t
-\a hiResizeWindow(window(4) list(150:564 842:980))
-\r t
-\a hiResizeWindow(window(4) list(149:564 841:980))
-\r t
-\a hiResizeWindow(window(4) list(148:565 840:981))
-\r t
-\a hiResizeWindow(window(4) list(147:565 839:981))
-\r t
-\a hiResizeWindow(window(4) list(146:565 838:981))
-\r t
-\a hiResizeWindow(window(4) list(145:566 837:982))
-\r t
-\a hiResizeWindow(window(4) list(143:566 835:982))
-\r t
-\a hiResizeWindow(window(4) list(141:568 833:984))
-\r t
-\a hiResizeWindow(window(4) list(139:568 831:984))
-\r t
-\a hiResizeWindow(window(4) list(137:569 829:985))
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 1)
-\r t
-\a sevSetTableItem(sevWindowForm1->outListBox 1 2 "true")
-\r t
-\a hiResizeWindow(window(4) list(134:569 826:985))
-\r t
-\a hiResizeWindow(window(4) list(130:569 822:985))
-\r t
-\a hiResizeWindow(window(4) list(125:570 817:986))
-\r t
-\a hiResizeWindow(window(4) list(119:572 811:988))
-\r t
-\a hiResizeWindow(window(4) list(114:572 806:988))
-\r t
-\a hiResizeWindow(window(4) list(108:574 800:990))
-\r t
-\a hiResizeWindow(window(4) list(103:574 795:990))
-\r t
-\a hiResizeWindow(window(4) list(97:575 789:991))
-\r t
-\a hiResizeWindow(window(4) list(93:575 785:991))
-\r t
-\a hiResizeWindow(window(4) list(91:575 783:991))
-\r t
-\a hiResizeWindow(window(4) list(89:575 781:991))
-\r t
-\a hiResizeWindow(window(4) list(88:575 780:991))
-\r t
-\a hiResizeWindow(window(4) list(87:575 779:991))
-\r t
-\a hiResizeWindow(window(4) list(86:575 778:991))
-\r t
-\a hiResizeWindow(window(4) list(85:576 777:992))
-\r t
-\a hiResizeWindow(window(4) list(83:576 775:992))
-\r t
-\a hiResizeWindow(window(4) list(81:577 773:993))
-\r t
-\a hiResizeWindow(window(4) list(79:578 771:994))
-\r t
-\a hiResizeWindow(window(4) list(78:578 770:994))
-\r t
-\a hiResizeWindow(window(4) list(76:579 768:995))
-\r t
-\a hiResizeWindow(window(4) list(74:579 766:995))
-\r t
-\a hiResizeWindow(window(4) list(73:579 765:995))
-\r t
-\a hiResizeWindow(window(4) list(73:580 765:996))
-\r t
-\a hiResizeWindow(window(4) list(72:580 764:996))
-\r t
-\a hiResizeWindow(window(4) list(70:581 762:997))
-\r t
-\a hiResizeWindow(window(4) list(69:581 761:997))
-\r t
-\a hiResizeWindow(window(4) list(68:582 760:998))
-\r t
-\a hiResizeWindow(window(4) list(66:582 758:998))
-\r t
-\a hiResizeWindow(window(4) list(65:583 757:999))
-\r t
-\a hiResizeWindow(window(4) list(64:583 756:999))
-\r t
-\a hiResizeWindow(window(4) list(63:583 755:999))
-\r t
-\a hiResizeWindow(window(4) list(62:583 754:999))
-\r t
-\a hiResizeWindow(window(4) list(61:583 753:999))
-\r t
-\a hiResizeWindow(window(4) list(61:584 753:1000))
-\r t
-\a sevEditSelectedOuts('sevSession1)
-\p > 
-\a hiiSetCurrentForm('sevOutputsForm1)
-\r t
-\a hiFormCancel(sevOutputsForm1)
-\r t
-\r nil
-\a sevChooseDesign('sevSession1)
-\p > 
-\a hiiSetCurrentForm('sevDesignForm1)
-\r t
-\a hiFormDone(sevDesignForm1)
-\r t
-\r t
 \a sevChooseSimulator('sevSession1)
 \p > 
 \a hiiSetCurrentForm('sevSimulatorForm1)
 \r t
+\a sevSimulatorForm1->simulator->value="UltraSim"
+\r "UltraSim"
 \a sevSimulatorForm1->simulator->value="spectre"
 \r "spectre"
 \a hiFormDone(sevSimulatorForm1)
 \o Loading viva.cxt 
 \o Picked up _JAVA_OPTIONS: -Xusealtsigs
-\p > 
-\a hiDBoxCancel(sevblockingDialogBox)
-\r t
 \o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
 \o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
 \o (deLicense-6) Checked out the license for ADE XL to run ADE L
@@ -1597,2575 +2986,294 @@
 \r t
 \a hiFormDone(editModelsForm)
 \r t
-\a hiResizeWindow(window(4) list(62:584 754:1000))
-\r t
-\a hiResizeWindow(window(4) list(63:585 755:1001))
-\r t
-\a hiResizeWindow(window(4) list(64:585 756:1001))
-\r t
-\a hiResizeWindow(window(4) list(65:586 757:1002))
-\r t
-\a hiResizeWindow(window(4) list(66:586 758:1002))
-\r t
-\a hiResizeWindow(window(4) list(67:586 759:1002))
-\r t
-\a hiResizeWindow(window(4) list(68:586 760:1002))
-\r t
-\a hiResizeWindow(window(4) list(70:587 762:1003))
-\r t
-\a hiResizeWindow(window(4) list(72:587 764:1003))
-\r t
-\a hiResizeWindow(window(4) list(73:587 765:1003))
-\r t
-\a hiResizeWindow(window(4) list(76:587 768:1003))
-\r t
-\a hiResizeWindow(window(4) list(77:588 769:1004))
-\r t
-\a hiResizeWindow(window(4) list(80:589 772:1005))
-\r t
-\a hiResizeWindow(window(4) list(82:590 774:1006))
-\r t
-\a hiResizeWindow(window(4) list(85:590 777:1006))
-\r t
-\a hiResizeWindow(window(4) list(87:590 779:1006))
-\r t
-\a hiResizeWindow(window(4) list(89:590 781:1006))
-\r t
-\a hiResizeWindow(window(4) list(91:590 783:1006))
-\r t
-\a hiResizeWindow(window(4) list(93:590 785:1006))
-\r t
-\a hiResizeWindow(window(4) list(95:590 787:1006))
-\r t
-\a hiResizeWindow(window(4) list(96:591 788:1007))
-\r t
-\a hiResizeWindow(window(4) list(97:591 789:1007))
-\r t
-\a hiResizeWindow(window(4) list(97:592 789:1008))
-\r t
-\a hiResizeWindow(window(4) list(98:592 790:1008))
-\r t
-\a hiResizeWindow(window(4) list(99:592 791:1008))
-\r t
-\a hiResizeWindow(window(4) list(98:592 790:1008))
-\r t
-\a hiResizeWindow(window(4) list(97:592 789:1008))
-\r t
-\a hiResizeWindow(window(4) list(96:592 788:1008))
-\r t
-\a hiResizeWindow(window(4) list(95:592 787:1008))
-\r t
-\a hiResizeWindow(window(4) list(94:592 786:1008))
-\r t
-\a hiResizeWindow(window(4) list(93:592 785:1008))
-\r t
-\a hiResizeWindow(window(4) list(92:592 784:1008))
-\r t
-\a hiResizeWindow(window(4) list(91:592 783:1008))
-\r t
-\a hiResizeWindow(window(4) list(90:592 782:1008))
-\r t
-\a hiResizeWindow(window(4) list(89:592 781:1008))
-\r t
-\a hiResizeWindow(window(4) list(88:592 780:1008))
-\r t
-\a hiResizeWindow(window(4) list(87:592 779:1008))
-\r t
-\a hiResizeWindow(window(4) list(86:592 778:1008))
-\r t
-\a hiResizeWindow(window(4) list(85:592 777:1008))
-\r t
-\a hiResizeWindow(window(4) list(84:592 776:1008))
-\r t
-\a hiResizeWindow(window(4) list(83:592 775:1008))
-\r t
-\a hiResizeWindow(window(4) list(82:592 774:1008))
-\r t
-\a hiResizeWindow(window(4) list(81:592 773:1008))
-\r t
-\a hiResizeWindow(window(4) list(80:592 772:1008))
-\r t
-\a hiResizeWindow(window(4) list(79:592 771:1008))
-\r t
-\a hiResizeWindow(window(4) list(78:592 770:1008))
-\r t
-\a hiResizeWindow(window(4) list(77:592 769:1008))
-\r t
-\a hiResizeWindow(window(4) list(76:592 768:1008))
-\r t
-\a hiResizeWindow(window(4) list(75:592 767:1008))
-\r t
-\a hiResizeWindow(window(4) list(74:592 766:1008))
-\r t
-\a hiResizeWindow(window(4) list(73:592 765:1008))
-\r t
-\a hiResizeWindow(window(4) list(72:592 764:1008))
-\r t
-\a hiResizeWindow(window(4) list(70:592 762:1008))
-\r t
-\a hiResizeWindow(window(4) list(68:592 760:1008))
-\r t
-\a hiResizeWindow(window(4) list(66:592 758:1008))
-\r t
-\a hiResizeWindow(window(4) list(64:592 756:1008))
-\r t
-\a hiResizeWindow(window(4) list(63:592 755:1008))
-\r t
-\a hiResizeWindow(window(4) list(61:592 753:1008))
-\r t
-\a hiResizeWindow(window(4) list(60:592 752:1008))
-\r t
-\a hiResizeWindow(window(4) list(59:592 751:1008))
-\r t
-\a hiResizeWindow(window(4) list(58:592 750:1008))
-\r t
-\a hiResizeWindow(window(4) list(57:592 749:1008))
-\r t
-\a hiResizeWindow(window(4) list(56:592 748:1008))
-\r t
-\a hiResizeWindow(window(4) list(55:592 747:1008))
-\r t
-\a hiResizeWindow(window(4) list(54:592 746:1008))
-\r t
-\a hiResizeWindow(window(4) list(53:592 745:1008))
-\r t
-\a hiResizeWindow(window(4) list(52:592 744:1008))
-\r t
-\a hiResizeWindow(window(4) list(51:592 743:1008))
-\r t
-\a hiResizeWindow(window(4) list(50:592 742:1008))
-\r t
-\a hiResizeWindow(window(4) list(49:592 741:1008))
-\r t
-\a hiResizeWindow(window(4) list(48:592 740:1008))
-\r t
-\a hiResizeWindow(window(4) list(47:592 739:1008))
-\r t
 \a sevEditSelectedAnas('sevSession1)
 \p > 
-\a _asii_spectre1_analysis_form->tran_stop->value="200n"
-\r "200n"
-\a _asii_spectre1_analysis_form->tran_errpreset->moderate->value =  t
-\r t
+\a _asii_spectre1_analysis_form->tran_stop->value="800n"
+\r "800n"
 \a hiFormDone(_asii_spectre1_analysis_form)
 \r t
 \r t
+\a sevChangeOutsOnSchematic('sevSession1 'plot)
+\r t
+\a hiSetCurrentWindow(window(9))
+\r t
+\a showClickInfo()
+\i -0.875:0.4375
+\i -0.875:0.4375
+\r window:9
+\a showClickInfo()
+\i -0.875:0.3125
+\i -0.875:0.3125
+\r window:9
+\a showClickInfo()
+\i 1.3125:0.4375
+\i 1.3125:0.4375
+\o 
+\o wire drawing -> net: "OUTPUT" bounding box: (1.06,0.44) (1.44,0.44)
+\r window:9
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a showClickInfo()
+\i 0:-0.375
+\r window:9
+\a schHiCreateWireLabel()
+\p > 
+\a hiiSetCurrentForm('schCreateWireLabelForm)
+\r t
+\a schCreateWireLabelForm->tabField->page1->label->value="CLKin"
+\r "CLKin"
+\a schCreateWireLabelForm->tabField->page1->label->value="CLKin"
+\r "CLKin"
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a mouseAddPt()
+\i -1:0.4375
+\r t
+\a schHiCreateWireLabel()
+\r t
+\a schCreateWireLabelForm->tabField->page1->label->value="Din"
+\r "Din"
+\a schCreateWireLabelForm->tabField->page1->label->value="Din"
+\r "Din"
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a mouseAddPt()
+\i -1:0.3125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a showClickInfo()
+\i 1.375:0.5
+\o 
+\o wire label: "OUTPUT"
+\r window:9
+\a schHiDelete()
+\r t
+\a schHiCreateWireLabel()
+\p > 
+\a schCreateWireLabelForm->tabField->page1->label->value="Qout"
+\r "Qout"
+\a schCreateWireLabelForm->tabField->page1->label->value="Qout"
+\r "Qout"
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a mouseAddPt()
+\i 1.375:0.4375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiSetCurrentWindow(window(12))
+\r t
+\a sevTableSelectRows(sevWindowForm1->outListBox 0)
+\r t
+\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
+\r t
+\a sevDeleteSelections('sevSession1)
+\r t
+\a sevChangeOutsOnSchematic('sevSession1 'plot)
+\o Extracting "char schematic"
+\r t
+\a hiSetCurrentWindow(window(9))
+\r t
+\a showClickInfo()
+\i -1.25:0.4375
+\i -1.25:0.4375
+\r window:9
+\a showClickInfo()
+\i -1.25:0.3125
+\i -1.25:0.3125
+\r window:9
+\a showClickInfo()
+\i 1.3125:0.4375
+\i 1.3125:0.4375
+\o 
+\o wire drawing -> net: "Qout" bounding box: (1.06,0.44) (1.44,0.44)
+\r window:9
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a hiSetCurrentWindow(window(12))
+\r t
 \a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/char/spectre/schematic/psf.
 \o generate netlist...
 \o Loading seCore.cxt 
 \o Initializing the control file using cp:
-\o     cp /auto/ee2/Cadence/IC610/tools.lnx86/dfII/etc/si/control.spectre /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/control
+\o     cp /auto/ee2/Cadence/IC610/tools.lnx86/dfII/etc/si/control.spectre /auto/fsg/lhsiao/cadence/simulation/char/spectre/schematic/netlist/control
 \o Copying Spectre source file 'spectre.inp'
 \o Copying Spectre command file 'spectre.sim'
-\o Begin Incremental Netlisting Mar  7 11:02:04 2015
-\w *WARNING* Parameter 'lxUseCell' already exists.
-\w *WARNING* Parameter 'lxUseCell' already exists.
-\o End netlisting Mar  7 11:02:05 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   14
-\o 
-\o 	Elapsed time:          1.0s (14.00/s)
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
+\o Begin Incremental Netlisting Mar 28 13:33:22 2015
+\o WARNING (OSSHNL-117): Ignoring switch view 'schematic' of cell 'gnd' in library 'basic', as it does not contain 
+\o any instance. To netlist this cell, add this switch view to the stop list or to 
+\o ignore any specific instance set the property 'nlAction' to value "ignore" on 
+\o this cell view.
+\o  
+\o WARNING (OSSHNL-117): Ignoring switch view 'schematic' of cell 'vdd' in library 'basic', as it does not contain 
+\o any instance. To netlist this cell, add this switch view to the stop list or to 
+\o ignore any specific instance set the property 'nlAction' to value "ignore" on 
+\o this cell view.
+\o  
+\o ERROR (OSSHNL-108): The property, 'connectivityLastUpdated', specified on library 'Lab5', cell 'inv_2x', 
+\o view 'schematic', does not have an integer value. Re-extract the design (File->Check 
+\o and Save menu option) to correct this error.
+\o  
+\o End netlisting Mar 28 13:33:22 2015
+\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
+\o  or may not be produced at all.
+\o To generate correct netlist, fix the errors and re-netlist.
+\o       ...unsuccessful.
 \o Loading devCheck.cxt 
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
 \r t
-\o simulate...
-\a _wiaSetDataContext("./simulation/lab4/spectre/schematic/psf")
+\a hiResizeWindow(window(1) list(598:25 1323:220))
 \r t
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiSetCurrentWindow(window(2))
+\a hiResizeWindow(window(1) list(598:25 1323:243))
 \r t
-\a schHiMove()
+\a hiResizeWindow(window(1) list(598:25 1323:338))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:468))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:605))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:741))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:843))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:900))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1323:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1326:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1359:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1432:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1488:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1541:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1568:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1589:916))
+\r t
+\a hiResizeWindow(window(1) list(598:25 1592:916))
+\r t
+\i ddsServOpen("Lab5" "inv_2x" "symbol" "edit" nil)
+\a hiCloseWindow(swindow(10))
+\r t
+\i ddsServOpen("Lab5" "inv_2x" "schematic" "edit" nil)
+\a hiResizeWindow(swindow(11) list(147:150 1047:850))
+\r t
+\a hiResizeWindow(swindow(11) list(147:150 1047:850))
+\r t
+\a hiResizeWindow(swindow(11) list(175:150 1075:850))
+\r t
+\a hiResizeWindow(swindow(11) list(175:150 1075:850))
+\r t
+\a hiResizeWindow(swindow(11) list(196:150 1096:850))
+\r t
+\a hiResizeWindow(swindow(11) list(217:150 1117:850))
+\r t
+\a hiResizeWindow(swindow(11) list(238:150 1138:850))
+\r t
+\a hiResizeWindow(swindow(11) list(259:150 1159:850))
+\r t
+\a hiResizeWindow(swindow(11) list(280:150 1180:850))
+\r t
+\a hiResizeWindow(swindow(11) list(301:150 1201:850))
+\r t
+\a hiResizeWindow(swindow(11) list(322:150 1222:850))
+\r t
+\a hiResizeWindow(swindow(11) list(343:150 1243:850))
+\r t
+\a hiResizeWindow(swindow(11) list(362:152 1262:852))
+\r t
+\a hiResizeWindow(swindow(11) list(379:154 1279:854))
+\r t
+\a hiResizeWindow(swindow(11) list(390:154 1290:854))
+\r t
+\a hiResizeWindow(swindow(11) list(403:156 1303:856))
+\r t
+\a hiResizeWindow(swindow(11) list(412:158 1312:858))
+\r t
+\a hiResizeWindow(swindow(11) list(417:160 1317:860))
+\r t
+\a schHiCheckAndSave()
+\o Getting schematic propert bagExtracting "inv_2x schematic"
+\o Schematic check completed with no errors.
+\o "Lab5 inv_2x schematic" saved.
+\r t
+\a hiCloseWindow(swindow(11))
+\r Getting schematic propert bagt
+\a hiSetCurrentWindow(window(5))
+\r t
+\a schHiCheckAndSave()
+\o Extracting "partovi schematic"
+\o Warning: Solder dot on cross over at ( 3.8750, 0.7500 ).
+\o There were 0 errors and 1 warning found in "Lab5 partovi schematic".
 \p > 
-\a mouseAddPt()
-\i -2.625:0.3125
+\a hiDBoxOK(_schCheckDBox)
 \r t
-\a mouseAddPt()
-\i -0.6875:0.875
+\o "Lab5 partovi schematic" saved.
 \r t
-\a mouseAddPt()
-\i -0.9375:-3.6875
-\r t
-\a schHiCopy()
-\r t
-\a mouseAddPt()
-\i -0.9375:-3.6875
-\r t
-\a mouseAddPt()
-\i -2.5625:-0.5
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -2.625:0
-\o 
-\o wire drawing -> net: "vdd!" bounding box: (-2.62,-0.19) (-2.62,0.12)
-\r window:2
-\a schHiDelete()
-\r t
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -2.625:-0.1875
-\r t
-\a mouseAddPt()
-\i -2.625:-0.3125
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateInst()
-\a hiResizeWindow(window(3) list(0:25 220:487))
-\r t
-\a hiResizeWindow(window(3) list(0:25 220:503))
-\r t
-\p > 
-\a hiiSetCurrentForm('schCreateInstForm)
-\r t
-\a hiSetCurrentWindow(window(3))
-\r t
-\a schComponentBrowserForm->schBrowserLib1->value="451_Lab4"
-\r "451_Lab4"
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "inv_32x" )
-\r ("inv_32x")
-\a hiSetCurrentWindow(window(2))
-\r t
-\a mouseAddPt()
-\i -2.3125:-1
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a hiResizeWindow(swindow(1) list(669:25 1877:1145))
-\r t
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i 0.75:-2.75
-\r t
-\a geSingleSelectBox()
-\i -3:-1.25
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 0:-2.625
-\r t
-\r t
-\a mouseAddPt()
-\i -0.75:-1.875
-\r t
-\a mouseAddPt()
-\i -0.75:-2.4375
-\r t
-\a schHiMove()
-\r t
-\a geSingleSelectBox()
-\i -1.25:-2.5625
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -0.375:-3.875
-\r t
-\r t
-\a mouseAddPt()
-\i -0.9375:-3.25
-\r t
-\a mouseAddPt()
-\i 4.0625:-2.1875
-\r t
-\a schHiMove()
-\r t
-\a mouseAddPt()
-\i -3.0625:-1.75
-\r t
-\a geSingleSelectBox()
-\i -3:-1.75
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -0.375:-3.5
-\r t
-\r t
-\a mouseAddPt()
-\i -0.9375:-2.5
-\r t
-\a mouseAddPt()
-\i -0.9375:-2.5625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -0.25:-1.8125
-\r t
-\a mouseAddPt()
-\i -0.25:-1.8125
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -0.25:-1.8125
-\o 
-\o wire drawing -> net: "CLK" bounding box: (-0.44,-1.81) (0.12,-1.81)
-\r window:2
-\a schHiDelete()
-\r t
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i 0.125:-1.8125
-\r t
-\a mouseAddPt()
-\i -0.4375:-2.4375
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schDirectEdit(1)
-\i -2.375:-0.75
-\i -2.375:-0.75
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -1:-1.4375
-\r t
-\r nil
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i -1.75:-1.0625
-\r t
-\a mouseAddPt()
-\i -1.75:-1.25
-\r t
-\r t
-\a showClickInfo()
-\i 0.125:-0.75
-\o 
-\o wire drawing -> net: "A" bounding box: (0.12,-1.06) (0.12,-0.19)
-\r window:2
-\a schHiDelete()
-\r t
-\a showClickInfo()
-\i 0.3125:-1
-\r window:2
-\a schHiDelete()
-\p > 
-\a mouseAddPt()
-\i 0.375:-1.0625
-\r t
-\a mouseAddPt()
-\i 0:-0.1875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateInst()
-\a hiResizeWindow(window(3) list(0:25 220:519))
-\r t
-\a hiResizeWindow(window(3) list(0:25 220:535))
-\r t
-\p > 
-\a hiSetCurrentWindow(window(3))
-\r t
-\a schComponentBrowserForm->schBrowserLib1->value="analogLib"
-\r "analogLib"
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "Passives" )
-\r ("Passives")
-\a schComponentBrowserForm->schBrowserListBox1->value= '(".. (Go up 1 level)" )
-\r (".. (Go up 1 level)")
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "Passives" )
-\r ("Passives")
-\a schComponentBrowserForm->schBrowserListBox1->value= '( "mtline" )
-\r ("mtline")
-\a hiSetCurrentWindow(window(2))
-\r t
-\a mouseAddPt()
-\i -0.0625:-0.5
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a geScroll(nil "s" nil)
-\r t
-\a geScroll(nil "s" nil)
-\r t
-\a geScroll(nil "n" nil)
-\r t
-\a geScroll(nil "n" nil)
-\r t
-\a showClickInfo()
-\i 0.375:-0.5
-\o 
-\o mtline (instance "I14", library "analogLib")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a hiiSetCurrentForm('schObjPropForm)
-\r t
-\a schObjPropForm->n->value=2
-\r 2
-\a schObjPropForm->len->value="500u"
-\r "500u"
-\a schObjPropForm->fmax->value="1"
-\r "1"
-\a schObjPropForm->modelType->value="FieldSolver"
-\r "FieldSolver"
-\a schObjPropForm->linetype->value="coplanar"
-\r "coplanar"
-\a schObjPropForm->modeltype->value="lossless"
-\r "lossless"
-\a schObjPropForm->er->value="3.55"
-\r "3.55"
-\a schObjPropForm->layerthickness->value="20u"
-\r "20u"
-\a schObjPropForm->dlosstype->value="sigma"
-\r "sigma"
-\a schObjPropForm->dloss->value="0"
-\r "0"
-\a schObjPropForm->linewidth->value="4u"
-\r "4u"
-\a schObjPropForm->linethickness->value="4u"
-\r "4u"
-\a schObjPropForm->linewidth->value="4u 4u"
-\r "4u 4u"
-\a schObjPropForm->linethickness->value="3.6u"
-\r "3.6u"
-\a schObjPropForm->lineheight->value="12u"
-\r "12u"
-\a schObjPropForm->linespace->value="4u"
-\r "4u"
-\a schObjPropForm->linesigma->value="57600000"
-\r "57600000"
-\a hiFormDone(schObjPropForm)
-\r t
-\a showClickInfo()
-\i 0.25:-0.4375
-\o 
-\o mtline (instance "I14", library "analogLib")
-\r window:2
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i 0.25:-0.4375
-\r t
-\a mouseAddPt()
-\i -0.4375:-0.75
-\r t
-\r t
-\a schHiMove()
-\p > 
-\a geSingleSelectBox()
-\i -2.875:0.1875
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -0.5:-0.625
-\r t
-\r t
-\a mouseAddPt()
-\i -0.875:-0.1875
-\r t
-\a mouseAddPt()
-\i -1.375:-0.1875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -0.8125:-4.25
-\r window:2
-\a hiZoomInAtMouse()
-\i -0.6875:-4.1875
-\r t
-\a hiZoomOutAtMouse()
-\i -0.6875:-4.1875
-\r t
-\a geScroll(nil "w" nil)
-\r t
-\a schHiMove()
-\p > 
-\a geSingleSelectBox()
-\i -2.4375:-0.8125
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -1.1875:-1.625
-\r t
-\r t
-\a mouseAddPt()
-\i -1.75:-1.1875
-\r t
-\a mouseAddPt()
-\i -2.25:-1.1875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i -2.6875:-3.1875
-\r t
-\a mouseAddPt()
-\i -0.75:-1.375
-\r t
-\a schHiCopy()
-\r t
-\a mouseAddPt()
-\i -0.75:-1.4375
-\r t
-\a mouseAddPt()
-\i -0.125:-1.4375
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i -2.6875:-2.625
-\r t
-\a mouseAddPt()
-\i -3.125:-1.3125
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -3.0625:-1.3125
-\o 
-\o vpulse (instance "V2", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schObjPropForm->per->value="80 s"
-\r "80 s"
-\a schObjPropForm->per->value="80n s"
-\r "80n s"
-\a schObjPropForm->pw->value="40n"
-\r "40n"
-\a hiFormDone(schObjPropForm)
-\r t
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i -3.125:-1.3125
-\r t
-\a mouseAddPt()
-\i -3.5625:-1.3125
-\r t
-\r t
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i -2.6875:-3.1875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -2.625:-3.625
-\r window:2
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i -2.6875:-3.125
-\r t
-\a mouseAddPt()
-\i -3.5625:-1.75
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -3.5625:-1.5
-\r t
-\a mouseAddPt()
-\i -3.5625:-1.625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -3.5625:-1.125
-\r t
-\a mouseAddPt()
-\i -2.6875:-1.125
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -0.375:-0.875
-\o 
-\o mtline (instance "I14", library "analogLib")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schCDFCallback('firedisplay)
-\o Starting Display ....
-\r nil
-\a hiFormDone(schObjPropForm)
-\o No changes were made. No objects updated.
-\o 
-\r t
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -1.9375:-1.125
-\r t
-\a mouseAddPt()
-\i -0.75:-0.8125
-\r t
-\a mouseAddPt()
-\i -0.875:-0.1875
-\r t
-\a mouseAddPt()
-\i -0.75:-0.6875
-\r t
-\a schHiCreateWire(0.0)
-\r t
-\a mouseAddPt()
-\i -0.125:-0.6875
-\r t
-\a mouseAddPt()
-\i 1.125:-1.0625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i 3.0625:-0.5
-\r window:2
-\a schDirectEdit(1)
-\i 3.0625:-0.6875
-\i 3.0625:-0.6875
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 5.1875:-1.625
-\r t
-\r nil
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i 4.375:-1.125
-\r t
-\a mouseAddPt()
-\i 2.25:0.375
-\r t
-\r t
-\a schDirectEdit(1)
-\i -1.25:1.125
-\i -1.25:1.125
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 0.0625:0.5
-\r t
-\r nil
-\a schHiDelete()
-\r t
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -0.125:-0.8125
-\r t
-\a mouseAddPt()
-\i 0.9375:0.4375
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWireLabel()
-\p > 
-\a hiiSetCurrentForm('schCreateWireLabelForm)
-\r t
-\a schCreateWireLabelForm->tabField->page1->label->value="A"
-\r "A"
-\a mouseAddPt()
-\i 0.875:-1.0625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a hiResizeWindow(swindow(1) list(-2:21 1918:1145))
-\r t
-\a geScroll(nil "w" nil)
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:14:48 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:14:48 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a hiCloseWindow(window(5))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevDeleteSelections('sevSession1)
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 2.8125:-1.0625
-\i 2.875:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a showClickInfo()
-\i 1:-1.0625
-\i 1:-1.0625
-\r window:2
-\a showClickInfo()
-\i 1:-1.1875
-\i 1:-1.1875
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 2)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 1 2 ))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 1 2 ))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 2)
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:15:28 2015
-\o WARNING (OSSHNL-160): The primitive, 'analogLib/mtline/spectre', was not used in the last netlisting session in this 
-\o current run directory. Therefore, re-netlisting all cell views where this 
-\o primitive is instantiated.
-\o  
-\o End netlisting Mar  7 11:15:28 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   16
-\o 
-\o 	Elapsed time:          0.0s
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\r t
-\o simulate...
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 5.6875:-0.625
-\r window:2
-\a showClickInfo()
-\i -3.5625:-1.3125
-\o 
-\o vpulse (instance "V2", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a hiiSetCurrentForm('schObjPropForm)
-\r t
-\a schObjPropForm->td->value="10n"
-\r "10n"
-\a hiFormDone(schObjPropForm)
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:17:06 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:17:06 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a hiCloseWindow(window(7))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:17:16 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:17:16 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:17:20 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:17:20 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:17:28 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:17:28 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a sevWindowForm1->artistPlottingMode->value="Replace"
-\r "Replace"
-\a sevStopEngine('sevSession1)
-\o simulation is stopped by user.
-\o simulation results may not be complete.
-\r t
-\a sevPlotAllOutputs('sevSession1)
-\o WARNING (ADE-1065): No simulation results are available.
-\r nil
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:17:46 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:17:46 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevDeleteSelections('sevSession1)
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.625:-1.1875
-\i 0.625:-1.1875
-\o 
-\o wire drawing -> net: "CLK" bounding box: (0.12,-1.19) (1.12,-1.19)
-\r window:2
-\a showClickInfo()
-\i 1:-1.0625
-\i 1:-1.0625
-\r window:2
-\a showClickInfo()
-\i 2.9375:-1.0625
-\i 2.9375:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:18:04 2015
-\o End netlisting Mar  7 11:18:05 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   14
-\o 
-\o 	Elapsed time:          1.0s (14.00/s)
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\r t
-\o simulate...
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 1.4375:-1.8125
-\r window:2
-\a showClickInfo()
-\i -3.5625:-1.3125
-\o 
-\o vpulse (instance "V2", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schObjPropForm->td->value="0"
-\r "0"
-\a hiFormDone(schObjPropForm)
-\r t
-\a showClickInfo()
-\i 1.875:-2.875
-\r window:2
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevStopEngine('sevSession1)
-\o simulation is stopped by user.
-\o simulation results may not be complete.
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 1.75:-2.5625
-\r window:2
-\a showClickInfo()
-\i -0.375:-0.875
-\o 
-\o mtline (instance "I14", library "analogLib")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schCDFCallback('firedisplay)
-\o Starting Display ....
-\r nil
-\a hiFormDone(schObjPropForm)
-\o No changes were made. No objects updated.
-\o 
-\r t
-\a showClickInfo()
-\i -3.625:-1.3125
-\o 
-\o vpulse (instance "V2", library "NCSU_Analog_Parts")
-\r window:2
-\a showClickInfo()
-\i -3.5625:-1.3125
-\o 
-\o vpulse (instance "V2", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schObjPropForm->td->value="20n"
-\r "20n"
-\a hiFormDone(schObjPropForm)
-\r t
+\a hiCloseWindow(swindow(3))
+\r Getting schematic propert bagt
 \a hiCloseWindow(window(3))
 \r t
-\a hiSetCurrentWindow(window(4))
-\r t
 \a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
+\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/char/spectre/schematic/psf.
 \o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:22:31 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
+\o Begin Incremental Netlisting Mar 28 13:34:16 2015
+\o WARNING (OSSHNL-117): Ignoring switch view 'schematic' of cell 'gnd' in library 'basic', as it does not contain 
+\o any instance. To netlist this cell, add this switch view to the stop list or to 
+\o ignore any specific instance set the property 'nlAction' to value "ignore" on 
+\o this cell view.
 \o  
-\o End netlisting Mar  7 11:22:32 2015
+\o WARNING (OSSHNL-117): Ignoring switch view 'schematic' of cell 'vdd' in library 'basic', as it does not contain 
+\o any instance. To netlist this cell, add this switch view to the stop list or to 
+\o ignore any specific instance set the property 'nlAction' to value "ignore" on 
+\o this cell view.
+\o  
+\o Netlist Warning: The netlisting procedure specified for (NCSU_Digital_Parts pfet spectre) is 
+\o obsolete. You can convert your library with the 
+\o Tools - Conversion Tool Box menu on the CIW. 
+\o 
+\e *Error* ilGetString: arg must be symbol or string - progn(bn)
+\e *Error* ilGetString: arg must be symbol or string - progn(bn)
+\e *Error* ilGetString: arg must be symbol or string - progn(bn)
+\e *Error* ilGetString: arg must be symbol or string - progn(bn)
+\o Netlist Error: An invalid terminal list has been encountered. Use the Convert 
+\o Artist Bulk Nodes utility through the Tools - Conversion 
+\o Tool Box menu on the CIW.  cell-view "NCSU_Digital_Parts" "pfet" "spectre"
+\o Netlist Error: An invalid terminal list has been encountered. Use the Convert 
+\o Artist Bulk Nodes utility through the Tools - Conversion 
+\o Tool Box menu on the CIW.  cell-view "NCSU_Digital_Parts" "nfet" "spectre"
+\o End netlisting Mar 28 13:34:16 2015
 \o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
 \o  or may not be produced at all.
 \o To generate correct netlist, fix the errors and re-netlist.
+\o ERROR (ADE-6026): Unable to create the netlist due to failure of following operating system command(s)
+\o        "cat: ihnl/cds1/netlist: No such file or directory"
+\o        Contact your system administrator for assistance.
+\o ERROR (ADE-6026): Unable to create the netlist due to failure of following operating system command(s)
+\o        "cat: ihnl/cds2/netlist: No such file or directory"
+\o        Contact your system administrator for assistance.
+\o ERROR (ADE-6026): Unable to create the netlist due to failure of following operating system command(s)
+\o        "cat: ihnl/cds3/netlist: No such file or directory"
+\o        Contact your system administrator for assistance.
+\o ERROR (ADE-6026): Unable to create the netlist due to failure of following operating system command(s)
+\o        "cat: ihnl/cds4/netlist: No such file or directory"
+\o        Contact your system administrator for assistance.
+\o ERROR (ADE-6026): Unable to create the netlist due to failure of following operating system command(s)
+\o        "cat: ihnl/cds5/netlist: No such file or directory"
+\o        Contact your system administrator for assistance.
 \o       ...unsuccessful.
 \r t
 \a hiSetCurrentWindow(window(9))
 \r t
-\a hiResizeWindow(window(4) list(50:592 742:1008))
-\r t
-\a hiResizeWindow(window(4) list(54:593 746:1009))
-\r t
-\a hiResizeWindow(window(4) list(57:593 749:1009))
-\r t
-\a hiResizeWindow(window(4) list(61:595 753:1011))
-\r t
-\a hiResizeWindow(window(4) list(66:596 758:1012))
-\r t
-\a hiResizeWindow(window(4) list(73:597 765:1013))
-\r t
-\a hiResizeWindow(window(4) list(82:601 774:1017))
-\r t
-\a hiResizeWindow(window(4) list(91:605 783:1021))
-\r t
-\a hiResizeWindow(window(4) list(100:607 792:1023))
-\r t
-\a hiResizeWindow(window(4) list(109:609 801:1025))
-\r t
-\a hiResizeWindow(window(4) list(118:611 810:1027))
-\r t
-\a hiResizeWindow(window(4) list(127:613 819:1029))
-\r t
-\a hiResizeWindow(window(4) list(135:613 827:1029))
-\r t
-\a hiResizeWindow(window(4) list(143:614 835:1030))
-\r t
-\a hiResizeWindow(window(4) list(150:616 842:1032))
-\r t
-\a hiResizeWindow(window(4) list(157:618 849:1034))
-\r t
-\a hiResizeWindow(window(4) list(163:620 855:1036))
-\r t
-\a hiResizeWindow(window(4) list(169:622 861:1038))
-\r t
-\a hiResizeWindow(window(4) list(174:623 866:1039))
-\r t
-\a hiResizeWindow(window(4) list(178:625 870:1041))
-\r t
-\a hiResizeWindow(window(4) list(181:627 873:1043))
-\r t
-\a hiResizeWindow(window(4) list(183:627 875:1043))
-\r t
-\a hiResizeWindow(window(4) list(184:627 876:1043))
-\r t
-\a hiResizeWindow(window(4) list(184:628 876:1044))
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:22:48 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:22:48 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 2)
-\r t
-\a sevSetTableItem(sevWindowForm1->outListBox 2 2 "false")
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 1)
-\r t
-\a sevSetTableItem(sevWindowForm1->outListBox 1 2 "false")
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevSetTableItem(sevWindowForm1->outListBox 0 2 "false")
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:23:04 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:23:04 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a sevWindowForm1->artistPlottingMode->value="New Win"
-\r "New Win"
-\a sevSetTableItem(sevWindowForm1->outListBox 0 2 "true")
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 1)
-\r t
-\a sevSetTableItem(sevWindowForm1->outListBox 1 2 "true")
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 2)
-\r t
-\a sevSetTableItem(sevWindowForm1->outListBox 2 2 "true")
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:23:13 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:23:13 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a sevWindowForm1->artistPlottingMode->value="Replace"
-\r "Replace"
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevDeleteSelections('sevSession1)
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
 \a showClickInfo()
-\i 0.875:-1.1875
-\i 0.875:-1.1875
-\r window:2
-\a showClickInfo()
-\i 2.8125:-1.0625
-\i 2.875:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a showClickInfo()
-\i 1:-1.0625
-\i 1:-1.0625
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:23:37 2015
-\o End netlisting Mar  7 11:23:37 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   14
-\o 
-\o 	Elapsed time:          0.0s
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\r t
-\o simulate...
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 1.125:-2.375
-\r window:2
-\a showClickInfo()
-\i -3.5:-1.375
-\o 
-\o vpulse (instance "V2", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schObjPropForm->pw->value="20n s"
-\r "20n s"
-\a schObjPropForm->td->value="0"
-\r "0"
-\a hiFormDone(schObjPropForm)
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:24:13 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:24:13 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a hiSetCurrentWindow(window(9))
-\r t
-\a hiCloseWindow(window(9))
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevDeleteSelections('sevSession1)
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.5625:-1.1875
-\i 0.5625:-1.1875
-\o 
-\o wire drawing -> net: "CLK" bounding box: (0.12,-1.19) (1.12,-1.19)
-\r window:2
-\a showClickInfo()
-\i 2.875:-1.0625
-\i 2.875:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a showClickInfo()
-\i 1:-1.0625
-\i 1:-1.0625
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:24:37 2015
-\o End netlisting Mar  7 11:24:38 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   14
-\o 
-\o 	Elapsed time:          1.0s (14.00/s)
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\r t
-\o simulate...
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i -1.75:-1.5625
-\r window:2
-\a showClickInfo()
-\i -3.5:-1.3125
-\o 
-\o vpulse (instance "V2", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schObjPropForm->pw->value="40n s"
-\r "40n s"
-\a hiFormDone(schObjPropForm)
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevDeleteSelections('sevSession1)
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.9375:-1.1875
-\i 0.9375:-1.1875
-\r window:2
-\a showClickInfo()
-\i 2.9375:-1.0625
-\i 2.9375:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a showClickInfo()
-\i 1:-1.0625
-\i 1:-1.0625
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:26:08 2015
-\o End netlisting Mar  7 11:26:09 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   14
-\o 
-\o 	Elapsed time:          1.0s (14.00/s)
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\r t
-\o simulate...
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiSetCurrentWindow(window(12))
-\r t
-\a hiCloseWindow(window(12))
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.875:-4.125
-\r window:2
-\a showClickInfo()
-\i -3.5:-1.3125
-\o 
-\o vpulse (instance "V2", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schObjPropForm->tr->value=""
-\r ""
-\a schObjPropForm->tf->value=""
-\r ""
-\a hiFormDone(schObjPropForm)
-\r t
-\a showClickInfo()
-\i 0.4375:-3
-\r window:2
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevDeleteSelections('sevSession1)
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.875:-1.1875
-\i 0.875:-1.1875
-\r window:2
-\a showClickInfo()
-\i 2.9375:-1.0625
-\i 2.9375:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a showClickInfo()
-\i 1:-1.125
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.6875:-1.0625
-\i 0.6875:-1.0625
-\o 
-\o wire drawing -> net: "A" bounding box: (0.31,-1.06) (1.12,-1.06)
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:27:35 2015
-\o End netlisting Mar  7 11:27:36 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   14
-\o 
-\o 	Elapsed time:          1.0s (14.00/s)
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\r t
-\o simulate...
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 2.1875:-3.1875
-\r window:2
-\a showClickInfo()
-\i -0.3125:-0.875
-\o 
-\o mtline (instance "I14", library "analogLib")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a schObjPropForm->linespace->value="spacing"
-\w *WARNING* `Signal line spacing' cannot be string, it should be number.
-\r "spacing"
-\a hiFormDone(schObjPropForm)
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevEditSelectedVars('sevSession1)
-\p > 
-\a hiiSetCurrentForm('sevVariablesForm1)
-\r t
-\a sevVariablesForm1->name->value="spacing"
-\r "spacing"
-\a sevVariablesForm1->expression->value="4u"
-\r "4u"
-\a (sevSetVariablesFromForm 'sevSession1 (sevForm 'sevSession1 'variables) 'add)
-\r t
-\a hiFormDone(sevVariablesForm1)
-\r t
-\r t
-\a sevTableSelectRows(sevWindowForm1->varListBox 0)
-\r t
-\a sevParametricTool('sevSession1)
-\o Loading paraplot.cxt 
-\r window:17
-\a hiResizeWindow(window(17) list(0:41 731:331))
-\r t
-\a hiResizeWindow(window(17) list(20:46 751:336))
-\r t
-\a hiResizeWindow(window(17) list(25:51 756:341))
-\r t
-\a hiResizeWindow(window(17) list(31:57 762:347))
-\r t
-\a hiResizeWindow(window(17) list(37:66 768:356))
-\r t
-\a hiResizeWindow(window(17) list(43:74 774:364))
-\r t
-\a hiResizeWindow(window(17) list(49:83 780:373))
-\r t
-\a hiResizeWindow(window(17) list(59:93 790:383))
-\r t
-\a hiResizeWindow(window(17) list(69:104 800:394))
-\r t
-\a hiResizeWindow(window(17) list(78:114 809:404))
-\r t
-\a hiResizeWindow(window(17) list(86:125 817:415))
-\r t
-\a hiResizeWindow(window(17) list(93:135 824:425))
-\r t
-\a hiResizeWindow(window(17) list(100:146 831:436))
-\r t
-\a hiResizeWindow(window(17) list(107:155 838:445))
-\r t
-\a hiResizeWindow(window(17) list(114:164 845:454))
-\r t
-\a hiResizeWindow(window(17) list(121:173 852:463))
-\r t
-\a hiResizeWindow(window(17) list(128:182 859:472))
-\r t
-\a hiResizeWindow(window(17) list(130:191 861:481))
-\r t
-\a hiResizeWindow(window(17) list(137:198 868:488))
-\r t
-\a hiResizeWindow(window(17) list(137:205 868:495))
-\r t
-\a hiResizeWindow(window(17) list(139:211 870:501))
-\r t
-\a hiResizeWindow(window(17) list(143:217 874:507))
-\r t
-\a hiResizeWindow(window(17) list(145:223 876:513))
-\r t
-\a hiResizeWindow(window(17) list(147:227 878:517))
-\r t
-\a hiResizeWindow(window(17) list(147:228 878:518))
-\r t
-\a hiResizeWindow(window(17) list(148:230 879:520))
-\r t
-\a hiResizeWindow(window(17) list(148:231 879:521))
-\r t
-\a hiResizeWindow(window(17) list(149:232 880:522))
-\r t
-\a hiResizeWindow(window(17) list(149:233 880:523))
-\r t
-\a hiResizeWindow(window(17) list(149:234 880:524))
-\r t
-\a hiResizeWindow(window(17) list(148:234 879:524))
-\r t
-\a hiResizeWindow(window(17) list(147:234 878:524))
-\r t
-\a hiResizeWindow(window(17) list(146:234 877:524))
-\r t
-\a hiResizeWindow(window(17) list(145:234 876:524))
-\r t
-\a hiResizeWindow(window(17) list(144:234 875:524))
-\r t
-\a hiResizeWindow(window(17) list(143:234 874:524))
-\r t
-\a hiResizeWindow(window(17) list(142:234 873:524))
-\r t
-\a hiResizeWindow(window(17) list(141:234 872:524))
-\r t
-\a hiResizeWindow(window(17) list(140:234 871:524))
-\r t
-\a hiResizeWindow(window(17) list(139:234 870:524))
-\r t
-\a hiResizeWindow(window(17) list(138:234 869:524))
-\r t
-\a hiResizeWindow(window(17) list(137:234 868:524))
-\r t
-\a hiResizeWindow(window(17) list(136:234 867:524))
-\r t
-\a hiResizeWindow(window(17) list(135:234 866:524))
-\r t
-\a hiResizeWindow(window(17) list(134:234 865:524))
-\r t
-\a hiResizeWindow(window(17) list(133:234 864:524))
-\r t
-\a hiResizeWindow(window(17) list(132:234 863:524))
-\r t
-\a hiResizeWindow(window(17) list(131:234 862:524))
-\r t
-\a hiResizeWindow(window(17) list(130:234 861:524))
-\r t
-\a hiResizeWindow(window(17) list(129:234 860:524))
-\r t
-\a hiResizeWindow(window(17) list(128:234 859:524))
-\r t
-\a hiResizeWindow(window(17) list(127:234 858:524))
-\r t
-\a hiResizeWindow(window(17) list(126:234 857:524))
-\r t
-\a hiResizeWindow(window(17) list(125:234 856:524))
-\r t
-\a hiResizeWindow(window(17) list(124:234 855:524))
-\r t
-\a hiResizeWindow(window(17) list(123:234 854:524))
-\r t
-\a hiResizeWindow(window(17) list(122:234 853:524))
-\r t
-\a hiResizeWindow(window(17) list(121:234 852:524))
-\r t
-\a apaTool0->var_0->value="spacing"
-\r "spacing"
-\a apaTool0->from_0_0->value="4u"
-\r "4u"
-\a apaTool0->to_0_0->value="40u"
-\r "40u"
-\a apaTool0->step_0_0->value="10"
-\r "10"
-\a apaTool0->select_0_0->value= t
-\r t
-\a hiResizeWindow(window(17) list(120:234 851:524))
-\r t
-\a hiResizeWindow(window(17) list(119:234 850:524))
-\r t
-\a hiResizeWindow(window(17) list(118:234 849:524))
-\r t
-\a hiResizeWindow(window(17) list(117:234 848:524))
-\r t
-\a hiResizeWindow(window(17) list(116:234 847:524))
-\r t
-\a hiResizeWindow(window(17) list(115:234 846:524))
-\r t
-\a hiResizeWindow(window(17) list(114:234 845:524))
-\r t
-\a hiResizeWindow(window(17) list(113:234 844:524))
-\r t
-\a hiResizeWindow(window(17) list(112:234 843:524))
-\r t
-\a hiResizeWindow(window(17) list(111:234 842:524))
-\r t
-\a hiResizeWindow(window(17) list(110:234 841:524))
-\r t
-\a hiResizeWindow(window(17) list(109:234 840:524))
-\r t
-\a hiResizeWindow(window(17) list(108:234 839:524))
-\r t
-\a hiResizeWindow(window(17) list(107:234 838:524))
-\r t
-\a hiResizeWindow(window(17) list(106:234 837:524))
-\r t
-\a hiResizeWindow(window(17) list(105:234 836:524))
-\r t
-\a hiResizeWindow(window(17) list(105:235 836:525))
-\r t
-\a hiResizeWindow(window(17) list(104:235 835:525))
-\r t
-\a hiResizeWindow(window(17) list(103:235 834:525))
-\r t
-\a hiResizeWindow(window(17) list(102:235 833:525))
-\r t
-\a hiResizeWindow(window(17) list(101:235 832:525))
-\r t
-\a hiResizeWindow(window(17) list(100:235 831:525))
-\r t
-\a hiResizeWindow(window(17) list(99:235 830:525))
-\r t
-\a hiResizeWindow(window(17) list(98:235 829:525))
-\r t
-\a hiResizeWindow(window(17) list(96:235 827:525))
-\r t
-\a hiResizeWindow(window(17) list(95:235 826:525))
-\r t
-\a hiResizeWindow(window(17) list(94:235 825:525))
-\r t
-\a hiResizeWindow(window(17) list(92:235 823:525))
-\r t
-\a hiResizeWindow(window(17) list(91:235 822:525))
-\r t
-\a hiResizeWindow(window(17) list(89:235 820:525))
-\r t
-\a hiResizeWindow(window(17) list(87:235 818:525))
-\r t
-\a hiResizeWindow(window(17) list(86:235 817:525))
-\r t
-\a hiResizeWindow(window(17) list(84:235 815:525))
-\r t
-\a hiResizeWindow(window(17) list(83:235 814:525))
-\r t
-\a hiResizeWindow(window(17) list(81:235 812:525))
-\r t
-\a hiResizeWindow(window(17) list(79:235 810:525))
-\r t
-\a hiResizeWindow(window(17) list(78:235 809:525))
-\r t
-\a hiResizeWindow(window(17) list(76:235 807:525))
-\r t
-\a hiResizeWindow(window(17) list(75:235 806:525))
-\r t
-\a hiResizeWindow(window(17) list(74:235 805:525))
-\r t
-\a hiResizeWindow(window(17) list(73:235 804:525))
-\r t
-\a hiResizeWindow(window(17) list(72:235 803:525))
-\r t
-\a hiResizeWindow(window(17) list(71:235 802:525))
-\r t
-\a hiResizeWindow(window(17) list(70:235 801:525))
-\r t
-\a hiResizeWindow(window(17) list(69:235 800:525))
-\r t
-\a hiResizeWindow(window(17) list(68:235 799:525))
-\r t
-\a hiResizeWindow(window(17) list(67:235 798:525))
-\r t
-\a hiResizeWindow(window(17) list(66:235 797:525))
-\r t
-\a hiResizeWindow(window(17) list(65:235 796:525))
-\r t
-\a hiResizeWindow(window(17) list(64:235 795:525))
-\r t
-\a hiResizeWindow(window(17) list(63:235 794:525))
-\r t
-\a hiResizeWindow(window(17) list(62:235 793:525))
-\r t
-\a hiResizeWindow(window(17) list(61:235 792:525))
-\r t
-\a hiResizeWindow(window(17) list(61:234 792:524))
-\r t
-\a hiResizeWindow(window(17) list(60:234 791:524))
-\r t
-\a hiResizeWindow(window(17) list(59:234 790:524))
-\r t
-\a hiResizeWindow(window(17) list(58:234 789:524))
-\r t
-\a hiResizeWindow(window(17) list(57:234 788:524))
-\r t
-\a hiResizeWindow(window(17) list(56:234 787:524))
-\r t
-\a hiResizeWindow(window(17) list(55:234 786:524))
-\r t
-\a (apaStartCB (hiGetCurrentWindow) ?all t )
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o Writing simulator output to file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\o 10 parametric simulations remaining.
-\o Setting spacing = 4e-06
-\o Begin Incremental Netlisting Mar  7 11:30:18 2015
-\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as 
-\o compared to the last session in the current run directory. The netlist(s) 
-\o generated in the last netlisting session cannot be reused for incremental 
-\o netlisting. Therefore re-netlisting the design.
-\o  
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:30:18 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o Simulation unsuccessful during parametric sweep
-\o Stopping parametric simulation
-\o The simulator output is in the file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\r t
-\a (apaStartCB (hiGetCurrentWindow) ?all t )
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o Writing simulator output to file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\o 10 parametric simulations remaining.
-\o Setting spacing = 4e-06
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\o Begin Incremental Netlisting Mar  7 11:30:48 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:30:48 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o Simulation unsuccessful during parametric sweep
-\o Stopping parametric simulation
-\o The simulator output is in the file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 2)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevDeleteSelections('sevSession1)
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.9375:-1.1875
-\i 0.9375:-1.1875
-\r window:2
-\a showClickInfo()
-\i 2.875:-1.0625
-\i 2.875:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a showClickInfo()
-\i 1:-1.0625
-\i 1:-1.0625
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(17))
-\r t
-\a (apaStartCB (hiGetCurrentWindow) ?all t )
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o Writing simulator output to file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\o 10 parametric simulations remaining.
-\o Setting spacing = 4e-06
-\o Begin Incremental Netlisting Mar  7 11:31:15 2015
-\o End netlisting Mar  7 11:31:16 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   21
-\o 
-\o 	Elapsed time:          1.0s (21.00/s)
-\o Errors: 0	Warnings: 0
-\r t
-\o The simulator output is in the file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\o parametric simulation complete.
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevEditSelectedOuts('sevSession1)
-\p > 
-\a hiiSetCurrentForm('sevOutputsForm1)
-\r t
-\a sevOutputsForm1->name->value="disturbance"
-\r "disturbance"
-\a sevOutputsForm1->expression->value='ymax((abs 5.0 (- VT("/OUT"))))
-\r ymax((abs 5.0 
-\r 	(- VT("/OUT"))
-\r     )
-\r )
-\a (sevSetOutputsFromForm 'sevSession1 'add)
-\r t
-\a hiFormDone(sevOutputsForm1)
-\r t
-\r t
-\a hiSetCurrentWindow(window(17))
-\r t
-\a (apaStartCB (hiGetCurrentWindow) ?all t )
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o Writing simulator output to file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\o 10 parametric simulations remaining.
-\o Setting spacing = 4e-06
-\o Begin Incremental Netlisting Mar  7 11:33:47 2015
-\o End netlisting Mar  7 11:33:47 2015
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\r t
-\a hiSetCurrentWindow(window(18))
-\r t
-\o *Error*   Evaluating expression (ymax((abs 5.0 (- VT("/OUT"))))).
-\e *Error* ("abs" 0 t nil ("*Error* abs: too many arguments (1 expected, 2 given)" (5.0 srrWave:0x125750e0)))
-\e 
-\e 
-\o The simulator output is in the file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\o parametric simulation complete.
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 3)
-\r t
-\a (sevEditSelectedOuts 'sevSession1)
-\p > 
-\a sevOutputsForm1->expression->value='ymax(abs((5.0 - VT("/OUT"))))
-\r ymax(abs((5.0 - VT("/OUT"))))
-\a hiFormDone(sevOutputsForm1)
-\r t
-\r t
-\a hiSetCurrentWindow(window(17))
-\r t
-\a (apaStartCB (hiGetCurrentWindow) ?all t )
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o Writing simulator output to file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\o 10 parametric simulations remaining.
-\o Setting spacing = 4e-06
-\o Begin Incremental Netlisting Mar  7 11:34:55 2015
-\o End netlisting Mar  7 11:34:56 2015
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   1.0s
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:219))
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:229))
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:246))
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:284))
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:337))
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:375))
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:406))
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:437))
-\r t
-\a hiResizeWindow(window(1) list(598:25 1323:440))
-\r t
-\o The simulator output is in the file "/auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/netlist/paraplot-sim-out".
-\o parametric simulation complete.
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 4.5625:-3.5625
-\r window:2
-\a hiZoomInAtMouse()
-\i 0.5625:-0.75
-\r t
-\a hiZoomOutAtMouse()
-\i 0.5625:-0.75
-\r t
-\a hiExportImageDialog(getCurrentWindow())
-\r t
-\e Display :0.0 Error "BadMatch (invalid parameter attributes)"
-\e  request 42 error 8 serial 5945349 
-\p > 
-\a geSingleSelectBox()
-\i -3.9375:0.8125
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 5.25:-3.4375
-\r t
-\r t
-\p > 
-\p > 
-\p > 
-\a geSingleSelectBox()
-\i -3.9375:0.75
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 5.25:-3.4375
-\r t
-\r t
-\a mouseAddPt()
-\i 1.125:-2.8125
-\r t
-\a mouseAddPt()
-\i 0.75:-2
-\r t
-\a cancelEnterFun()
-\r t
-\a mouseAddPt()
-\i 1:-2.125
-\r t
-\a cancelEnterFun()
-\r t
-\a mouseAddPt()
-\i 1:-2.125
-\r t
-\a cancelEnterFun()
-\r t
-\a showClickInfo()
-\i 0.9375:-2.25
-\r window:2
-\a showClickInfo()
-\i 1.125:-3.125
-\r window:2
-\a hiExportImageDialog(getCurrentWindow())
-\r t
-\e Display :0.0 Error "BadMatch (invalid parameter attributes)"
-\e  request 42 error 8 serial 6122377 
-\a showClickInfo()
-\i 1.5625:-2.4375
-\r window:2
-\a hiExportImageDialog(getCurrentWindow())
-\r t
-\e Display :0.0 Error "BadMatch (invalid parameter attributes)"
-\e  request 42 error 8 serial 6205278 
-\a showClickInfo()
-\i 0.6875:-2.4375
-\r window:2
-\a schHiMove()
-\p > 
-\a geSingleSelectBox()
-\i -3.125:-1.8125
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i 0.125:-3.8125
-\r t
-\r t
-\a mouseAddPt()
-\i -0.875:-2.4375
-\r t
-\a mouseAddPt()
-\i -0.9375:-3.6875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i 0.125:-2.4375
-\r t
-\a mouseAddPt()
-\i 0.0625:-3.6875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiMove()
-\p > 
-\a geSingleSelectBox()
-\i -4.125:-0.5
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -1:-1.9375
-\r t
-\r t
-\a mouseAddPt()
-\i -2.1875:-1.0625
-\r t
-\a mouseAddPt()
-\i -2.125:-2.25
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -0.5:-1
-\o 
-\o mtline (instance "I14", library "analogLib")
-\r window:2
-\a schHiObjectProperty()
-\r t
-\a hiiSetCurrentForm('schObjPropForm)
-\r t
-\a schObjPropForm->n->value=3
-\o *INFO* Num. of elements in  vector (linethickness,linewidth,lineheight ) should be "3" [ref. n] 
-\w *WARNING* `Signal line spacing' cannot be string, it should be number.
-\r 3
-\a schObjPropForm->linewidth->value="4u 4u 4u"
-\w *WARNING* `Signal line spacing' cannot be string, it should be number.
-\r "4u 4u 4u"
-\a schObjPropForm->linespace->value="4u 4u"
-\r "4u 4u"
-\a hiFormDone(schObjPropForm)
-\r t
-\a showClickInfo()
-\i -1.5625:-0.8125
-\o 
-\o wire drawing -> net: "net060" bounding box: (-1.56,-0.81) (-0.75,-0.81)
-\r window:2
-\a showClickInfo()
-\i -1.625:-0.625
-\r window:2
-\a schHiDelete()
-\p > 
-\a mouseAddPt()
-\i -0.8125:-0.5
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.5
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.5
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.4375
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.6875
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.6875
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.6875
-\r t
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.6875
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.6875
-\r t
-\a mouseAddPt()
-\i -0.75:-0.6875
-\r t
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.6875
-\r t
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i 0.1875:-0.6875
-\r t
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i 0.3125:-1
-\r t
-\a deletePoint()
-\r t
-\a mouseAddPt()
-\i 0.4375:-1.0625
-\r t
-\a mouseAddPt()
-\i 0.125:-0.8125
-\r t
-\a mouseAddPt()
-\i 0.375:-0.5
-\r t
-\a mouseAddPt()
-\i -1.0625:-0.8125
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.6875
-\r t
-\a mouseAddPt()
-\i -0.75:-0.75
-\r t
-\a mouseAddPt()
-\i -0.75:-0.6875
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.1875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiMove()
-\p > 
-\a geSingleSelectBox()
-\i -3.4375:0.125
-\p > 
-\a addPoint(hiGetCommandPoint())
-\i -0.8125:-0.75
-\r t
-\r t
-\a mouseAddPt()
-\i -1.1875:-0.25
-\r t
-\a mouseAddPt()
-\i -1.5625:-0.25
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -1.1875:-0.1875
-\r t
-\a mouseAddPt()
-\i -0.75:-0.5625
-\r t
-\a mouseAddPt()
-\i -0.125:-0.5625
-\r t
-\a mouseAddPt()
-\i 1.125:-1.0625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWireLabel()
-\p > 
-\a hiiSetCurrentForm('schCreateWireLabelForm)
-\r t
-\a schCreateWireLabelForm->tabField->page1->label->value="A"
-\r "A"
-\a mouseAddPt()
-\i 1:-1.0625
-\r t
-\a hiiToggleEnterForm(schCreateWireLabelForm)
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a showClickInfo()
-\i -2.75:-4.375
-\o 
-\o gnd (instance "I6", library "NCSU_Analog_Parts")
-\r window:2
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i -2.75:-4.375
-\r t
-\a mouseAddPt()
-\i -1.625:-0.8125
-\r t
-\r t
-\a schHiMove()
-\p > 
-\a mouseAddPt()
-\i -1.5625:-0.8125
-\r t
-\a mouseAddPt()
-\i -1.625:-0.875
-\r t
-\r t
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -1.6875:-0.75
-\r t
-\a mouseAddPt()
-\i -0.8125:-0.6875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -0.125:-0.6875
-\r t
-\a mouseAddPt()
-\i 0.75:-0.6875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCopy()
-\p > 
-\a mouseAddPt()
-\i 2.875:-0.0625
-\r t
-\a schHiCopy()
-\r t
-\a mouseAddPt()
-\i 2.875:-0.0625
-\r t
-\a mouseAddPt()
-\i 2.875:-0.0625
-\r t
-\r t
-\a showClickInfo()
-\i 1.0625:-0.5625
-\r window:2
-\a geSubSelectPoint()
-\p > 
-\a mouseAddPt()
-\i 0.6875:-0.6875
-\r t
-\r nil
-\a showClickInfo()
-\i 0.5625:-0.6875
-\o 
-\o wire drawing -> bounding box: (-0.12,-0.69) (0.75,-0.69)
-\r window:2
-\a schHiDelete()
-\r t
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -0.125:-0.6875
-\r t
-\a mouseAddPt()
-\i 0.0625:-0.6875
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -1.5:-2.0625
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a schHiCreateWire(0.0)
-\p > 
-\a mouseAddPt()
-\i -1.5:-2
-\r t
-\a mouseAddPt()
-\i -0.75:-0.8125
-\r t
-\a mouseAddPt()
-\i -0.125:-0.8125
-\r t
-\a mouseAddPt()
-\i 0.375:0.4375
-\r t
-\a cancelEnterFun()
-\r t
-\r nil
-\a hiCloseWindow(window(17))
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevDeleteSelections('sevSession1)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox 0)
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:44:44 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:44:44 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:44:49 2015
-\o ERROR (OSSHNL-109): The cell view, '451_Lab4/lab4/schematic', has been modified since the last extraction. 
-\o Re-extract the design (File->Check and Save menu option) for schematic cell 
-\o views to correct this error.
-\o  
-\o End netlisting Mar  7 11:44:49 2015
-\o ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
-\o  or may not be produced at all.
-\o To generate correct netlist, fix the errors and re-netlist.
-\o       ...unsuccessful.
-\r t
-\a (sevEditSelectedOuts 'sevSession1)
-\p > 
-\a hiiSetCurrentForm('sevOutputsForm1)
-\r t
-\a hiFormCancel(sevOutputsForm1)
-\r t
-\r nil
-\a sevTableSelectRows(sevWindowForm1->outListBox 2)
-\r t
-\a sevTableSelectRows(sevWindowForm1->outListBox '( 0 1 2 ))
-\r t
-\a sevDeleteSelections('sevSession1)
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevChangeOutsOnSchematic('sevSession1 'plot)
-\o Extracting "lab4 schematic"
-\r t
-\a hiSetCurrentWindow(window(2))
-\r t
-\a showClickInfo()
-\i 0.9375:-1.1875
-\i 0.875:-1.1875
-\r window:2
-\a showClickInfo()
-\i 2.8125:-1.0625
-\i 2.875:-1.0625
-\o 
-\o wire drawing -> net: "OUT" bounding box: (2.69,-1.06) (3.06,-1.06)
-\r window:2
-\a showClickInfo()
-\i 0.75:-1.0625
-\i 0.75:-1.0625
-\o 
-\o wire drawing -> net: "A" bounding box: (0.31,-1.06) (1.12,-1.06)
-\r window:2
-\a astiCancelSelect(hiGetCurrentWindow())
-\r unbound
-\a hiSetCurrentWindow(window(4))
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:45:12 2015
-\o WARNING (OSSHNL-159): The primitive, 'analogLib/mtline/spectre', has been updated since the last netlisting session 
-\o in this current run directory. Therefore, re-netlisting all cell views where 
-\o this primitive is instantiated.
-\o  
-\o End netlisting Mar  7 11:45:12 2015
-\o 
-\o Netlisting Statistics:
-\o 	Number of components:   14
-\o 
-\o 	Elapsed time:          0.0s
-\o Errors: 0	Warnings: 0
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\r t
-\o simulate...
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiCloseWindow(window(15))
-\r t
-\a hiCloseWindow(window(18))
-\r t
-\a sevEditSelectedOuts('sevSession1)
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\p > 
-\a sevOutputsForm1->name->value="disturbance"
-\r "disturbance"
-\a sevOutputsForm1->expression->value='ymax(abs((5.0 - VT("/OUT"))))
-\r ymax(abs((5.0 - VT("/OUT"))))
-\a (sevSetOutputsFromForm 'sevSession1 'add)
-\r t
-\a hiFormDone(sevOutputsForm1)
-\r t
-\r t
-\a sevNetlistAndRun('sevSession1)
-\o Delete psf data in /auto/fsg/lhsiao/cadence/simulation/lab4/spectre/schematic/psf.
-\o generate netlist...
-\o Begin Incremental Netlisting Mar  7 11:46:02 2015
-\o End netlisting Mar  7 11:46:02 2015
-\o 
-\o 	The netlist is up to date.
-\o 	Time taken to compare the design with netlist:   0.0s
-\o       ...successful.
-\o compose simulator input file...
-\o       ...successful.
-\o start simulator if needed...
-\o       ...successful.
-\o simulate...
-\r t
-\o simulation completed successfully.
-\o reading simulation data...
-\o       ...successful.
-\a hiSetCurrentWindow(window(4))
-\r t
-\a hiResizeWindow(window(4) list(185:628 877:1044))
-\r t
-\a hiResizeWindow(window(4) list(188:628 880:1044))
-\r t
-\a hiResizeWindow(window(4) list(192:628 884:1044))
-\r t
-\a hiResizeWindow(window(4) list(199:628 891:1044))
-\r t
-\a hiResizeWindow(window(4) list(208:628 900:1044))
-\r t
-\a hiResizeWindow(window(4) list(235:628 927:1044))
-\r t
-\a hiResizeWindow(window(4) list(252:628 944:1044))
-\r t
-\a hiResizeWindow(window(4) list(271:628 963:1044))
-\r t
-\a hiResizeWindow(window(4) list(290:628 982:1044))
-\r t
-\a hiResizeWindow(window(4) list(309:628 1001:1044))
-\r t
-\a hiResizeWindow(window(4) list(330:628 1022:1044))
-\r t
-\a hiResizeWindow(window(4) list(353:628 1045:1044))
-\r t
-\a hiResizeWindow(window(4) list(372:628 1064:1044))
-\r t
-\a hiResizeWindow(window(4) list(397:628 1089:1044))
-\r t
-\a hiResizeWindow(window(4) list(420:628 1112:1044))
-\r t
-\a hiResizeWindow(window(4) list(443:628 1135:1044))
-\r t
-\a hiResizeWindow(window(4) list(483:628 1175:1044))
-\r t
-\a hiResizeWindow(window(4) list(504:628 1196:1044))
-\r t
-\a hiResizeWindow(window(4) list(523:628 1215:1044))
-\r t
-\a hiResizeWindow(window(4) list(538:628 1230:1044))
-\r t
-\a hiResizeWindow(window(4) list(560:628 1252:1044))
-\r t
-\a hiResizeWindow(window(4) list(567:628 1259:1044))
-\r t
-\a hiResizeWindow(window(4) list(574:628 1266:1044))
-\r t
-\a hiResizeWindow(window(4) list(580:628 1272:1044))
-\r t
-\a hiResizeWindow(window(4) list(584:628 1276:1044))
-\r t
-\a hiResizeWindow(window(4) list(590:628 1282:1044))
-\r t
-\a hiResizeWindow(window(4) list(596:628 1288:1044))
-\r t
-\a hiResizeWindow(window(4) list(605:628 1297:1044))
-\r t
-\a hiResizeWindow(window(4) list(616:628 1308:1044))
-\r t
-\a hiResizeWindow(window(4) list(626:628 1318:1044))
-\r t
-\a hiResizeWindow(window(4) list(637:628 1329:1044))
-\r t
-\a hiResizeWindow(window(4) list(648:628 1340:1044))
-\r t
-\a hiResizeWindow(window(4) list(658:628 1350:1044))
-\r t
-\a hiResizeWindow(window(4) list(668:628 1360:1044))
-\r t
-\a hiResizeWindow(window(4) list(677:628 1369:1044))
-\r t
-\a hiResizeWindow(window(4) list(687:628 1379:1044))
-\r t
-\a hiResizeWindow(window(4) list(699:628 1391:1044))
-\r t
-\a hiResizeWindow(window(4) list(711:628 1403:1044))
-\r t
-\a hiResizeWindow(window(4) list(728:628 1420:1044))
-\r t
-\a hiResizeWindow(window(4) list(744:628 1436:1044))
-\r t
-\a hiResizeWindow(window(4) list(761:628 1453:1044))
-\r t
-\a hiResizeWindow(window(4) list(778:628 1470:1044))
-\r t
-\a hiResizeWindow(window(4) list(797:628 1489:1044))
-\r t
-\a hiResizeWindow(window(4) list(829:628 1521:1044))
-\r t
-\a hiResizeWindow(window(4) list(842:628 1534:1044))
-\r t
-\a hiResizeWindow(window(4) list(855:628 1547:1044))
-\r t
-\a hiResizeWindow(window(4) list(866:628 1558:1044))
-\r t
-\a hiResizeWindow(window(4) list(875:628 1567:1044))
-\r t
-\a hiResizeWindow(window(4) list(882:628 1574:1044))
-\r t
-\a hiResizeWindow(window(4) list(886:628 1578:1044))
-\r t
-\a hiResizeWindow(window(4) list(888:628 1580:1044))
-\r t
-\a hiCloseWindow(window(4))
-\p > 
-\a hiDBoxCancel(sevblockingDialogBox)
-\r t
-\w *WARNING* aaTriggerEvent1: error calling (lambda((_ignore) apaiTerminate(window(invalid):247315848(destroyed))) t (stdobj@0x103f3888 nil nil)) ("unknown" 0 t nil ("*Error* unknown: destroyed window: " window(invalid):247315848(destroyed)))
-\o Simulation design variables differ from those on the cellView,
-\o they have been saved in the file "/tmp/saved-design-variables2".
-\o To save future changes, copy variables to cellView before exiting.
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\o *WARNING* (icLic-3) Could not get license Analog_Design_Environment_L
-\o (deLicense-3) Could not get a license for ADE L. Trying a higher-tiered license
-\o (deLicense-6) Checked out the license for ADE XL to run ADE L
-\r t
-\a showClickInfo()
-\i 0.875:-3.4375
-\r window:2
-\a hiCloseWindow(swindow(1))
-\p > 
-\a hiDBoxOK(geDBox)
-\r Getting schematic propert bagt
-\o Loading cph.cxt 
-\r t
+\i 2.75:3.4375
+\r window:9
